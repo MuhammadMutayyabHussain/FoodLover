@@ -1,5 +1,5 @@
 <?php
-
+// mutayab hussain
 include("helper/connection.php");
 $Name=$_POST["name"];
 $Contact=$_POST["contact_number"];
@@ -8,6 +8,7 @@ $Person=$_POST["num_person"];
 $Date=$_POST["book_date"];
 $Time=$_POST["your_time"];
 $Message=$_POST["message"];
+$FoodLover=$_POST["message"];
 
 $Query = "INSERT INTO tablereservation (id, name, contactnumber, ".
     " emailaddress, numberofperson, bookdate, yourtime, message) ".
