@@ -1,6 +1,6 @@
 <?php
 
-include("helper/connection.php");
+// include("helper/connection.php");
 ?>
 
 <!DOCTYPE html>
@@ -14,7 +14,7 @@ include("helper/connection.php");
 	<meta name="description" content="" />
 	<title>Food Lover HTML</title>
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	
+
 	<!-- Google Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400,700,300" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter" />
@@ -41,7 +41,7 @@ include("helper/connection.php");
 </head>
 
 <body>
-	
+
 	<!-- Loader Bloc -->
 	<div class="site-loader">
 		<div class="loading"></div>
@@ -55,7 +55,7 @@ include("helper/connection.php");
 		include("components/header.php");
 		?>
 		<!-- End Header -->
-		
+
 		<!-- Slide -->
 		<section id="main-slider" data-background="assets/img/demo/slides/01.jpg" class="parallax-window">
 			<div class="section-slogan">
@@ -66,7 +66,7 @@ include("helper/connection.php");
 			<span class="scoll-down">Scroll Down</span>
 		</section>
 		<!-- End Slide -->
-		
+
 		<!-- Section Special Offers -->
 		<section id="special-offers" class="padd-100">
 			<div class="container">
@@ -120,7 +120,7 @@ include("helper/connection.php");
 			</div>
 		</section>
 		<!-- End Section Special Offers -->
-		
+
 		<!-- Section Reservation -->
 		<section id="reservation" data-background="assets/img/demo/bg/01.jpg" class="parallax-window">
 			<div class="container">
@@ -166,7 +166,7 @@ include("helper/connection.php");
 								<div class="submit-btn">
 									<button type="submit">Book Now</button>
 									<input type="hidden" class="num_table" value="">
-								</div>								
+								</div>
 							</form>
 						</div>
 					</div>
@@ -238,7 +238,7 @@ include("helper/connection.php");
 			<h2 class="section-title sep-type-2 text-center">
 				resturant menu
 			</h2>
-			
+
 			<div class="container">
 				<div class="row">
 					<ul class="restaurant-filter">
@@ -392,7 +392,7 @@ include("helper/connection.php");
 			</div>
 		</section>
 		<!-- End Section Testimonials -->
-		
+
 		<!-- Section Event -->
 		<section id="events" class="padd-100">
 			<span class="section-suptitle text-center">
@@ -404,7 +404,7 @@ include("helper/connection.php");
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12  no-padd">
-						
+
 						<ul class="event-carousel">
 							<li class="event-item">
 								<img src="assets/img/demo/events/01.png" alt="" class="img-responsive">
@@ -730,7 +730,7 @@ include("helper/connection.php");
 			</div>
 		</section>
 		<!-- End Section Contact -->
-		
+
 		<!-- Section Newsletter -->
 		<section id="newsletter" class="padd-100">
 			<form action="#" method="post">
@@ -767,7 +767,7 @@ include("helper/connection.php");
 
 	<!-- Custom JS Files -->
 	<script type="text/javascript" src="assets/js/egprojets.custom.js"></script>
-    <!-- Custom JS Files -->
+	<!-- Custom JS Files -->
 </body>
 
 </html>
