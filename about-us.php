@@ -9,7 +9,7 @@
 	<meta name="description" content="" />
 	<title>Food Lover HTML</title>
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	
+
 	<!-- Google Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400,700,300" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter" />
@@ -36,7 +36,7 @@
 </head>
 
 <body>
-	
+
 	<!-- Loader Bloc -->
 	<div class="site-loader">
 		<div class="loading"></div>
@@ -50,7 +50,7 @@
 		include("components/header.php");
 		?>
 		<!-- End Header -->
-		
+
 		<!-- Section Main -->
 		<section id="breadcrumb" data-background="assets/img/demo/slides/02.jpg" class="parallax-window">
 			<div>
@@ -73,9 +73,9 @@
 							<span class="section-suptitle">Our Story</span>
 							<h2 class="section-title">Who We are & history</h2>
 							<p>
-								This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor eta Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, necittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. rbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sedon  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. <br /><br />
-								This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor et. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, necttis Morbi accumsan ipsum velit.
-							</p>	
+								This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor eta Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, necittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. rbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sedon mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. <br /><br />
+								This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor et. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, necttis Morbi accumsan ipsum velit.
+							</p>
 							<a href="#" class="btn-food">book now</a>
 						</div>
 					</div>
@@ -92,7 +92,7 @@
 			<span class="section-suptitle text-center">Food Lover</span>
 			<h2 class="section-title sep-type-2 text-center">Best Services</h2>
 			<p class="section-resume">
-				This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+				This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
 			</p>
 			<div class="container">
 				<div class="row">
@@ -148,7 +148,7 @@
 			<span class="section-suptitle text-center">Food Lover</span>
 			<h2 class="section-title sep-type-2 text-center">Restaurant Gallery</h2>
 			<p class="section-resume">
-				This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+				This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
 			</p>
 			<div class="container">
 				<div class="row">
@@ -222,21 +222,37 @@
 				<div class="row">
 					<div class="col-sm-12 no-padd">
 						<ul class="team-carousel">
-							<li>
-								<div>
-									<img src="assets/img/demo/team/01.png" alt="" class="img-responsive">
-									<div>
-										<span>Senior Chef</span>
-										<h3>Remeno Fentos</h3>
+							<?php
+							$Query = "SELECT * FROM teammembers";
+							$Result = mysqli_query($conn, $Query);
+							if ($Result->num_rows > 0) {
+								$count = 0;
+								while ($DataRows = mysqli_fetch_array($Result)) {
+
+							?>
+									<li>
 										<div>
-											<a href="#"><i class="fa fa-twitter"></i></a>
-											<a href="#"><i class="fa fa-facebook"></i></a>
-											<a href="#"><i class="fa fa-instagram"></i></a>
+											<img src="<?php echo "uploads/teammembers/" . $DataRows['image']; ?>" alt="" class="img-responsive">
+											<div>
+												<span><?php echo $DataRows['designation']; ?></span>
+												<h3><?php echo $DataRows['name']; ?></h3>
+												<div>
+													<a href="<?php echo $DataRows['twitter']; ?>"><i class="fa fa-twitter"></i></a>
+													<a href="<?php echo $DataRows['facebook']; ?>"><i class="fa fa-facebook"></i></a>
+													<a href="<?php echo $DataRows['insta']; ?>"><i class="fa fa-instagram"></i></a>
+												</div>
+											</div>
 										</div>
-									</div>
-								</div>
-							</li>
-							<li>
+									</li>
+							<?php
+									$count++;
+									if ($count == 4) break;
+								}
+							} else {
+								echo "No Result Found";
+							}
+							?>
+							<!-- <li>
 								<div>
 									<img src="assets/img/demo/team/02.png" alt="" class="img-responsive">
 									<div>
@@ -305,7 +321,7 @@
 										</div>
 									</div>
 								</div>
-							</li>
+							</li> -->
 						</ul>
 					</div>
 				</div>
@@ -322,7 +338,7 @@
 							<span class="section-suptitle">For You</span>
 							<h2 class="section-title">App Easy to Use</h2>
 							<p>
-								This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel vet auctor eta Aenean sollicitudin, lorem quis bibendum auctor, Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+								This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel vet auctor eta Aenean sollicitudin, lorem quis bibendum auctor, Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
 							</p>
 							<b class="big-title">Download App’s</b>
 							<p>
@@ -380,7 +396,7 @@
 			</div>
 		</section>
 		<!-- End Section Contact -->
-		
+
 		<!-- Section Newsletter -->
 		<section id="newsletter" class="padd-100">
 			<form action="#" method="post">
@@ -417,7 +433,7 @@
 
 	<!-- Custom JS Files -->
 	<script type="text/javascript" src="assets/js/egprojets.custom.js"></script>
-    <!-- Custom JS Files -->
+	<!-- Custom JS Files -->
 </body>
 
 </html>
