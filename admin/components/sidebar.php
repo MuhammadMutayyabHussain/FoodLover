@@ -16,14 +16,14 @@
 						</a>
 						<ul aria-expanded="false">
 							
-							<li><a href="index.html">Dashboard Light</a></li>
-							<li><a href="index-2.html">Dashboard Dark</a></li>
-							<li><a href="order-list.html">Order List</a></li>
-							<li><a href="order-details.html">Order Details</a></li>	
-							<li><a href="analytics.html">Analytics</a></li>
-							<li><a href="customers.html">Customers</a></li>
-							<li><a href="reviews.html">Reviews</a></li>
-							<li><a href="blog.html">Blog</a></li>
+							<li><a href="index.php">Dashboard Light</a></li>
+							<li><a href="index-2.php">Dashboard Dark</a></li>
+							<li><a href="order-list.php">Order List</a></li>
+							<li><a href="order-details.php">Order Details</a></li>	
+							<li><a href="analytics.php">Analytics</a></li>
+							<li><a href="customers.php">Customers</a></li>
+							<li><a href="reviews.php">Reviews</a></li>
+							<li><a href="blog.php">Blog</a></li>
 						</ul>
 					</li>
 					<li class="menu-title">OUR FEATURES</li>
@@ -42,32 +42,33 @@
 						<span class="nav-text">Apps</span>
 						</a>
 						<ul aria-expanded="false">
-							<li><a href="chat.html">Chat<span class="badge badge-danger badge-xs ms-1">NEW</span></a></li>
+							<li><a href="chat.php">Chat<span class="badge badge-danger badge-xs ms-1">NEW</span></a></li>
 							<li><a class="has-arrow" href="javascript:void(0);" aria-expanded="false">Users Manager<span class="badge badge-danger badge-xs ms-1">NEW</span></a>
 								<ul aria-expanded="false">
-									<li><a href="app-profile-1.html">Profile 1</a></li>
-									<li><a href="app-profile-2.html">Profile 2 <span class="badge badge-danger badge-xs ms-1">NEW</span></a></li>
-									<li><a href="edit-profile.html">Edit Profile</a></li>
-									<li><a href="post-details.html">Post Details</a></li>
+									<li><a href="app-profile-1.php">Profile 1</a></li>
+									<li><a href="app-profile-2.php">Profile 2 <span class="badge badge-danger badge-xs ms-1">NEW</span></a></li>
+									<li><a href="edit-profile.php">Edit Profile</a></li>
+									<li><a href="post-details.php">Post Details</a></li>
 								</ul>
 							</li>
 							<li><a class="has-arrow" href="javascript:void(0);" aria-expanded="false">Email</a>
 								<ul aria-expanded="false">
-									<li><a href="email-compose.html">Compose</a></li>
-									<li><a href="email-inbox.html">Inbox</a></li>
-									<li><a href="email-read.html">Read</a></li>
+									<li><a href="email-compose.php">Compose</a></li>
+									<li><a href="email-inbox.php">Inbox</a></li>
+									<li><a href="email-read.php">Read</a></li>
 								</ul>
 							</li>
-							<li><a href="app-calender.html">Calendar</a></li>
+							<li><a href="app-calender.php">Calendar</a></li>
 							<li><a class="has-arrow" href="javascript:void(0);" aria-expanded="false">Shop</a>
 								<ul aria-expanded="false">
-									<li><a href="ecom-product-grid.html">Product Grid</a></li>
-									<li><a href="ecom-product-list.html">Product List</a></li>
-									<li><a href="ecom-product-detail.html">Product Details</a></li>
-									<li><a href="ecom-product-order.html">Order</a></li>
-									<li><a href="ecom-checkout.html">Checkout</a></li>
-									<li><a href="ecom-invoice.html">Invoice</a></li>
-									<li><a href="ecom-customers.html">Customers</a></li>
+									<li><a href="ecom-product-grid.php">Product Grid</a></li>
+									<li><a href="ecom-product-list.php">Product List</a></li>
+									<li><a href="ecom-product-detail.php">Product Details</a></li>
+									<li><a href="ecom-product-order.php">Order</a></li>
+									<li><a href="ecom-checkout.php">Checkout</a></li>
+									<li><a href="ecom-invoice.php">Invoice</a></li>
+									<li><a href="ecom-customers.php">Customers</a></li>
+									<li><a href="add-team-member.php">Add Team Member</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -84,12 +85,12 @@
 							<span class="nav-text">Charts</span>
 						</a>
 						<ul aria-expanded="false">
-							<li><a href="chart-flot.html">Flot</a></li>
-							<li><a href="chart-morris.html">Morris</a></li>
-							<li><a href="chart-chartjs.html">Chartjs</a></li>
-							<li><a href="chart-chartist.html">Chartist</a></li>
-							<li><a href="chart-sparkline.html">Sparkline</a></li>
-							<li><a href="chart-peity.html">Peity</a></li>
+							<li><a href="chart-flot.php">Flot</a></li>
+							<li><a href="chart-morris.php">Morris</a></li>
+							<li><a href="chart-chartjs.php">Chartjs</a></li>
+							<li><a href="chart-chartist.php">Chartist</a></li>
+							<li><a href="chart-sparkline.php">Sparkline</a></li>
+							<li><a href="chart-peity.php">Peity</a></li>
 						</ul>
 					</li>
 					<li><a class="has-arrow " href="javascript:void(0);" aria-expanded="false">
@@ -105,24 +106,24 @@
 							<span class="nav-text">Bootstrap</span>
 						</a>
 						<ul aria-expanded="false">
-							<li><a href="ui-accordion.html">Accordion</a></li>
-							<li><a href="ui-alert.html">Alert</a></li>
-							<li><a href="ui-badge.html">Badge</a></li>
-							<li><a href="ui-button.html">Button</a></li>
-							<li><a href="ui-modal.html">Modal</a></li>
+							<li><a href="ui-accordion.php">Accordion</a></li>
+							<li><a href="ui-alert.php">Alert</a></li>
+							<li><a href="ui-badge.php">Badge</a></li>
+							<li><a href="ui-button.php">Button</a></li>
+							<li><a href="ui-modal.php">Modal</a></li>
 							<li class="extra-menu-li">		
 								<ul id="collapseExample" class="pt-0 extra-menu-links extra-menu-area">
-								  <li><a href="ui-button-group.html">Button Group</a></li>
-									<li><a href="ui-list-group.html">List Group</a></li>
-									<li><a href="ui-card.html">Cards</a></li>
-									<li><a href="ui-carousel.html">Carousel</a></li>
-									<li><a href="ui-dropdown.html">Dropdown</a></li>
-									<li><a href="ui-popover.html">Popover</a></li>
-									<li><a href="ui-progressbar.html">Progressbar</a></li>
-									<li><a href="ui-tab.html">Tab</a></li>
-									<li><a href="ui-typography.html">Typography</a></li>
-									<li><a href="ui-pagination.html">Pagination</a></li>
-									<li><a href="ui-grid.html">Grid</a></li>
+								  <li><a href="ui-button-group.php">Button Group</a></li>
+									<li><a href="ui-list-group.php">List Group</a></li>
+									<li><a href="ui-card.php">Cards</a></li>
+									<li><a href="ui-carousel.php">Carousel</a></li>
+									<li><a href="ui-dropdown.php">Dropdown</a></li>
+									<li><a href="ui-popover.php">Popover</a></li>
+									<li><a href="ui-progressbar.php">Progressbar</a></li>
+									<li><a href="ui-tab.php">Tab</a></li>
+									<li><a href="ui-typography.php">Typography</a></li>
+									<li><a href="ui-pagination.php">Pagination</a></li>
+									<li><a href="ui-grid.php">Grid</a></li>
 								</ul>
 								<a class="btn show-more-btn border-0" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
 									<span class="show-more">Show More + </span>
@@ -148,16 +149,16 @@
 							<span class="nav-text">Plugins</span>
 						</a>
 						<ul aria-expanded="false">
-							<li><a href="uc-select2.html">Select 2</a></li>
-							<li><a href="uc-nestable.html">Nestable</a></li>
-							<li><a href="uc-noui-slider.html">Noui Slider</a></li>
-							<li><a href="uc-sweetalert.html">Sweet Alert</a></li>
-							<li><a href="uc-toastr.html">Toastr</a></li>
-							<li><a href="map-jqvmap.html">Jqv Map</a></li>
-							<li><a href="uc-lightgallery.html">Light Gallery</a></li>
+							<li><a href="uc-select2.php">Select 2</a></li>
+							<li><a href="uc-nestable.php">Nestable</a></li>
+							<li><a href="uc-noui-slider.php">Noui Slider</a></li>
+							<li><a href="uc-sweetalert.php">Sweet Alert</a></li>
+							<li><a href="uc-toastr.php">Toastr</a></li>
+							<li><a href="map-jqvmap.php">Jqv Map</a></li>
+							<li><a href="uc-lightgallery.php">Light Gallery</a></li>
 						</ul>
 					</li>
-					<li><a href="widget-basic.html" class="" aria-expanded="false">
+					<li><a href="widget-basic.php" class="" aria-expanded="false">
 						<div class="menu-icon">
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<g opacity="0.5">
@@ -182,11 +183,11 @@
 							<span class="nav-text">Forms</span>
 						</a>
 						<ul aria-expanded="false">
-							<li><a href="form-element.html">Form Elements</a></li>
-							<li><a href="form-wizard.html">Wizard</a></li>
-							<li><a href="form-ckeditor.html">CkEditor</a></li>
-							<li><a href="form-pickers.html">Pickers</a></li>
-							<li><a href="form-validation.html">Form Validate</a></li>
+							<li><a href="form-element.php">Form Elements</a></li>
+							<li><a href="form-wizard.php">Wizard</a></li>
+							<li><a href="form-ckeditor.php">CkEditor</a></li>
+							<li><a href="form-pickers.php">Pickers</a></li>
+							<li><a href="form-validation.php">Form Validate</a></li>
 						</ul>
 					</li>
 					<li><a class="has-arrow " href="javascript:void(0);" aria-expanded="false">
@@ -203,11 +204,11 @@
 						<span class="nav-text">Table</span>
 						</a>
 						<ul aria-expanded="false">
-							<li><a href="table-bootstrap-basic.html">Bootstrap</a></li>
-							<li><a href="table-datatable-basic.html">Datatable</a></li>
+							<li><a href="table-bootstrap-basic.php">Bootstrap</a></li>
+							<li><a href="table-datatable-basic.php">Datatable</a></li>
 						</ul>
 					</li>
-					<li><a href="svg-icons.html" class="" aria-expanded="false">
+					<li><a href="svg-icons.php" class="" aria-expanded="false">
 						<div class="menu-icon">
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path opacity="0.4" d="M8.20248 13.1903L4.50325 13.5175C3.67308 13.5175 3 12.8378 3 11.9996C3 11.1613 3.67308 10.4817 4.50325 10.4817L8.20248 10.8088C8.85375 10.8088 9.38174 11.3419 9.38174 11.9996C9.38174 12.6583 8.85375 13.1903 8.20248 13.1903Z" fill="#90959F"/>
@@ -231,19 +232,19 @@
 						<span class="nav-text">Pages</span>
 						</a>
 						<ul aria-expanded="false">
-							<li><a href="page-login.html">Login</a></li>
-							<li><a href="page-register.html">Register</a></li>
+							<li><a href="page-login.php">Login</a></li>
+							<li><a href="page-register.php">Register</a></li>
 							<li><a class="has-arrow" href="javascript:void(0);" aria-expanded="false">Error</a>
 								<ul aria-expanded="false">
-									<li><a href="page-error-400.html">Error 400</a></li>
-									<li><a href="page-error-403.html">Error 403</a></li>
-									<li><a href="page-error-404.html">Error 404</a></li>
-									<li><a href="page-error-500.html">Error 500</a></li>
-									<li><a href="page-error-503.html">Error 503</a></li>
+									<li><a href="page-error-400.php">Error 400</a></li>
+									<li><a href="page-error-403.php">Error 403</a></li>
+									<li><a href="page-error-404.php">Error 404</a></li>
+									<li><a href="page-error-500.php">Error 500</a></li>
+									<li><a href="page-error-503.php">Error 503</a></li>
 								</ul>
 							</li>
-							<li><a href="page-lock-screen.html">Lock Screen</a></li>
-							<li><a href="empty-page.html">Empty Page</a></li>
+							<li><a href="page-lock-screen.php">Lock Screen</a></li>
+							<li><a href="empty-page.php">Empty Page</a></li>
 						</ul>
 					</li>
 				</ul>

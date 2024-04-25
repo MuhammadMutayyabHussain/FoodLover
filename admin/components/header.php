@@ -2,7 +2,7 @@
             Nav header start
         ***********************************-->
         <div class="nav-header">
-            <a href="index.html" class="brand-logo">
+            <a href="index.php" class="brand-logo">
 				<svg class="logo-abbr" width="50" height="57" viewBox="0 0 50 57" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M0 7C0 3.13401 3.13401 0 7 0H43C46.866 0 50 3.13401 50 7V43C50 46.866 46.866 50 43 50H7C3.13401 50 0 46.866 0 43V7Z" fill="#0C14FE"/>
 					<path d="M27.8958 8.32118L49.6278 26.9793V56.2579L18.9467 34.8688L28.9669 22.5963L27.8958 8.32118Z" fill="#0E15DF"/>
@@ -806,7 +806,7 @@
 													</div>
 												</div>
 												<div class="card-body px-0 py-2">
-													<a href="page-error-404.html" class="dropdown-item ai-icon ">
+													<a href="page-error-404.php" class="dropdown-item ai-icon ">
 														<svg  width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 														<path fill-rule="evenodd" clip-rule="evenodd" d="M11.9848 15.3462C8.11714 15.3462 4.81429 15.931 4.81429 18.2729C4.81429 20.6148 8.09619 21.2205 11.9848 21.2205C15.8524 21.2205 19.1543 20.6348 19.1543 18.2938C19.1543 15.9529 15.8733 15.3462 11.9848 15.3462Z" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 														<path fill-rule="evenodd" clip-rule="evenodd" d="M11.9848 12.0059C14.5229 12.0059 16.58 9.94779 16.58 7.40969C16.58 4.8716 14.5229 2.81445 11.9848 2.81445C9.44667 2.81445 7.38857 4.8716 7.38857 7.40969C7.38 9.93922 9.42381 11.9973 11.9524 12.0059H11.9848Z" stroke="var(--primary)" stroke-width="1.42857" stroke-linecap="round" stroke-linejoin="round"/>
@@ -814,7 +814,7 @@
 
 														<span class="ms-2">Profile </span>
 													</a>
-													<a href="page-error-404.html" class="dropdown-item ai-icon ">
+													<a href="page-error-404.php" class="dropdown-item ai-icon ">
 														<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-pie-chart"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path><path d="M22 12A10 10 0 0 0 12 2v10z"></path></svg>
 
 														<span class="ms-2">My Project</span><span class="badge badge-sm badge-primary rounded-circle text-white ms-2">4</span>
@@ -827,7 +827,7 @@
 
 														<span class="ms-2">Message </span>
 													</a>
-													<a href="email-inbox.html" class="dropdown-item ai-icon ">
+													<a href="email-inbox.php" class="dropdown-item ai-icon ">
 														<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 															<path fill-rule="evenodd" clip-rule="evenodd" d="M12 17.8476C17.6392 17.8476 20.2481 17.1242 20.5 14.2205C20.5 11.3188 18.6812 11.5054 18.6812 7.94511C18.6812 5.16414 16.0452 2 12 2C7.95477 2 5.31885 5.16414 5.31885 7.94511C5.31885 11.5054 3.5 11.3188 3.5 14.2205C3.75295 17.1352 6.36177 17.8476 12 17.8476Z" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 															<path d="M14.3888 20.8572C13.0247 22.372 10.8967 22.3899 9.51947 20.8572" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -845,7 +845,7 @@
 
 														<span class="ms-2">Settings </span>
 													</a>
-													<a href="page-login.html" class="dropdown-item ai-icon">
+													<a href="page-login.php" class="dropdown-item ai-icon">
 														<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
 														<span class="ms-2">Logout </span>
 													</a>

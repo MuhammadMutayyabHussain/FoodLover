@@ -1,3 +1,6 @@
+<?php
+include('helper/connection.php')
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,9 +41,7 @@
 <body>
 
 	<!-- Loader Bloc -->
-	<div class="site-loader">
-		<div class="loading"></div>
-	</div>
+	
 	<!-- End Loader Bloc -->
 
 	<!-- Site Wrapper -->
@@ -419,7 +420,7 @@
 
 		<!-- Footer -->
 		<?php
-		include("footer.php");
+		include("components/footer.php");
 		?>
 		<!-- End Footer -->
 
