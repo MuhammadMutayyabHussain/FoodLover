@@ -1,3 +1,6 @@
+<?php
+include ("helper/connection.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +12,7 @@
 	<meta name="description" content="" />
 	<title>Food Lover HTML</title>
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	
+
 	<!-- Google Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400,700,300" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter" />
@@ -27,16 +30,10 @@
 	<link rel="stylesheet" href="assets/css/responsive.css" />
 	<!-- Custom CSS Files -->
 
-	<!--[if lt IE 9]>
-		<script src="assets/js/html5shiv.js"></script>
-		<script src="assets/js/respond.min.js"></script>
-		<div class="bg-danger">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
-	<![endif]-->
-
 </head>
 
 <body>
-	
+
 	<!-- Loader Bloc -->
 	<div class="site-loader">
 		<div class="loading"></div>
@@ -47,10 +44,10 @@
 	<div id="site-wrapper">
 		<!-- Header -->
 		<?php
-		include("components/header.php");
+		include ("components/header.php");
 		?>
 		<!-- End Header -->
-		
+
 		<!-- Section Main -->
 		<section id="breadcrumb" data-background="assets/img/demo/slides/02.jpg" class="parallax-window">
 			<div>
@@ -69,7 +66,6 @@
 			<span class="section-suptitle text-center">Food Lover</span>
 			<h2 class="section-title sep-type-2 text-center">Lunch Menu</h2>
 			<p class="section-resume">
-				This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
 			</p>
 			<div class="container">
 				<div class="row">
@@ -81,7 +77,6 @@
 									<div>
 										<h3>Pring Veg & Pasta</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -91,7 +86,6 @@
 									<div>
 										<h3>Bacon/Ham/Chorizo</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -101,7 +95,6 @@
 									<div>
 										<h3>Pork & Chicken</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -113,7 +106,6 @@
 									<div>
 										<h3>2-pc Pork BBQ ( 1 Side)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -123,7 +115,6 @@
 									<div>
 										<h3>Very Bacon</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -133,7 +124,6 @@
 									<div>
 										<h3>Plenty o Pepperoni</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -147,7 +137,6 @@
 									<div>
 										<h3>Bacon/Ham/Chorizo</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -157,7 +146,6 @@
 									<div>
 										<h3>Pring Veg & Pasta </h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -167,7 +155,6 @@
 									<div>
 										<h3>Pork & Chicken</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -179,7 +166,6 @@
 									<div>
 										<h3>Plenty o Pepperoni</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -189,7 +175,6 @@
 									<div>
 										<h3>2-pc Pork BBQ ( 1 Side)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -199,7 +184,6 @@
 									<div>
 										<h3>Very Bacon </h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -213,7 +197,6 @@
 									<div>
 										<h3>Pring Veg & Pasta</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -223,7 +206,6 @@
 									<div>
 										<h3>Bacon/Ham/Chorizo</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -233,7 +215,6 @@
 									<div>
 										<h3>Pork & Chicken</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -245,7 +226,6 @@
 									<div>
 										<h3>2-pc Pork BBQ ( 1 Side)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -255,7 +235,6 @@
 									<div>
 										<h3>Very Bacon</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -265,7 +244,6 @@
 									<div>
 										<h3>Plenty o Pepperoni</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -279,7 +257,6 @@
 									<div>
 										<h3>Bacon/Ham/Chorizo</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -289,7 +266,7 @@
 									<div>
 										<h3>Pring Veg & Pasta </h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
+											.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -299,7 +276,6 @@
 									<div>
 										<h3>Pork & Chicken</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -311,7 +287,6 @@
 									<div>
 										<h3>Plenty o Pepperoni</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -321,7 +296,6 @@
 									<div>
 										<h3>2-pc Pork BBQ ( 1 Side)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -331,7 +305,6 @@
 									<div>
 										<h3>Very Bacon </h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -345,7 +318,6 @@
 									<div>
 										<h3>Pring Veg & Pasta</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -355,7 +327,6 @@
 									<div>
 										<h3>Bacon/Ham/Chorizo</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -365,7 +336,6 @@
 									<div>
 										<h3>Pork & Chicken</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -377,7 +347,6 @@
 									<div>
 										<h3>2-pc Pork BBQ ( 1 Side)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -387,7 +356,6 @@
 									<div>
 										<h3>Very Bacon</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -397,14 +365,13 @@
 									<div>
 										<h3>Plenty o Pepperoni</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
 								</div>
 							</div>
 						</div>
-					</div>	
+					</div>
 				</div>
 			</div>
 		</section>
@@ -415,7 +382,6 @@
 			<span class="section-suptitle text-center">Food Lover</span>
 			<h2 class="section-title sep-type-2 text-center">Appetizer</h2>
 			<p class="section-resume">
-				This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
 			</p>
 			<div class="container">
 				<div class="row">
@@ -427,7 +393,6 @@
 									<div>
 										<h3>Pecho (Breast)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -437,7 +402,6 @@
 									<div>
 										<h3>Atay (Liver)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -447,7 +411,6 @@
 									<div>
 										<h3>Spicy Wings</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -459,7 +422,6 @@
 									<div>
 										<h3>Beef Barbeque</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -469,7 +431,6 @@
 									<div>
 										<h3>Ensaladang Talong</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -479,7 +440,6 @@
 									<div>
 										<h3>Mangga Ensalada</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -493,7 +453,6 @@
 									<div>
 										<h3>Bacon/Ham/Chorizo</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -503,7 +462,6 @@
 									<div>
 										<h3>Pring Veg & Pasta </h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -513,7 +471,6 @@
 									<div>
 										<h3>Pork & Chicken</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -525,7 +482,6 @@
 									<div>
 										<h3>Plenty o Pepperoni</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -535,7 +491,6 @@
 									<div>
 										<h3>2-pc Pork BBQ ( 1 Side)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -545,7 +500,6 @@
 									<div>
 										<h3>Very Bacon </h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -559,7 +513,6 @@
 									<div>
 										<h3>Pring Veg & Pasta</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -569,7 +522,6 @@
 									<div>
 										<h3>Bacon/Ham/Chorizo</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -579,7 +531,6 @@
 									<div>
 										<h3>Pork & Chicken</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -591,7 +542,6 @@
 									<div>
 										<h3>2-pc Pork BBQ ( 1 Side)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -601,7 +551,6 @@
 									<div>
 										<h3>Very Bacon</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -611,7 +560,6 @@
 									<div>
 										<h3>Plenty o Pepperoni</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -625,7 +573,6 @@
 									<div>
 										<h3>Bacon/Ham/Chorizo</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -635,7 +582,6 @@
 									<div>
 										<h3>Pring Veg & Pasta </h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -645,7 +591,6 @@
 									<div>
 										<h3>Pork & Chicken</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -657,7 +602,6 @@
 									<div>
 										<h3>Plenty o Pepperoni</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -667,7 +611,6 @@
 									<div>
 										<h3>2-pc Pork BBQ ( 1 Side)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -677,7 +620,6 @@
 									<div>
 										<h3>Very Bacon </h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -691,7 +633,7 @@
 									<div>
 										<h3>Pring Veg & Pasta</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
+											.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -701,7 +643,6 @@
 									<div>
 										<h3>Bacon/Ham/Chorizo</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -711,7 +652,6 @@
 									<div>
 										<h3>Pork & Chicken</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -723,7 +663,6 @@
 									<div>
 										<h3>2-pc Pork BBQ ( 1 Side)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -733,7 +672,6 @@
 									<div>
 										<h3>Very Bacon</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -743,14 +681,13 @@
 									<div>
 										<h3>Plenty o Pepperoni</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
 								</div>
 							</div>
 						</div>
-					</div>	
+					</div>
 				</div>
 			</div>
 		</section>
@@ -761,7 +698,6 @@
 			<span class="section-suptitle text-center">Food Lover</span>
 			<h2 class="section-title sep-type-2 text-center">Main course</h2>
 			<p class="section-resume">
-				This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
 			</p>
 			<div class="container">
 				<div class="row">
@@ -773,7 +709,6 @@
 									<div>
 										<h3>Kapeng Barako</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -783,7 +718,6 @@
 									<div>
 										<h3>Espresso</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -793,7 +727,6 @@
 									<div>
 										<h3>Caramel Machiatto</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -805,7 +738,6 @@
 									<div>
 										<h3>Iced Mocha Amaretto</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -815,7 +747,6 @@
 									<div>
 										<h3>Cappuccino</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -825,7 +756,6 @@
 									<div>
 										<h3>Iced Mocha Butterscoth</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -839,7 +769,6 @@
 									<div>
 										<h3>Bacon/Ham/Chorizo</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -849,7 +778,6 @@
 									<div>
 										<h3>Pring Veg & Pasta </h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -859,7 +787,6 @@
 									<div>
 										<h3>Pork & Chicken</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -871,7 +798,6 @@
 									<div>
 										<h3>Plenty o Pepperoni</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -881,7 +807,6 @@
 									<div>
 										<h3>2-pc Pork BBQ ( 1 Side)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -891,7 +816,6 @@
 									<div>
 										<h3>Very Bacon </h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -905,7 +829,6 @@
 									<div>
 										<h3>Pring Veg & Pasta</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -915,7 +838,6 @@
 									<div>
 										<h3>Bacon/Ham/Chorizo</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -925,7 +847,6 @@
 									<div>
 										<h3>Pork & Chicken</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -937,7 +858,6 @@
 									<div>
 										<h3>2-pc Pork BBQ ( 1 Side)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -947,7 +867,6 @@
 									<div>
 										<h3>Very Bacon</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -957,7 +876,6 @@
 									<div>
 										<h3>Plenty o Pepperoni</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -971,7 +889,6 @@
 									<div>
 										<h3>Bacon/Ham/Chorizo</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -981,7 +898,6 @@
 									<div>
 										<h3>Pring Veg & Pasta </h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -991,7 +907,6 @@
 									<div>
 										<h3>Pork & Chicken</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -1003,7 +918,6 @@
 									<div>
 										<h3>Plenty o Pepperoni</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -1013,7 +927,6 @@
 									<div>
 										<h3>2-pc Pork BBQ ( 1 Side)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -1023,7 +936,6 @@
 									<div>
 										<h3>Very Bacon </h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -1037,7 +949,6 @@
 									<div>
 										<h3>Pring Veg & Pasta</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -1047,7 +958,6 @@
 									<div>
 										<h3>Bacon/Ham/Chorizo</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -1057,7 +967,6 @@
 									<div>
 										<h3>Pork & Chicken</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -1069,7 +978,6 @@
 									<div>
 										<h3>2-pc Pork BBQ ( 1 Side)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -1079,7 +987,6 @@
 									<div>
 										<h3>Very Bacon</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -1089,14 +996,13 @@
 									<div>
 										<h3>Plenty o Pepperoni</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
 								</div>
 							</div>
 						</div>
-					</div>	
+					</div>
 				</div>
 			</div>
 		</section>
@@ -1147,7 +1053,7 @@
 								<div class="submit-btn">
 									<button type="submit">Book Now</button>
 									<input type="hidden" class="num_table" value="">
-								</div>								
+								</div>
 							</form>
 						</div>
 					</div>
@@ -1170,7 +1076,6 @@
 								<img src="assets/img/demo/delas/01.jpg" alt="" class="img-responsive">
 								<h4>Pring Veg & Pasta</h4>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 								</p>
 								<span>Only $25</span>
 							</div>
@@ -1178,7 +1083,6 @@
 								<img src="assets/img/demo/delas/02.jpg" alt="" class="img-responsive">
 								<h4>Pring Veg & Pasta</h4>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 								</p>
 								<span>Only $25</span>
 							</div>
@@ -1186,7 +1090,6 @@
 								<img src="assets/img/demo/delas/03.jpg" alt="" class="img-responsive">
 								<h4>Pring Veg & Pasta</h4>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 								</p>
 								<span>Only $25</span>
 							</div>
@@ -1194,7 +1097,6 @@
 								<img src="assets/img/demo/delas/01.jpg" alt="" class="img-responsive">
 								<h4>Pring Veg & Pasta</h4>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 								</p>
 								<span>Only $25</span>
 							</div>
@@ -1202,7 +1104,6 @@
 								<img src="assets/img/demo/delas/03.jpg" alt="" class="img-responsive">
 								<h4>Pring Veg & Pasta</h4>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 								</p>
 								<span>Only $25</span>
 							</div>
@@ -1218,7 +1119,6 @@
 			<span class="section-suptitle text-center">Food Lover</span>
 			<h2 class="section-title sep-type-2 text-center">Deserts</h2>
 			<p class="section-resume">
-				This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
 			</p>
 			<div class="container">
 				<div class="row">
@@ -1230,7 +1130,6 @@
 									<div>
 										<h3>Canned Soda</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -1240,7 +1139,6 @@
 									<div>
 										<h3>Ensayamada Ube</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -1250,7 +1148,6 @@
 									<div>
 										<h3>Bottled Water</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -1262,7 +1159,6 @@
 									<div>
 										<h3>Iced Mocha Amaretto</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -1272,7 +1168,6 @@
 									<div>
 										<h3>Sola Iced Tea</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -1282,7 +1177,6 @@
 									<div>
 										<h3>Pan De Pork</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -1296,7 +1190,6 @@
 									<div>
 										<h3>Bacon/Ham/Chorizo</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -1306,7 +1199,6 @@
 									<div>
 										<h3>Pring Veg & Pasta </h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -1316,7 +1208,6 @@
 									<div>
 										<h3>Pork & Chicken</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -1328,7 +1219,6 @@
 									<div>
 										<h3>Plenty o Pepperoni</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -1338,7 +1228,6 @@
 									<div>
 										<h3>2-pc Pork BBQ ( 1 Side)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -1348,7 +1237,6 @@
 									<div>
 										<h3>Very Bacon </h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -1362,7 +1250,6 @@
 									<div>
 										<h3>Pring Veg & Pasta</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -1372,7 +1259,6 @@
 									<div>
 										<h3>Bacon/Ham/Chorizo</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -1382,7 +1268,6 @@
 									<div>
 										<h3>Pork & Chicken</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -1394,7 +1279,6 @@
 									<div>
 										<h3>2-pc Pork BBQ ( 1 Side)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -1404,7 +1288,6 @@
 									<div>
 										<h3>Very Bacon</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -1414,7 +1297,6 @@
 									<div>
 										<h3>Plenty o Pepperoni</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -1428,7 +1310,6 @@
 									<div>
 										<h3>Bacon/Ham/Chorizo</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -1438,7 +1319,6 @@
 									<div>
 										<h3>Pring Veg & Pasta </h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -1448,7 +1328,6 @@
 									<div>
 										<h3>Pork & Chicken</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -1460,7 +1339,6 @@
 									<div>
 										<h3>Plenty o Pepperoni</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -1470,7 +1348,6 @@
 									<div>
 										<h3>2-pc Pork BBQ ( 1 Side)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -1480,7 +1357,6 @@
 									<div>
 										<h3>Very Bacon </h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -1494,7 +1370,6 @@
 									<div>
 										<h3>Pring Veg & Pasta</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -1504,7 +1379,6 @@
 									<div>
 										<h3>Bacon/Ham/Chorizo</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -1514,7 +1388,6 @@
 									<div>
 										<h3>Pork & Chicken</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$12</span>
@@ -1526,7 +1399,6 @@
 									<div>
 										<h3>2-pc Pork BBQ ( 1 Side)</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
@@ -1536,7 +1408,6 @@
 									<div>
 										<h3>Very Bacon</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$14</span>
@@ -1546,14 +1417,13 @@
 									<div>
 										<h3>Plenty o Pepperoni</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 										</p>
 									</div>
 									<span class="offer-price">$10</span>
 								</div>
 							</div>
 						</div>
-					</div>	
+					</div>
 				</div>
 			</div>
 		</section>
@@ -1566,7 +1436,7 @@
 					<div class="col-md-6">
 						<span class="section-suptitle">Drink Menu</span>
 						<h4 class="section-title">
-							Tasty Soda (500 ml) 
+							Tasty Soda (500 ml)
 						</h4>
 						<div class="drink-item">
 							<span>Coca Bottle</span>
@@ -1596,7 +1466,7 @@
 					<div class="col-md-6">
 						<span class="section-suptitle">Drink Menu</span>
 						<h4 class="section-title">
-							Atay Bottle (300 ml) 
+							Atay Bottle (300 ml)
 						</h4>
 						<div class="drink-item">
 							<span>Coca Bottle</span>
@@ -1626,7 +1496,7 @@
 					<div class="col-md-6">
 						<span class="section-suptitle">Drink Menu</span>
 						<h4 class="section-title">
-							Bio Jus (500 ml) 
+							Bio Jus (500 ml)
 						</h4>
 						<div class="drink-item">
 							<span>Coca Bottle</span>
@@ -1656,7 +1526,7 @@
 					<div class="col-md-6">
 						<span class="section-suptitle">Drink Menu</span>
 						<h4 class="section-title">
-							Little Drink (300 ml) 
+							Little Drink (300 ml)
 						</h4>
 						<div class="drink-item">
 							<span>Coca Bottle</span>
@@ -1707,7 +1577,6 @@
 									<span class="price">Only $25 <samp>$45</samp></span>
 									<h4>Chicken and Cashews</h4>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien.
 									</p>
 									<a href="#">About More</a>
 								</div>
@@ -1724,7 +1593,6 @@
 									<span class="price">Only $30 <samp>$60</samp></span>
 									<h4>Dishes and Wings</h4>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien.
 									</p>
 									<a href="#">About More</a>
 								</div>
@@ -1741,7 +1609,6 @@
 									<span class="price">Only $10 <samp>$20</samp></span>
 									<h4>Crepes and Crape</h4>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien.
 									</p>
 									<a href="#">About More</a>
 								</div>
@@ -1758,7 +1625,6 @@
 									<span class="price">Only $25 <samp>$50</samp></span>
 									<h4>Chicken and Dishes</h4>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien.
 									</p>
 									<a href="#">About More</a>
 								</div>
@@ -1803,30 +1669,10 @@
 			</div>
 		</section>
 		<!-- End Section Contact -->
-		
-		<!-- Section Newsletter -->
-		<section id="newsletter" class="padd-100">
-			<form action="#" method="post">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-4">
-							<h3>Subscribe Newsletter</h3>
-						</div>
-						<div class="col-sm-6">
-							<input type="text" placeholder="Email Address">
-						</div>
-						<div class="col-sm-2">
-							<button type="submit">submit</button>
-						</div>
-					</div>
-				</div>
-			</form>
-		</section>
-		<!-- End Section Newsletter -->
 
 		<!-- Footer -->
 		<?php
-		include("components/footer.php");
+		include ("components/footer.php");
 		?>
 		<!-- End Footer -->
 
@@ -1840,7 +1686,7 @@
 
 	<!-- Custom JS Files -->
 	<script type="text/javascript" src="assets/js/egprojets.custom.js"></script>
-    <!-- Custom JS Files -->
+	<!-- Custom JS Files -->
 </body>
 
 </html>

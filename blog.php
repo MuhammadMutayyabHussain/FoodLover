@@ -9,7 +9,7 @@
 	<meta name="description" content="" />
 	<title>Food Lover HTML</title>
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	
+
 	<!-- Google Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400,700,300" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter" />
@@ -27,16 +27,10 @@
 	<link rel="stylesheet" href="assets/css/responsive.css" />
 	<!-- Custom CSS Files -->
 
-	<!--[if lt IE 9]>
-		<script src="assets/js/html5shiv.js"></script>
-		<script src="assets/js/respond.min.js"></script>
-		<div class="bg-danger">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
-	<![endif]-->
-
 </head>
 
 <body>
-	
+
 	<!-- Loader Bloc -->
 	<div class="site-loader">
 		<div class="loading"></div>
@@ -47,10 +41,10 @@
 	<div id="site-wrapper">
 		<!-- Header -->
 		<?php
-		include("components/header.php");
+		include ("components/header.php");
 		?>
 		<!-- End Header -->
-		
+
 		<!-- Section Main -->
 		<section id="breadcrumb" data-background="assets/img/demo/slides/02.jpg" class="parallax-window">
 			<div>
@@ -63,7 +57,7 @@
 			</div>
 		</section>
 		<!-- End Section Main -->
-		
+
 		<!-- Section Contact -->
 		<section id="blog" class="padd-100">
 			<h2 class="sr-only">Blog</h2>
@@ -96,7 +90,11 @@
 										</li>
 									</ul>
 									<p class="extrait-post">
-										This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor eta Aenean sollicitudin, lorem qis um auctor, nisi elit consequat ipsum, necittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet uris. rbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+										"Step into the realm of culinary convenience with our restaurant app blog. From
+										tantalizing food features to exclusive discounts, indulge in a curated dining
+										experience. Stay connected to the latest gastronomic trends and insider
+										insights, right from your device. Elevate your dining journey and savor every
+										moment with our app's seamless interface."
 									</p>
 									<a class="btn-read-more" href="blog-single.html">Read More</a>
 								</div>
@@ -128,7 +126,11 @@
 										</li>
 									</ul>
 									<p class="extrait-post">
-										This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor eta Aenean sollicitudin, lorem qis um auctor, nisi elit consequat ipsum, necittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet uris. rbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+										"Step into the realm of culinary convenience with our restaurant app blog. From
+										tantalizing food features to exclusive discounts, indulge in a curated dining
+										experience. Stay connected to the latest gastronomic trends and insider
+										insights, right from your device. Elevate your dining journey and savor every
+										moment with our app's seamless interface."
 									</p>
 									<a class="btn-read-more" href="blog-single.html">Read More</a>
 								</div>
@@ -160,7 +162,11 @@
 										</li>
 									</ul>
 									<p class="extrait-post">
-										This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor eta Aenean sollicitudin, lorem qis um auctor, nisi elit consequat ipsum, necittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet uris. rbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+										"Step into the realm of culinary convenience with our restaurant app blog. From
+										tantalizing food features to exclusive discounts, indulge in a curated dining
+										experience. Stay connected to the latest gastronomic trends and insider
+										insights, right from your device. Elevate your dining journey and savor every
+										moment with our app's seamless interface."
 									</p>
 									<a class="btn-read-more" href="blog-single.html">Read More</a>
 								</div>
@@ -181,7 +187,8 @@
 					<div class="col-md-4 hidden-sm hidden-xs">
 						<div class="sidebar">
 							<div class="widget widget_search">
-								<form id="searchform" class="search-area" action="https://template-html.egprojets.com/food-lover/blog.html" method="get">
+								<form id="searchform" class="search-area"
+									action="https://template-html.egprojets.com/food-lover/blog.html" method="get">
 									<input id="s" class="form-control" type="text" placeholder="Search" name="s">
 									<a href="#" class="btn-search">
 										<i class="fa fa-search" aria-hidden="true"></i>
@@ -261,7 +268,9 @@
 								<div>
 									<img src="assets/img/demo/testimonials/02.jpg" alt="">
 									<p>
-										“Donec semper, ex et sollicitudin dignim, massa quam hendrerit magna, a consequat urna lectus posuere nisl. Vivamus tincidunt sagittis massa, quis consecter ex eleifend vitae.”
+										“Donec semper, ex et sollicitudin dignim, massa quam hendrerit magna, a
+										consequat urna lectus posuere nisl. Vivamus tincidunt sagittis massa, quis
+										consecter ex eleifend vitae.”
 									</p>
 									<span>
 										Jhon Doe
@@ -308,113 +317,11 @@
 			</div>
 		</section>
 		<!-- End Section Contact -->
-		
-		<!-- Section Newsletter -->
-		<section id="newsletter" class="padd-100">
-			<form action="#" method="post">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-4">
-							<h3>Subscribe Newsletter</h3>
-						</div>
-						<div class="col-sm-6">
-							<input type="text" placeholder="Email Address">
-						</div>
-						<div class="col-sm-2">
-							<button type="submit">submit</button>
-						</div>
-					</div>
-				</div>
-			</form>
-		</section>
-		<!-- End Section Newsletter -->
 
 		<!-- Footer -->
-		<footer id="site-footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-6 col-md-3">
-						<div class="bloc-cms">
-							<img src="assets/img/logo.png" alt="">
-							<p>
-								Lorem sit amet, ectetr iscinit. Vestibulum vel sum er, suscipieros quis by lorem.<br /><br />
-								Sed ventis nisl a auris laoreet, at ncidnt lectus volutpat. Etiam...
-							</p>
-							<a href="#">Read More</a>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<div class="open-hours">
-							<span class="foot-title">Opening Hours</span>
-							<p><span>MONDAY :</span> Closed</p>
-							<p><span>TUE - FRI : </span>................. 10 am - 9 pm</p>
-							<p><span>SATURDAY : </span>.............. 10 am - 11 pm</p>
-							<p><span>Sunday  : </span>.................. 10 am - 12 pm</p>
-						</div>
-					</div>
-					<div class="col-md-3 hidden-sm hidden-xs">
-						<div class="last-tweet">
-							<span class="foot-title">Latest Tweets</span>
-							<div class="item-tweet">
-								<i class="fa fa-twitter"></i>
-								<div>
-									<p>Sed ventis nisl a au at ncidnt ctus volutpat. <a href="#">https://twitter.com</a>
-									</p>
-									<span>
-										2 Hours ago
-									</span>
-								</div>
-							</div>
-							<div class="item-tweet">
-								<i class="fa fa-twitter"></i>
-								<div>
-									<p>Sed ventis nisl a au at ncidnt ctus volutpat. <a href="#">https://twitter.com</a>
-									</p>
-									<span>
-										2 Hours ago
-									</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 hidden-sm hidden-xs">
-						<div class="instagram">
-							<span class="foot-title">Instragram</span>
-							<a href="#">
-								<img src="assets/img/demo/instagram/01.jpg" alt="">
-								<i class="fa fa-instagram"></i>
-							</a>
-							<a href="#">
-								<img src="assets/img/demo/instagram/02.jpg" alt="">
-								<i class="fa fa-instagram"></i>
-							</a>
-							<a href="#">
-								<img src="assets/img/demo/instagram/03.jpg" alt="">
-								<i class="fa fa-instagram"></i>
-							</a>
-							<a href="#">
-								<img src="assets/img/demo/instagram/04.jpg" alt="">
-								<i class="fa fa-instagram"></i>
-							</a>
-							<a href="#">
-								<img src="assets/img/demo/instagram/05.jpg" alt="">
-								<i class="fa fa-instagram"></i>
-							</a>
-							<a href="#">
-								<img src="assets/img/demo/instagram/06.jpg" alt="">
-								<i class="fa fa-instagram"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="footer-copyright">
-				<p>
-					Copyright 2016 © Food Lover Restaurant PSD Template
-				</p>
-				<a href="#">Top</a>
-			</div>
-		</footer>
+		<?php
+		include ("components/footer.php");
+		?>
 		<!-- End Footer -->
 
 	</div>
@@ -427,7 +334,7 @@
 
 	<!-- Custom JS Files -->
 	<script type="text/javascript" src="assets/js/egprojets.custom.js"></script>
-    <!-- Custom JS Files -->
+	<!-- Custom JS Files -->
 </body>
 
 </html>

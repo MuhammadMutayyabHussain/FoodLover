@@ -9,7 +9,7 @@
 	<meta name="description" content="" />
 	<title>Food Lover HTML</title>
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	
+
 	<!-- Google Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400,700,300" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter" />
@@ -27,16 +27,10 @@
 	<link rel="stylesheet" href="assets/css/responsive.css" />
 	<!-- Custom CSS Files -->
 
-	<!--[if lt IE 9]>
-		<script src="assets/js/html5shiv.js"></script>
-		<script src="assets/js/respond.min.js"></script>
-		<div class="bg-danger">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
-	<![endif]-->
-
 </head>
 
 <body>
-	
+
 	<!-- Loader Bloc -->
 	<div class="site-loader">
 		<div class="loading"></div>
@@ -47,10 +41,10 @@
 	<div id="site-wrapper">
 		<!-- Header -->
 		<?php
-		include("components/header.php");
+		include ("components/header.php");
 		?>
 		<!-- End Header -->
-		
+
 		<!-- Section Main -->
 		<section id="breadcrumb" data-background="assets/img/demo/slides/02.jpg" class="parallax-window">
 			<div>
@@ -63,7 +57,7 @@
 			</div>
 		</section>
 		<!-- End Section Main -->
-		
+
 		<!-- Section Contact -->
 		<section id="blog" class="padd-100">
 			<div class="container">
@@ -95,23 +89,17 @@
 												<span>10 Comments</span>
 											</li>
 										</ul>
-										<p class="extrait-post">
-											This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh ulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia as nostra, per inceptos himenaeos. Mauris in erat justo.<br /><br />
-
-											Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proina condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut quam massa nisl quis neque. Suspendisse in orci enim.This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis m nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. am nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Cls aptent taciti sociosqu ad litora torquent per conubia nostra.<br /><br />
-
-											Per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a auge. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam.
-										</p>
+										<p class="extrait-post"></p>
 									</div>
 								</div>
 							</div>
 							<div class="share-box">
-									<span>
-										Share Post :
-									</span>
-									<a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-									<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-									<a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+								<span>
+									Share Post :
+								</span>
+								<a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
 							</div>
 							<div class="about-author">
 								<h2 class="single-heading">About The Quote</h2>
@@ -120,7 +108,9 @@
 										<img src="assets/img/demo/testimonials/02.jpg" alt="">
 									</a>
 									<div class="content">
-										<p>“Donec semper, ex et sollicitudin dignim, massa quam hendrerit magna, a consequat u prna lectus posuere nisl. Vivamus tincidunt sagittis massa, quis consecter ex eleifend vitae.”</p>
+										<p>“Donec semper, ex et sollicitudin dignim, massa quam hendrerit magna, a
+											consequat u prna lectus posuere nisl. Vivamus tincidunt sagittis massa, quis
+											consecter ex eleifend vitae.”</p>
 										<b class="name">Jhon Doe</b>
 									</div>
 								</div>
@@ -139,7 +129,6 @@
 													<span>6 days Ago</span>
 												</h4>
 												<p>
-													This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.
 												</p>
 												<a class="btn-read-more" href="#">Reply</a>
 											</div>
@@ -156,7 +145,6 @@
 															<span>6 days Ago</span>
 														</h4>
 														<p>
-															This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.
 														</p>
 														<a class="btn-read-more" href="#">Reply</a>
 													</div>
@@ -173,7 +161,6 @@
 															<span>6 days Ago</span>
 														</h4>
 														<p>
-															This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.
 														</p>
 														<a class="btn-read-more" href="#">Reply</a>
 													</div>
@@ -192,7 +179,6 @@
 													<span>6 days Ago</span>
 												</h4>
 												<p>
-													This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.
 												</p>
 												<a class="btn-read-more" href="#">Reply</a>
 											</div>
@@ -209,7 +195,6 @@
 													<span>6 days Ago</span>
 												</h4>
 												<p>
-													This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.
 												</p>
 												<a class="btn-read-more" href="#">Reply</a>
 											</div>
@@ -239,7 +224,8 @@
 					<div class="col-md-4 hidden-sm hidden-xs">
 						<div class="sidebar">
 							<div class="widget widget_search">
-								<form id="searchform" class="search-area" action="https://template-html.egprojets.com/food-lover/blog.html" method="get">
+								<form id="searchform" class="search-area"
+									action="https://template-html.egprojets.com/food-lover/blog.html" method="get">
 									<input id="s" class="form-control" type="text" placeholder="Search" name="s">
 									<a href="#" class="btn-search">
 										<i class="fa fa-search" aria-hidden="true"></i>
@@ -319,7 +305,9 @@
 								<div>
 									<img src="assets/img/demo/testimonials/02.jpg" alt="">
 									<p>
-										“Donec semper, ex et sollicitudin dignim, massa quam hendrerit magna, a consequat urna lectus posuere nisl. Vivamus tincidunt sagittis massa, quis consecter ex eleifend vitae.”
+										“Donec semper, ex et sollicitudin dignim, massa quam hendrerit magna, a
+										consequat urna lectus posuere nisl. Vivamus tincidunt sagittis massa, quis
+										consecter ex eleifend vitae.”
 									</p>
 									<span>
 										Jhon Doe
@@ -366,7 +354,7 @@
 			</div>
 		</section>
 		<!-- End Section Contact -->
-		
+
 		<!-- Section Newsletter -->
 		<section id="newsletter" class="padd-100">
 			<form action="#" method="post">
@@ -389,8 +377,8 @@
 
 		<!-- Footer -->
 		<?php
-		include("components/footer.php")
-		?>
+		include ("components/footer.php")
+			?>
 		<!-- End Footer -->
 
 	</div>
@@ -403,7 +391,7 @@
 
 	<!-- Custom JS Files -->
 	<script type="text/javascript" src="assets/js/egprojets.custom.js"></script>
-    <!-- Custom JS Files -->
+	<!-- Custom JS Files -->
 </body>
 
 </html>

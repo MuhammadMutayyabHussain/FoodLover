@@ -95,8 +95,8 @@
 									</svg>
 									<div class="ms-3">
 										<h3 class="h-title text-primary">Generate annualy report by Salero</h3>
-										<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-											tempor incididunt ut labo</span>
+										<span>Generate Salero's Annual Report: A comprehensive overview of our
+											performance, achievements, and future prospects.</span>
 									</div>
 								</div>
 								<i class="fa-solid fa-arrow-right text-primary"></i>
@@ -1605,27 +1605,6 @@
 		<!--**********************************
 			Content body end
 		***********************************-->
-
-		<!--**********************************
-			Footer start
-		***********************************-->
-		<div class="footer">
-			<div class="copyright">
-				<p>Copyright © Developed by <a href="https://dexignzone.com/" target="_blank">DexignZone</a> 2023</p>
-			</div>
-		</div>
-		<!--**********************************
-			Footer end
-		***********************************-->
-
-		<!--**********************************
-		   Support ticket button start
-		***********************************-->
-
-		<!--**********************************
-		   Support ticket button end
-		***********************************-->
-
 
 	</div>
 	<!--**********************************

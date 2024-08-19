@@ -1,15 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 	<meta charset="utf-8" />
-	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<meta name="author" content="Egprojets">
 	<meta name="description" content="" />
 	<title>Food Lover HTML</title>
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	
+
 	<!-- Google Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400,700,300" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter" />
@@ -27,16 +27,10 @@
 	<link rel="stylesheet" href="assets/css/responsive.css" />
 	<!-- Custom CSS Files -->
 
-	<!--[if lt IE 9]>
-		<script src="assets/js/html5shiv.js"></script>
-		<script src="assets/js/respond.min.js"></script>
-		<div class="bg-danger">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
-	<![endif]-->
-
 </head>
 
 <body>
-	
+
 	<!-- Loader Bloc -->
 	<div class="site-loader">
 		<div class="loading"></div>
@@ -47,10 +41,10 @@
 	<div id="site-wrapper">
 		<!-- Header -->
 		<?php
-		include("components/header.php");
+		include ("components/header.php");
 		?>
 		<!-- End Header -->
-		
+
 		<!-- Section Main -->
 		<section id="breadcrumb" data-background="assets/img/demo/slides/02.jpg" class="parallax-window">
 			<div>
@@ -66,386 +60,55 @@
 
 		<!-- Section Select Table -->
 		<section id="select-table" class="padd-100">
-			<span class="section-suptitle text-center">Table Available</span>
+			<span class="section-suptitle text-center"></span>
 			<h2 class="section-title sep-type-2 text-center">Select Your Table</h2>
 			<p class="section-resume">
-				This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
 			</p>
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="carousel-table">
-							<div class="table-page">
-								<div class="item">
-									<span>1</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_8.png" alt="">
-								</div>
-								<div class="item">
-									<span>2</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>3</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_6.png" alt="">
-								</div>
-								<div class="item">
-									<span>4</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>5</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_8.png" alt="">
-								</div>
-								<div class="item reserved">
-									<span>6</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_8.png" alt="">
-								</div>
-								<div class="item">
-									<span>7</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>8</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_6.png" alt="">
-								</div>
-								<div class="item">
-									<span>9</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>10</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_8.png" alt="">
-								</div>
-								<div class="item reserved">
-									<span>11</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_8.png" alt="">
-								</div>
-								<div class="item">
-									<span>12</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item reserved">
-									<span>13</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_6.png" alt="">
-								</div>
-								<div class="item">
-									<span>14</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>15</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_8.png" alt="">
-								</div>
-							</div>
-							<div class="table-page">
-								<div class="item">
-									<span>16</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>17</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>18</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_6.png" alt="">
-								</div>
-								<div class="item">
-									<span>19</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>20</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_8.png" alt="">
-								</div>
-								<div class="item">
-									<span>21</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>22</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>23</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_6.png" alt="">
-								</div>
-								<div class="item">
-									<span>24</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item reserved">
-									<span>25</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_8.png" alt="">
-								</div>
-								<div class="item reserved">
-									<span>26</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_8.png" alt="">
-								</div>
-								<div class="item">
-									<span>27</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item reserved">
-									<span>28</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_6.png" alt="">
-								</div>
-								<div class="item">
-									<span>29</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>30</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_8.png" alt="">
-								</div>
-							</div>
-							<div class="table-page">
-								<div class="item">
-									<span>31</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>32</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>33</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_6.png" alt="">
-								</div>
-								<div class="item">
-									<span>34</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>35</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_8.png" alt="">
-								</div>
-								<div class="item">
-									<span>36</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>37</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>38</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_6.png" alt="">
-								</div>
-								<div class="item">
-									<span>39</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>40</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_8.png" alt="">
-								</div>
-								<div class="item reserved">
-									<span>41</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_8.png" alt="">
-								</div>
-								<div class="item">
-									<span>42</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>43</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_6.png" alt="">
-								</div>
-								<div class="item">
-									<span>44</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_1.png" alt="">
-								</div>
-								<div class="item">
-									<span>45</span>
-									<p>reserved</p>
-									<img src="assets/img/demo/reservation/table_8.png" alt="">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</section>
 		<!-- End Section Select Table -->
 
 		<!-- Section Reservation -->
-		<section id="reservation" data-background="assets/img/demo/bg/01.jpg" class="parallax-window">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-7">
-						<div class="form-reservation padd-100">
-							<span class="section-suptitle">
-								Your Table
-							</span>
-							<h2 class="section-title white-font">
-								Reservation Now!
-							</h2>
-							<form action="index.php" method="post">
-								<div class="column">
-									<span>
-										<input type="text" name="name" placeholder="Name">
-									</span>
-									<span>
-										<input type="text" name="contact_number" placeholder="Contact Number">
-									</span>
-								</div>
-								<div class="column">
-									<span>
-										<input type="text" name="email" placeholder="Email Adress">
-									</span>
-									<span>
-										<input type="text" name="num_person" placeholder="Number of Person">
-									</span>
-								</div>
-								<div class="column">
-									<span>
-										<input type="text" name="book_date" placeholder="Booke Date">
-										<i class="fa fa-calendar" aria-hidden="true"></i>
-									</span>
-									<span>
-										<input type="text" name="your_time" placeholder="Your Time ">
-										<i class="fa fa-clock-o" aria-hidden="true"></i>
-									</span>
-								</div>
-								<div class="column">
-									<textarea name="message" placeholder="Message of Request"></textarea>
-								</div>
-								<div class="submit-btn">
-									<button type="submit">Book Now</button>
-									<input type="hidden" class="num_table" value="">
-								</div>								
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+<?php
+include("components/reservation-form.php");
+?>
 		<!-- End Section Reservation -->
 
 		<!-- Section Event -->
 		<section id="events" class="padd-100">
-			<span class="section-suptitle text-center">
-				Month of March
-			</span>
 			<h2 class="section-title sep-type-2 text-center">
-				upcoming event
+				upcoming events
 			</h2>
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12  no-padd">
-						
+
 						<ul class="event-carousel">
-							<li class="event-item">
-								<img src="assets/img/demo/events/01.png" alt="" class="img-responsive">
-								<div>
-									<h3>Chicken and Cashews</h3>
-									<span>18 Mar 2016</span>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum. estibulum a felis ac sem hendrerit mattis...
-									</p>
-									<a href="#">Read More</a>
-								</div>
-							</li>
-							<li class="event-item">
-								<img src="assets/img/demo/events/02.png" alt="" class="img-responsive">
-								<div>
-									<h3>Chicken and Cashews</h3>
-									<span>18 Mar 2016</span>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum. estibulum a felis ac sem hendrerit mattis...
-									</p>
-									<a href="#">Read More</a>
-								</div>
-							</li>
-							<li class="event-item">
-								<img src="assets/img/demo/events/03.png" alt="" class="img-responsive">
-								<div>
-									<h3>Chicken and Cashews</h3>
-									<span>18 Mar 2016</span>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum. estibulum a felis ac sem hendrerit mattis...
-									</p>
-									<a href="#">Read More</a>
-								</div>
-							</li>
-							<li class="event-item">
-								<img src="assets/img/demo/events/01.png" alt="" class="img-responsive">
-								<div>
-									<h3>Chicken and Cashews</h3>
-									<span>18 Mar 2016</span>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum. estibulum a felis ac sem hendrerit mattis...
-									</p>
-									<a href="#">Read More</a>
-								</div>
-							</li>
-							<li class="event-item">
-								<img src="assets/img/demo/events/02.png" alt="" class="img-responsive">
-								<div>
-									<h3>Chicken and Cashews</h3>
-									<span>18 Mar 2016</span>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum. estibulum a felis ac sem hendrerit mattis...
-									</p>
-									<a href="#">Read More</a>
-								</div>
-							</li>
-							<li class="event-item">
-								<img src="assets/img/demo/events/03.png" alt="" class="img-responsive">
-								<div>
-									<h3>Chicken and Cashews</h3>
-									<span>18 Mar 2016</span>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum. estibulum a felis ac sem hendrerit mattis...
-									</p>
-									<a href="#">Read More</a>
-								</div>
-							</li>
+							<?php
+							$Query = "SELECT * FROM events";
+							$Result = mysqli_query($conn, $Query);
+							if ($Result->num_rows > 0) {
+								$count = 0;
+								while ($DataRows = mysqli_fetch_array($Result)) {
+
+									?>
+									<li class="event-item">
+										<img src="<?php echo "uploads/events/" . $DataRows['image']; ?>" alt=""
+											class="img-responsive">
+										<div>
+											<h3><?php echo $DataRows['name']; ?></h3>
+											<span><?php echo $DataRows['date']; ?></span>
+											<p><?php echo $DataRows['shortdiscription']; ?></p>
+										</div>
+									</li>
+									<?php
+									$count++;
+									if ($count == 4)
+										break;
+								}
+							} else {
+								echo "No Result Found";
+							}
+							?>
 						</ul>
 					</div>
 				</div>
@@ -545,7 +208,10 @@
 									<span class="price">Only $25 <samp>$45</samp></span>
 									<h4>Chicken and Cashews</h4>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien.
+										Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum
+										ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris
+										laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante
+										vehicula pellentesqsapien.
 									</p>
 									<a href="#">About More</a>
 								</div>
@@ -562,7 +228,10 @@
 									<span class="price">Only $30 <samp>$60</samp></span>
 									<h4>Dishes and Wings</h4>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien.
+										Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum
+										ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris
+										laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante
+										vehicula pellentesqsapien.
 									</p>
 									<a href="#">About More</a>
 								</div>
@@ -579,7 +248,10 @@
 									<span class="price">Only $10 <samp>$20</samp></span>
 									<h4>Crepes and Crape</h4>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien.
+										Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum
+										ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris
+										laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante
+										vehicula pellentesqsapien.
 									</p>
 									<a href="#">About More</a>
 								</div>
@@ -596,7 +268,10 @@
 									<span class="price">Only $25 <samp>$50</samp></span>
 									<h4>Chicken and Dishes</h4>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien.
+										Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum
+										ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris
+										laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante
+										vehicula pellentesqsapien.
 									</p>
 									<a href="#">About More</a>
 								</div>
@@ -641,30 +316,10 @@
 			</div>
 		</section>
 		<!-- End Section Contact -->
-		
-		<!-- Section Newsletter -->
-		<section id="newsletter" class="padd-100">
-			<form action="#" method="post">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-4">
-							<h3>Subscribe Newsletter</h3>
-						</div>
-						<div class="col-sm-6">
-							<input type="text" placeholder="Email Address">
-						</div>
-						<div class="col-sm-2">
-							<button type="submit">submit</button>
-						</div>
-					</div>
-				</div>
-			</form>
-		</section>
-		<!-- End Section Newsletter -->
 
 		<!-- Footer -->
 		<?php
-		include("components/footer.php");
+		include ("components/footer.php");
 		?>
 		<!-- End Footer -->
 
@@ -678,7 +333,7 @@
 
 	<!-- Custom JS Files -->
 	<script type="text/javascript" src="assets/js/egprojets.custom.js"></script>
-    <!-- Custom JS Files -->
+	<!-- Custom JS Files -->
 </body>
 
 </html>

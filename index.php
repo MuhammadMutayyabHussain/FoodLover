@@ -1,6 +1,5 @@
 <?php
-
-// include("helper/connection.php");
+include ("helper/connection.php");
 ?>
 
 <!DOCTYPE html>
@@ -32,12 +31,6 @@
 	<link rel="stylesheet" href="assets/css/responsive.css" />
 	<!-- Custom CSS Files -->
 
-	<!--[if lt IE 9]>
-		<script src="assets/js/html5shiv.js"></script>
-		<script src="assets/js/respond.min.js"></script>
-		<div class="bg-danger">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
-	<![endif]-->
-
 </head>
 
 <body>
@@ -52,7 +45,7 @@
 	<div id="site-wrapper">
 		<!-- Header -->
 		<?php
-		include("components/header.php");
+		include ("components/header.php");
 		?>
 		<!-- End Header -->
 
@@ -80,7 +73,7 @@
 								<div>
 									<h3>Pring Veg & Pasta</h3>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
+										Fresh veggies mixed with pasta for a vibrant, flavorful dish.
 									</p>
 								</div>
 								<span class="offer-price">$10</span>
@@ -90,7 +83,7 @@
 								<div>
 									<h3>Cheese /Bacon,Coleslaw</h3>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
+										Creamy coleslaw with a choice of savory bacon or rich cheese.
 									</p>
 								</div>
 								<span class="offer-price">$14</span>
@@ -100,7 +93,7 @@
 								<div>
 									<h3>Croissant (Plain)</h3>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
+										Classic, buttery croissant perfect for breakfast or snacks.
 									</p>
 								</div>
 								<span class="offer-price">$12</span>
@@ -122,57 +115,9 @@
 		<!-- End Section Special Offers -->
 
 		<!-- Section Reservation -->
-		<section id="reservation" data-background="assets/img/demo/bg/01.jpg" class="parallax-window">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-7">
-						<div class="form-reservation padd-100">
-							<span class="section-suptitle">
-								Your Table
-							</span>
-							<h2 class="section-title white-font">
-								Reservation Now!
-							</h2>
-							<form action="scripts/reservation-script.php" method="post">
-								<div class="column">
-									<span>
-										<input type="text" name="name" placeholder="Name">
-									</span>
-									<span>
-										<input type="text" name="contact_number" placeholder="Contact Number">
-									</span>
-								</div>
-								<div class="column">
-									<span>
-										<input type="text" name="email" placeholder="Email Adress">
-									</span>
-									<span>
-										<input type="text" name="num_person" placeholder="Number of Person">
-									</span>
-								</div>
-								<div class="column">
-									<span>
-										<input type="text" name="book_date" placeholder="Booke Date">
-										<i class="fa fa-calendar" aria-hidden="true"></i>
-									</span>
-									<span>
-										<input type="text" name="your_time" placeholder="Your Time ">
-										<i class="fa fa-clock-o" aria-hidden="true"></i>
-									</span>
-								</div>
-								<div class="column">
-									<textarea name="message" placeholder="Message of Request"></textarea>
-								</div>
-								<div class="submit-btn">
-									<button type="submit">Book Now</button>
-									<input type="hidden" class="num_table" value="">
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		<?php
+		include ("components/reservation-form.php");
+		?>
 		<!-- End Section Reservation -->
 
 		<!-- Section Delas -->
@@ -189,7 +134,6 @@
 								<img src="assets/img/demo/delas/01.jpg" alt="" class="img-responsive">
 								<h4>Pring Veg & Pasta</h4>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 								</p>
 								<span>Only $25</span>
 							</div>
@@ -197,7 +141,6 @@
 								<img src="assets/img/demo/delas/02.jpg" alt="" class="img-responsive">
 								<h4>Pring Veg & Pasta</h4>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 								</p>
 								<span>Only $25</span>
 							</div>
@@ -205,7 +148,6 @@
 								<img src="assets/img/demo/delas/03.jpg" alt="" class="img-responsive">
 								<h4>Pring Veg & Pasta</h4>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 								</p>
 								<span>Only $25</span>
 							</div>
@@ -213,7 +155,6 @@
 								<img src="assets/img/demo/delas/01.jpg" alt="" class="img-responsive">
 								<h4>Pring Veg & Pasta</h4>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 								</p>
 								<span>Only $25</span>
 							</div>
@@ -221,7 +162,6 @@
 								<img src="assets/img/demo/delas/03.jpg" alt="" class="img-responsive">
 								<h4>Pring Veg & Pasta</h4>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.
 								</p>
 								<span>Only $25</span>
 							</div>
@@ -252,63 +192,72 @@
 						<div class="grid-sizer col-sm-6 col-md-4"></div>
 						<div class="col-sm-6 col-md-4 grid-item" data-filter="drinks">
 							<div>
-								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/01.jpg" alt=""></a>
+								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/01.jpg"
+										alt=""></a>
 								<span>Only $25</span>
 								<h3>Chicken and Cashews</h3>
 							</div>
 						</div>
 						<div class="col-sm-6 col-md-4 grid-item" data-filter="drinks">
 							<div>
-								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/02.jpg" alt=""></a>
+								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/02.jpg"
+										alt=""></a>
 								<span>Only $25</span>
 								<h3>Chicken and Cashews</h3>
 							</div>
 						</div>
 						<div class="col-sm-6 col-md-4 grid-item" data-filter="dinner">
 							<div>
-								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/03.jpg" alt=""></a>
+								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/03.jpg"
+										alt=""></a>
 								<span>Only $25</span>
 								<h3>Chicken and Cashews</h3>
 							</div>
 						</div>
 						<div class="col-sm-6 col-md-4 grid-item" data-filter="lunch">
 							<div>
-								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/04.jpg" alt=""></a>
+								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/04.jpg"
+										alt=""></a>
 								<span>Only $25</span>
 								<h3>Chicken and Cashews</h3>
 							</div>
 						</div>
 						<div class="col-sm-6 col-md-4 grid-item" data-filter="lunch">
 							<div>
-								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/05.jpg" alt=""></a>
+								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/05.jpg"
+										alt=""></a>
 								<span>Only $25</span>
 								<h3>Chicken and Cashews</h3>
 							</div>
 						</div>
 						<div class="col-sm-6 col-md-4 grid-item" data-filter="drinks">
 							<div>
-								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/06.jpg" alt=""></a>
+								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/06.jpg"
+										alt=""></a>
 								<span>Only $25</span>
 								<h3>Chicken and Cashews</h3>
 							</div>
 						</div>
 						<div class="col-sm-6 col-md-4 grid-item" data-filter="lunch">
 							<div>
-								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/07.jpg" alt=""></a>
+								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/07.jpg"
+										alt=""></a>
 								<span>Only $25</span>
 								<h3>Chicken and Cashews</h3>
 							</div>
 						</div>
 						<div class="col-sm-6 col-md-4 grid-item" data-filter="starters">
 							<div>
-								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/08.jpg" alt=""></a>
+								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/08.jpg"
+										alt=""></a>
 								<span>Only $25</span>
 								<h3>Chicken and Cashews</h3>
 							</div>
 						</div>
 						<div class="col-sm-6 col-md-4 grid-item" data-filter="dinner">
 							<div>
-								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/09.jpg" alt=""></a>
+								<a href="menu.html" target="_blank"><img src="assets/img/demo/restaurant_menu/09.jpg"
+										alt=""></a>
 								<span>Only $25</span>
 								<h3>Chicken and Cashews</h3>
 							</div>
@@ -334,55 +283,50 @@
 							<li>
 								<div>
 									<p>
-										Nunc ullamcorper augue nec accumsan
-										porta. Ut lacinia fgiat viverra. Ut dictum
-										turpis in ipsum sagittis finibus.
+										The menu layout is fantastic! It's easy to navigate and the images are
+										mouthwatering.
 									</p>
-									<span>Anna Van</span>
+									<span>Aisha Khan</span>
 								</div>
 								<img src="assets/img/demo/testimonials/01.jpg" alt="" class="img-responsive">
 							</li>
 							<li>
 								<div>
 									<p>
-										Nunc ullamcorper augue nec accumsan
-										porta. Ut lacinia fgiat viverra. Ut dictum
-										turpis in ipsum sagittis finibus.
+										I love the elegant design of the reservation page. It makes booking a table feel
+										special.
 									</p>
-									<span>Frinton Van</span>
+									<span>Rajesh Sharma</span>
 								</div>
 								<img src="assets/img/demo/testimonials/02.jpg" alt="" class="img-responsive">
 							</li>
 							<li>
 								<div>
 									<p>
-										Nunc ullamcorper augue nec accumsan
-										porta. Ut lacinia fgiat viverra. Ut dictum
-										turpis in ipsum sagittis finibus.
+										The blog section is a great addition! It's informative and adds a personal touch
+										to the restaurant's story.
 									</p>
-									<span>Filipe Van</span>
+									<span>Priya Patel</span>
 								</div>
 								<img src="assets/img/demo/testimonials/03.jpg" alt="" class="img-responsive">
 							</li>
 							<li>
 								<div>
 									<p>
-										Nunc ullamcorper augue nec accumsan
-										porta. Ut lacinia fgiat viverra. Ut dictum
-										turpis in ipsum sagittis finibus.
+										The gallery showcases the restaurant's ambiance perfectly. It's like taking a
+										virtual tour!
 									</p>
-									<span>Frinton Van</span>
+									<span>Gurpreet Singh</span>
 								</div>
 								<img src="assets/img/demo/testimonials/01.jpg" alt="" class="img-responsive">
 							</li>
 							<li>
 								<div>
 									<p>
-										Nunc ullamcorper augue nec accumsan
-										porta. Ut lacinia fgiat viverra. Ut dictum
-										turpis in ipsum sagittis finibus.
+										The contact page is so user-friendly. I appreciate having multiple ways to get
+										in touch.
 									</p>
-									<span>Frinton Van</span>
+									<span>Sameer Malhotra</span>
 								</div>
 								<img src="assets/img/demo/testimonials/02.jpg" alt="" class="img-responsive">
 							</li>
@@ -395,83 +339,40 @@
 
 		<!-- Section Event -->
 		<section id="events" class="padd-100">
-			<span class="section-suptitle text-center">
-				Month of March
-			</span>
 			<h2 class="section-title sep-type-2 text-center">
-				upcoming event
+				upcoming events
 			</h2>
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12  no-padd">
 
 						<ul class="event-carousel">
-							<li class="event-item">
-								<img src="assets/img/demo/events/01.png" alt="" class="img-responsive">
-								<div>
-									<h3>Chicken and Cashews</h3>
-									<span>18 Mar 2016</span>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum. estibulum a felis ac sem hendrerit mattis...
-									</p>
-									<a href="#">Read More</a>
-								</div>
-							</li>
-							<li class="event-item">
-								<img src="assets/img/demo/events/02.png" alt="" class="img-responsive">
-								<div>
-									<h3>Chicken and Cashews</h3>
-									<span>18 Mar 2016</span>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum. estibulum a felis ac sem hendrerit mattis...
-									</p>
-									<a href="#">Read More</a>
-								</div>
-							</li>
-							<li class="event-item">
-								<img src="assets/img/demo/events/03.png" alt="" class="img-responsive">
-								<div>
-									<h3>Chicken and Cashews</h3>
-									<span>18 Mar 2016</span>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum. estibulum a felis ac sem hendrerit mattis...
-									</p>
-									<a href="#">Read More</a>
-								</div>
-							</li>
-							<li class="event-item">
-								<img src="assets/img/demo/events/01.png" alt="" class="img-responsive">
-								<div>
-									<h3>Chicken and Cashews</h3>
-									<span>18 Mar 2016</span>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum. estibulum a felis ac sem hendrerit mattis...
-									</p>
-									<a href="#">Read More</a>
-								</div>
-							</li>
-							<li class="event-item">
-								<img src="assets/img/demo/events/02.png" alt="" class="img-responsive">
-								<div>
-									<h3>Chicken and Cashews</h3>
-									<span>18 Mar 2016</span>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum. estibulum a felis ac sem hendrerit mattis...
-									</p>
-									<a href="#">Read More</a>
-								</div>
-							</li>
-							<li class="event-item">
-								<img src="assets/img/demo/events/03.png" alt="" class="img-responsive">
-								<div>
-									<h3>Chicken and Cashews</h3>
-									<span>18 Mar 2016</span>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur piscing elit. Vestibulum dapibus vehiculdum. estibulum a felis ac sem hendrerit mattis...
-									</p>
-									<a href="#">Read More</a>
-								</div>
-							</li>
+							<?php
+							$Query = "SELECT * FROM events";
+							$Result = mysqli_query($conn, $Query);
+							if ($Result->num_rows > 0) {
+								$count = 0;
+								while ($DataRows = mysqli_fetch_array($Result)) {
+
+									?>
+									<li class="event-item">
+										<img src="<?php echo "uploads/events/" . $DataRows['image']; ?>" alt=""
+											class="img-responsive">
+										<div>
+											<h3><?php echo $DataRows['name']; ?></h3>
+											<span><?php echo $DataRows['date']; ?></span>
+											<p><?php echo $DataRows['shortdiscription']; ?></p>
+										</div>
+									</li>
+									<?php
+									$count++;
+									if ($count == 4)
+										break;
+								}
+							} else {
+								echo "No Result Found";
+							}
+							?>
 						</ul>
 					</div>
 				</div>
@@ -491,90 +392,41 @@
 				<div class="row">
 					<div class="col-sm-12 no-padd">
 						<ul class="team-carousel">
-							<li>
-								<div>
-									<img src="assets/img/demo/team/01.png" alt="" class="img-responsive">
-									<div>
-										<span>Senior Chef</span>
-										<h3>Remeno Fentos</h3>
+							<?php
+							$Query = "SELECT * FROM teammembers";
+							$Result = mysqli_query($conn, $Query);
+							if ($Result->num_rows > 0) {
+								$count = 0;
+								while ($DataRows = mysqli_fetch_array($Result)) {
+
+									?>
+									<li>
 										<div>
-											<a href="#"><i class="fa fa-twitter"></i></a>
-											<a href="#"><i class="fa fa-facebook"></i></a>
-											<a href="#"><i class="fa fa-instagram"></i></a>
+											<img src="<?php echo "uploads/teammembers/" . $DataRows['image']; ?>" alt=""
+												class="img-responsive">
+											<div>
+												<span><?php echo $DataRows['designation']; ?></span>
+												<h3><?php echo $DataRows['name']; ?></h3>
+												<div>
+													<a href="<?php echo $DataRows['twitter']; ?>"><i
+															class="fa fa-twitter"></i></a>
+													<a href="<?php echo $DataRows['facebook']; ?>"><i
+															class="fa fa-facebook"></i></a>
+													<a href="<?php echo $DataRows['insta']; ?>"><i
+															class="fa fa-instagram"></i></a>
+												</div>
+											</div>
 										</div>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div>
-									<img src="assets/img/demo/team/02.png" alt="" class="img-responsive">
-									<div>
-										<span>Adjoint Chef</span>
-										<h3>Remeno Fentos</h3>
-										<div>
-											<a href="#"><i class="fa fa-twitter"></i></a>
-											<a href="#"><i class="fa fa-facebook"></i></a>
-											<a href="#"><i class="fa fa-instagram"></i></a>
-										</div>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div>
-									<img src="assets/img/demo/team/03.png" alt="" class="img-responsive">
-									<div>
-										<span>Junior Chef</span>
-										<h3>Remeno Fentos</h3>
-										<div>
-											<a href="#"><i class="fa fa-twitter"></i></a>
-											<a href="#"><i class="fa fa-facebook"></i></a>
-											<a href="#"><i class="fa fa-instagram"></i></a>
-										</div>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div>
-									<img src="assets/img/demo/team/04.png" alt="" class="img-responsive">
-									<div>
-										<span>Adapter</span>
-										<h3>Remeno Fentos</h3>
-										<div>
-											<a href="#"><i class="fa fa-twitter"></i></a>
-											<a href="#"><i class="fa fa-facebook"></i></a>
-											<a href="#"><i class="fa fa-instagram"></i></a>
-										</div>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div>
-									<img src="assets/img/demo/team/01.png" alt="" class="img-responsive">
-									<div>
-										<span>Senior Chef</span>
-										<h3>Remeno Fentos</h3>
-										<div>
-											<a href="#"><i class="fa fa-twitter"></i></a>
-											<a href="#"><i class="fa fa-facebook"></i></a>
-											<a href="#"><i class="fa fa-instagram"></i></a>
-										</div>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div>
-									<img src="assets/img/demo/team/02.png" alt="" class="img-responsive">
-									<div>
-										<span>Adjoint Chef</span>
-										<h3>Remeno Fentos</h3>
-										<div>
-											<a href="#"><i class="fa fa-twitter"></i></a>
-											<a href="#"><i class="fa fa-facebook"></i></a>
-											<a href="#"><i class="fa fa-instagram"></i></a>
-										</div>
-									</div>
-								</div>
-							</li>
+									</li>
+									<?php
+									$count++;
+									if ($count == 4)
+										break;
+								}
+							} else {
+								echo "No Result Found";
+							}
+							?>
 						</ul>
 					</div>
 				</div>
@@ -634,7 +486,6 @@
 									<span class="price">Only $25 <samp>$45</samp></span>
 									<h4>Chicken and Cashews</h4>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien.
 									</p>
 									<a href="#">About More</a>
 								</div>
@@ -651,7 +502,6 @@
 									<span class="price">Only $30 <samp>$60</samp></span>
 									<h4>Dishes and Wings</h4>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien.
 									</p>
 									<a href="#">About More</a>
 								</div>
@@ -668,7 +518,6 @@
 									<span class="price">Only $10 <samp>$20</samp></span>
 									<h4>Crepes and Crape</h4>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien.
 									</p>
 									<a href="#">About More</a>
 								</div>
@@ -685,7 +534,6 @@
 									<span class="price">Only $25 <samp>$50</samp></span>
 									<h4>Chicken and Dishes</h4>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscinit. Vestibulum vel sum ullamcorper, suscipit eros quis, pellentesqsapien. Sed ventis nisl a auris laoreet, at tincidunt lectus volutpat. Etiam semper ligula sollicitudi ante vehicula pellentesqsapien.
 									</p>
 									<a href="#">About More</a>
 								</div>
@@ -731,29 +579,9 @@
 		</section>
 		<!-- End Section Contact -->
 
-		<!-- Section Newsletter -->
-		<section id="newsletter" class="padd-100">
-			<form action="#" method="post">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-4">
-							<h3>Subscribe Newsletter</h3>
-						</div>
-						<div class="col-sm-6">
-							<input type="text" placeholder="Email Address">
-						</div>
-						<div class="col-sm-2">
-							<button type="submit">submit</button>
-						</div>
-					</div>
-				</div>
-			</form>
-		</section>
-		<!-- End Section Newsletter -->
-
 		<!-- Footer -->
 		<?php
-		include("components/footer.php");
+		include ("components/footer.php");
 		?>
 		<!-- End Footer -->
 

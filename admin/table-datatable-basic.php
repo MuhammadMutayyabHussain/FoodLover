@@ -3,9 +3,8 @@
 <html lang="en">
 
 
-<!-- Mirrored from salero.dexignzone.com/xhtml/table-datatable-basic.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Mar 2024 05:38:45 GMT -->
 <head>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="keywords" content="">
 	<meta name="author" content="">
@@ -16,72 +15,72 @@
 	<meta property="og:description" content="Salero:Restaurant Admin Bootstrap 5 Template">
 	<meta property="og:image" content="page-error-404.html">
 	<meta name="format-detection" content="telephone=no">
-	
+
 	<!-- PAGE TITLE HERE -->
 	<title>Salero Restaurant Admin Bootstrap 5 Template</title>
-	
+
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
 	<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
 	<!-- Datatable -->
-    <link href="vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet">
+	<link href="vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet">
 	<link href="vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <!--*******************
-        Preloader start
-    ********************-->
+	<!--*******************
+		Preloader start
+	********************-->
 	<div id="preloader">
 		<div class="loader-wrapper">
 			<div class="loader-box">
 				<div class="icon">
-				  <i class="fas fa-utensils"></i>
+					<i class="fas fa-utensils"></i>
 				</div>
 			</div>
 		</div>
-	</div>	
-    <!--*******************
-        Preloader end
-    ********************-->
+	</div>
+	<!--*******************
+		Preloader end
+	********************-->
 
 
-    <!--**********************************
-        Main wrapper start
-    ***********************************-->
-    <div id="main-wrapper">
+	<!--**********************************
+		Main wrapper start
+	***********************************-->
+	<div id="main-wrapper">
 
 		<!--**********************************
-            Header start
-        ***********************************-->
+			Header start
+		***********************************-->
 		<?php
-		include("components/header.php");
+		include ("components/header.php");
 		?>
-        <!--**********************************
-            Header end ti-comment-alt
-        ***********************************-->
+		<!--**********************************
+			Header end ti-comment-alt
+		***********************************-->
 
-        <!--**********************************
-            Sidebar start
-        ***********************************-->
+		<!--**********************************
+			Sidebar start
+		***********************************-->
 		<?php
-		include("components/sidebar.php");
+		include ("components/sidebar.php");
 		?>
-        <!--**********************************
-            Sidebar end
-        ***********************************-->
+		<!--**********************************
+			Sidebar end
+		***********************************-->
 
-        <!--**********************************
-            Content body start
-        ***********************************-->
-        <div class="content-body">
-            <!-- container starts -->
-            <div class="container">
-				
-                <!-- row -->
+		<!--**********************************
+			Content body start
+		***********************************-->
+		<div class="content-body">
+			<!-- container starts -->
+			<div class="container">
+
+				<!-- row -->
 				<div class="element-area">
 					<div class="demo-view">
 						<div class="container pt-0 ps-0 pe-lg-4 pe-0">
@@ -92,510 +91,518 @@
 										<div class="card-header flex-wrap">
 											<div>
 												<h4 class="card-title">Basic Datatable</h4>
-												<p class="m-0 subtitle">Default datatables. Add <code>datatables</code> class in root</p>
+												<p class="m-0 subtitle">Default datatables. Add <code>datatables</code>
+													class in root</p>
 											</div>
 											<ul class="nav nav-tabs dzm-tabs" id="myTab" role="tablist">
 												<li class="nav-item" role="presentation">
-													<button class="nav-link active " id="home-tab" data-bs-toggle="tab" data-bs-target="#Preview" type="button" role="tab"  aria-selected="true">Preview</button>
+													<button class="nav-link active " id="home-tab" data-bs-toggle="tab"
+														data-bs-target="#Preview" type="button" role="tab"
+														aria-selected="true">Preview</button>
 												</li>
 												<li class="nav-item" role="presentation">
-													<button class="nav-link " id="profile-tab" data-bs-toggle="tab" data-bs-target="#html" type="button" role="tab" aria-controls="html" aria-selected="false">HTML</button>
+													<button class="nav-link " id="profile-tab" data-bs-toggle="tab"
+														data-bs-target="#html" type="button" role="tab"
+														aria-controls="html" aria-selected="false">HTML</button>
 												</li>
 											</ul>
 										</div>
 										<!--tab-content-->
 										<div class="tab-content" id="myTabContent">
-											<div class="tab-pane fade show active" id="Preview" role="tabpanel" aria-labelledby="home-tab">
-											 <div class="card-body pt-0">
-												<div class="table-responsive">
-													<table id="example" class="display table" style="min-width: 845px">
-														<thead>
-															<tr>
-																<th>Name</th>
-																<th>Position</th>
-																<th>Office</th>
-																<th>Age</th>
-																<th>Start date</th>
-																<th>Salary</th>
-															</tr>
-														</thead>
-														<tbody>
-															<tr>
-																<td>Tiger Nixon</td>
-																<td>System Architect</td>
-																<td>Edinburgh</td>
-																<td>61</td>
-																<td>2011/04/25</td>
-																<td>$320,800</td>
-															</tr>
-															<tr>
-																<td>Garrett Winters</td>
-																<td>Accountant</td>
-																<td>Tokyo</td>
-																<td>63</td>
-																<td>2011/07/25</td>
-																<td>$170,750</td>
-															</tr>
-															<tr>
-																<td>Ashton Cox</td>
-																<td>Junior Technical Author</td>
-																<td>San Francisco</td>
-																<td>66</td>
-																<td>2009/01/12</td>
-																<td>$86,000</td>
-															</tr>
-															<tr>
-																<td>Cedric Kelly</td>
-																<td>Senior Javascript Developer</td>
-																<td>Edinburgh</td>
-																<td>22</td>
-																<td>2012/03/29</td>
-																<td>$433,060</td>
-															</tr>
-															<tr>
-																<td>Airi Satou</td>
-																<td>Accountant</td>
-																<td>Tokyo</td>
-																<td>33</td>
-																<td>2008/11/28</td>
-																<td>$162,700</td>
-															</tr>
-															<tr>
-																<td>Brielle Williamson</td>
-																<td>Integration Specialist</td>
-																<td>New York</td>
-																<td>61</td>
-																<td>2012/12/02</td>
-																<td>$372,000</td>
-															</tr>
-															<tr>
-																<td>Herrod Chandler</td>
-																<td>Sales Assistant</td>
-																<td>San Francisco</td>
-																<td>59</td>
-																<td>2012/08/06</td>
-																<td>$137,500</td>
-															</tr>
-															<tr>
-																<td>Rhona Davidson</td>
-																<td>Integration Specialist</td>
-																<td>Tokyo</td>
-																<td>55</td>
-																<td>2010/10/14</td>
-																<td>$327,900</td>
-															</tr>
-															<tr>
-																<td>Colleen Hurst</td>
-																<td>Javascript Developer</td>
-																<td>San Francisco</td>
-																<td>39</td>
-																<td>2009/09/15</td>
-																<td>$205,500</td>
-															</tr>
-															<tr>
-																<td>Sonya Frost</td>
-																<td>Software Engineer</td>
-																<td>Edinburgh</td>
-																<td>23</td>
-																<td>2008/12/13</td>
-																<td>$103,600</td>
-															</tr>
-															<tr>
-																<td>Jena Gaines</td>
-																<td>Office Manager</td>
-																<td>London</td>
-																<td>30</td>
-																<td>2008/12/19</td>
-																<td>$90,560</td>
-															</tr>
-															<tr>
-																<td>Quinn Flynn</td>
-																<td>Support Lead</td>
-																<td>Edinburgh</td>
-																<td>22</td>
-																<td>2013/03/03</td>
-																<td>$342,000</td>
-															</tr>
-															<tr>
-																<td>Charde Marshall</td>
-																<td>Regional Director</td>
-																<td>San Francisco</td>
-																<td>36</td>
-																<td>2008/10/16</td>
-																<td>$470,600</td>
-															</tr>
-															<tr>
-																<td>Haley Kennedy</td>
-																<td>Senior Marketing Designer</td>
-																<td>London</td>
-																<td>43</td>
-																<td>2012/12/18</td>
-																<td>$313,500</td>
-															</tr>
-															<tr>
-																<td>Tatyana Fitzpatrick</td>
-																<td>Regional Director</td>
-																<td>London</td>
-																<td>19</td>
-																<td>2010/03/17</td>
-																<td>$385,750</td>
-															</tr>
-															<tr>
-																<td>Michael Silva</td>
-																<td>Marketing Designer</td>
-																<td>London</td>
-																<td>66</td>
-																<td>2012/11/27</td>
-																<td>$198,500</td>
-															</tr>
-															<tr>
-																<td>Paul Byrd</td>
-																<td>Chief Financial Officer (CFO)</td>
-																<td>New York</td>
-																<td>64</td>
-																<td>2010/06/09</td>
-																<td>$725,000</td>
-															</tr>
-															<tr>
-																<td>Gloria Little</td>
-																<td>Systems Administrator</td>
-																<td>New York</td>
-																<td>59</td>
-																<td>2009/04/10</td>
-																<td>$237,500</td>
-															</tr>
-															<tr>
-																<td>Bradley Greer</td>
-																<td>Software Engineer</td>
-																<td>London</td>
-																<td>41</td>
-																<td>2012/10/13</td>
-																<td>$132,000</td>
-															</tr>
-															<tr>
-																<td>Dai Rios</td>
-																<td>Personnel Lead</td>
-																<td>Edinburgh</td>
-																<td>35</td>
-																<td>2012/09/26</td>
-																<td>$217,500</td>
-															</tr>
-															<tr>
-																<td>Jenette Caldwell</td>
-																<td>Development Lead</td>
-																<td>New York</td>
-																<td>30</td>
-																<td>2011/09/03</td>
-																<td>$345,000</td>
-															</tr>
-															<tr>
-																<td>Yuri Berry</td>
-																<td>Chief Marketing Officer (CMO)</td>
-																<td>New York</td>
-																<td>40</td>
-																<td>2009/06/25</td>
-																<td>$675,000</td>
-															</tr>
-															<tr>
-																<td>Caesar Vance</td>
-																<td>Pre-Sales Support</td>
-																<td>New York</td>
-																<td>21</td>
-																<td>2011/12/12</td>
-																<td>$106,450</td>
-															</tr>
-															<tr>
-																<td>Doris Wilder</td>
-																<td>Sales Assistant</td>
-																<td>Sidney</td>
-																<td>23</td>
-																<td>2010/09/20</td>
-																<td>$85,600</td>
-															</tr>
-															<tr>
-																<td>Angelica Ramos</td>
-																<td>Chief Executive Officer (CEO)</td>
-																<td>London</td>
-																<td>47</td>
-																<td>2009/10/09</td>
-																<td>$1,200,000</td>
-															</tr>
-															<tr>
-																<td>Gavin Joyce</td>
-																<td>Developer</td>
-																<td>Edinburgh</td>
-																<td>42</td>
-																<td>2010/12/22</td>
-																<td>$92,575</td>
-															</tr>
-															<tr>
-																<td>Jennifer Chang</td>
-																<td>Regional Director</td>
-																<td>Singapore</td>
-																<td>28</td>
-																<td>2010/11/14</td>
-																<td>$357,650</td>
-															</tr>
-															<tr>
-																<td>Brenden Wagner</td>
-																<td>Software Engineer</td>
-																<td>San Francisco</td>
-																<td>28</td>
-																<td>2011/06/07</td>
-																<td>$206,850</td>
-															</tr>
-															<tr>
-																<td>Fiona Green</td>
-																<td>Chief Operating Officer (COO)</td>
-																<td>San Francisco</td>
-																<td>48</td>
-																<td>2010/03/11</td>
-																<td>$850,000</td>
-															</tr>
-															<tr>
-																<td>Shou Itou</td>
-																<td>Regional Marketing</td>
-																<td>Tokyo</td>
-																<td>20</td>
-																<td>2011/08/14</td>
-																<td>$163,000</td>
-															</tr>
-															<tr>
-																<td>Michelle House</td>
-																<td>Integration Specialist</td>
-																<td>Sidney</td>
-																<td>37</td>
-																<td>2011/06/02</td>
-																<td>$95,400</td>
-															</tr>
-															<tr>
-																<td>Suki Burks</td>
-																<td>Developer</td>
-																<td>London</td>
-																<td>53</td>
-																<td>2009/10/22</td>
-																<td>$114,500</td>
-															</tr>
-															<tr>
-																<td>Prescott Bartlett</td>
-																<td>Technical Author</td>
-																<td>London</td>
-																<td>27</td>
-																<td>2011/05/07</td>
-																<td>$145,000</td>
-															</tr>
-															<tr>
-																<td>Gavin Cortez</td>
-																<td>Team Leader</td>
-																<td>San Francisco</td>
-																<td>22</td>
-																<td>2008/10/26</td>
-																<td>$235,500</td>
-															</tr>
-															<tr>
-																<td>Martena Mccray</td>
-																<td>Post-Sales support</td>
-																<td>Edinburgh</td>
-																<td>46</td>
-																<td>2011/03/09</td>
-																<td>$324,050</td>
-															</tr>
-															<tr>
-																<td>Unity Butler</td>
-																<td>Marketing Designer</td>
-																<td>San Francisco</td>
-																<td>47</td>
-																<td>2009/12/09</td>
-																<td>$85,675</td>
-															</tr>
-															<tr>
-																<td>Howard Hatfield</td>
-																<td>Office Manager</td>
-																<td>San Francisco</td>
-																<td>51</td>
-																<td>2008/12/16</td>
-																<td>$164,500</td>
-															</tr>
-															<tr>
-																<td>Hope Fuentes</td>
-																<td>Secretary</td>
-																<td>San Francisco</td>
-																<td>41</td>
-																<td>2010/02/12</td>
-																<td>$109,850</td>
-															</tr>
-															<tr>
-																<td>Vivian Harrell</td>
-																<td>Financial Controller</td>
-																<td>San Francisco</td>
-																<td>62</td>
-																<td>2009/02/14</td>
-																<td>$452,500</td>
-															</tr>
-															<tr>
-																<td>Timothy Mooney</td>
-																<td>Office Manager</td>
-																<td>London</td>
-																<td>37</td>
-																<td>2008/12/11</td>
-																<td>$136,200</td>
-															</tr>
-															<tr>
-																<td>Jackson Bradshaw</td>
-																<td>Director</td>
-																<td>New York</td>
-																<td>65</td>
-																<td>2008/09/26</td>
-																<td>$645,750</td>
-															</tr>
-															<tr>
-																<td>Olivia Liang</td>
-																<td>Support Engineer</td>
-																<td>Singapore</td>
-																<td>64</td>
-																<td>2011/02/03</td>
-																<td>$234,500</td>
-															</tr>
-															<tr>
-																<td>Bruno Nash</td>
-																<td>Software Engineer</td>
-																<td>London</td>
-																<td>38</td>
-																<td>2011/05/03</td>
-																<td>$163,500</td>
-															</tr>
-															<tr>
-																<td>Sakura Yamamoto</td>
-																<td>Support Engineer</td>
-																<td>Tokyo</td>
-																<td>37</td>
-																<td>2009/08/19</td>
-																<td>$139,575</td>
-															</tr>
-															<tr>
-																<td>Thor Walton</td>
-																<td>Developer</td>
-																<td>New York</td>
-																<td>61</td>
-																<td>2013/08/11</td>
-																<td>$98,540</td>
-															</tr>
-															<tr>
-																<td>Finn Camacho</td>
-																<td>Support Engineer</td>
-																<td>San Francisco</td>
-																<td>47</td>
-																<td>2009/07/07</td>
-																<td>$87,500</td>
-															</tr>
-															<tr>
-																<td>Serge Baldwin</td>
-																<td>Data Coordinator</td>
-																<td>Singapore</td>
-																<td>64</td>
-																<td>2012/04/09</td>
-																<td>$138,575</td>
-															</tr>
-															<tr>
-																<td>Zenaida Frank</td>
-																<td>Software Engineer</td>
-																<td>New York</td>
-																<td>63</td>
-																<td>2010/01/04</td>
-																<td>$125,250</td>
-															</tr>
-															<tr>
-																<td>Zorita Serrano</td>
-																<td>Software Engineer</td>
-																<td>San Francisco</td>
-																<td>56</td>
-																<td>2012/06/01</td>
-																<td>$115,000</td>
-															</tr>
-															<tr>
-																<td>Jennifer Acosta</td>
-																<td>Junior Javascript Developer</td>
-																<td>Edinburgh</td>
-																<td>43</td>
-																<td>2013/02/01</td>
-																<td>$75,650</td>
-															</tr>
-															<tr>
-																<td>Cara Stevens</td>
-																<td>Sales Assistant</td>
-																<td>New York</td>
-																<td>46</td>
-																<td>2011/12/06</td>
-																<td>$145,600</td>
-															</tr>
-															<tr>
-																<td>Hermione Butler</td>
-																<td>Regional Director</td>
-																<td>London</td>
-																<td>47</td>
-																<td>2011/03/21</td>
-																<td>$356,250</td>
-															</tr>
-															<tr>
-																<td>Lael Greer</td>
-																<td>Systems Administrator</td>
-																<td>London</td>
-																<td>21</td>
-																<td>2009/02/27</td>
-																<td>$103,500</td>
-															</tr>
-															<tr>
-																<td>Jonas Alexander</td>
-																<td>Developer</td>
-																<td>San Francisco</td>
-																<td>30</td>
-																<td>2010/07/14</td>
-																<td>$86,500</td>
-															</tr>
-															<tr>
-																<td>Shad Decker</td>
-																<td>Regional Director</td>
-																<td>Edinburgh</td>
-																<td>51</td>
-																<td>2008/11/13</td>
-																<td>$183,000</td>
-															</tr>
-															<tr>
-																<td>Michael Bruce</td>
-																<td>Javascript Developer</td>
-																<td>Singapore</td>
-																<td>29</td>
-																<td>2011/06/27</td>
-																<td>$183,000</td>
-															</tr>
-															<tr>
-																<td>Donna Snider</td>
-																<td>Customer Support</td>
-																<td>New York</td>
-																<td>27</td>
-																<td>2011/01/25</td>
-																<td>$112,000</td>
-															</tr>
-														</tbody>
-														<tfoot>
-															<tr>
-																<th>Name</th>
-																<th>Position</th>
-																<th>Office</th>
-																<th>Age</th>
-																<th>Start date</th>
-																<th>Salary</th>
-															</tr>
-														</tfoot>
-													</table>
+											<div class="tab-pane fade show active" id="Preview" role="tabpanel"
+												aria-labelledby="home-tab">
+												<div class="card-body pt-0">
+													<div class="table-responsive">
+														<table id="example" class="display table"
+															style="min-width: 845px">
+															<thead>
+																<tr>
+																	<th>Name</th>
+																	<th>Position</th>
+																	<th>Office</th>
+																	<th>Age</th>
+																	<th>Start date</th>
+																	<th>Salary</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>Tiger Nixon</td>
+																	<td>System Architect</td>
+																	<td>Edinburgh</td>
+																	<td>61</td>
+																	<td>2011/04/25</td>
+																	<td>$320,800</td>
+																</tr>
+																<tr>
+																	<td>Garrett Winters</td>
+																	<td>Accountant</td>
+																	<td>Tokyo</td>
+																	<td>63</td>
+																	<td>2011/07/25</td>
+																	<td>$170,750</td>
+																</tr>
+																<tr>
+																	<td>Ashton Cox</td>
+																	<td>Junior Technical Author</td>
+																	<td>San Francisco</td>
+																	<td>66</td>
+																	<td>2009/01/12</td>
+																	<td>$86,000</td>
+																</tr>
+																<tr>
+																	<td>Cedric Kelly</td>
+																	<td>Senior Javascript Developer</td>
+																	<td>Edinburgh</td>
+																	<td>22</td>
+																	<td>2012/03/29</td>
+																	<td>$433,060</td>
+																</tr>
+																<tr>
+																	<td>Airi Satou</td>
+																	<td>Accountant</td>
+																	<td>Tokyo</td>
+																	<td>33</td>
+																	<td>2008/11/28</td>
+																	<td>$162,700</td>
+																</tr>
+																<tr>
+																	<td>Brielle Williamson</td>
+																	<td>Integration Specialist</td>
+																	<td>New York</td>
+																	<td>61</td>
+																	<td>2012/12/02</td>
+																	<td>$372,000</td>
+																</tr>
+																<tr>
+																	<td>Herrod Chandler</td>
+																	<td>Sales Assistant</td>
+																	<td>San Francisco</td>
+																	<td>59</td>
+																	<td>2012/08/06</td>
+																	<td>$137,500</td>
+																</tr>
+																<tr>
+																	<td>Rhona Davidson</td>
+																	<td>Integration Specialist</td>
+																	<td>Tokyo</td>
+																	<td>55</td>
+																	<td>2010/10/14</td>
+																	<td>$327,900</td>
+																</tr>
+																<tr>
+																	<td>Colleen Hurst</td>
+																	<td>Javascript Developer</td>
+																	<td>San Francisco</td>
+																	<td>39</td>
+																	<td>2009/09/15</td>
+																	<td>$205,500</td>
+																</tr>
+																<tr>
+																	<td>Sonya Frost</td>
+																	<td>Software Engineer</td>
+																	<td>Edinburgh</td>
+																	<td>23</td>
+																	<td>2008/12/13</td>
+																	<td>$103,600</td>
+																</tr>
+																<tr>
+																	<td>Jena Gaines</td>
+																	<td>Office Manager</td>
+																	<td>London</td>
+																	<td>30</td>
+																	<td>2008/12/19</td>
+																	<td>$90,560</td>
+																</tr>
+																<tr>
+																	<td>Quinn Flynn</td>
+																	<td>Support Lead</td>
+																	<td>Edinburgh</td>
+																	<td>22</td>
+																	<td>2013/03/03</td>
+																	<td>$342,000</td>
+																</tr>
+																<tr>
+																	<td>Charde Marshall</td>
+																	<td>Regional Director</td>
+																	<td>San Francisco</td>
+																	<td>36</td>
+																	<td>2008/10/16</td>
+																	<td>$470,600</td>
+																</tr>
+																<tr>
+																	<td>Haley Kennedy</td>
+																	<td>Senior Marketing Designer</td>
+																	<td>London</td>
+																	<td>43</td>
+																	<td>2012/12/18</td>
+																	<td>$313,500</td>
+																</tr>
+																<tr>
+																	<td>Tatyana Fitzpatrick</td>
+																	<td>Regional Director</td>
+																	<td>London</td>
+																	<td>19</td>
+																	<td>2010/03/17</td>
+																	<td>$385,750</td>
+																</tr>
+																<tr>
+																	<td>Michael Silva</td>
+																	<td>Marketing Designer</td>
+																	<td>London</td>
+																	<td>66</td>
+																	<td>2012/11/27</td>
+																	<td>$198,500</td>
+																</tr>
+																<tr>
+																	<td>Paul Byrd</td>
+																	<td>Chief Financial Officer (CFO)</td>
+																	<td>New York</td>
+																	<td>64</td>
+																	<td>2010/06/09</td>
+																	<td>$725,000</td>
+																</tr>
+																<tr>
+																	<td>Gloria Little</td>
+																	<td>Systems Administrator</td>
+																	<td>New York</td>
+																	<td>59</td>
+																	<td>2009/04/10</td>
+																	<td>$237,500</td>
+																</tr>
+																<tr>
+																	<td>Bradley Greer</td>
+																	<td>Software Engineer</td>
+																	<td>London</td>
+																	<td>41</td>
+																	<td>2012/10/13</td>
+																	<td>$132,000</td>
+																</tr>
+																<tr>
+																	<td>Dai Rios</td>
+																	<td>Personnel Lead</td>
+																	<td>Edinburgh</td>
+																	<td>35</td>
+																	<td>2012/09/26</td>
+																	<td>$217,500</td>
+																</tr>
+																<tr>
+																	<td>Jenette Caldwell</td>
+																	<td>Development Lead</td>
+																	<td>New York</td>
+																	<td>30</td>
+																	<td>2011/09/03</td>
+																	<td>$345,000</td>
+																</tr>
+																<tr>
+																	<td>Yuri Berry</td>
+																	<td>Chief Marketing Officer (CMO)</td>
+																	<td>New York</td>
+																	<td>40</td>
+																	<td>2009/06/25</td>
+																	<td>$675,000</td>
+																</tr>
+																<tr>
+																	<td>Caesar Vance</td>
+																	<td>Pre-Sales Support</td>
+																	<td>New York</td>
+																	<td>21</td>
+																	<td>2011/12/12</td>
+																	<td>$106,450</td>
+																</tr>
+																<tr>
+																	<td>Doris Wilder</td>
+																	<td>Sales Assistant</td>
+																	<td>Sidney</td>
+																	<td>23</td>
+																	<td>2010/09/20</td>
+																	<td>$85,600</td>
+																</tr>
+																<tr>
+																	<td>Angelica Ramos</td>
+																	<td>Chief Executive Officer (CEO)</td>
+																	<td>London</td>
+																	<td>47</td>
+																	<td>2009/10/09</td>
+																	<td>$1,200,000</td>
+																</tr>
+																<tr>
+																	<td>Gavin Joyce</td>
+																	<td>Developer</td>
+																	<td>Edinburgh</td>
+																	<td>42</td>
+																	<td>2010/12/22</td>
+																	<td>$92,575</td>
+																</tr>
+																<tr>
+																	<td>Jennifer Chang</td>
+																	<td>Regional Director</td>
+																	<td>Singapore</td>
+																	<td>28</td>
+																	<td>2010/11/14</td>
+																	<td>$357,650</td>
+																</tr>
+																<tr>
+																	<td>Brenden Wagner</td>
+																	<td>Software Engineer</td>
+																	<td>San Francisco</td>
+																	<td>28</td>
+																	<td>2011/06/07</td>
+																	<td>$206,850</td>
+																</tr>
+																<tr>
+																	<td>Fiona Green</td>
+																	<td>Chief Operating Officer (COO)</td>
+																	<td>San Francisco</td>
+																	<td>48</td>
+																	<td>2010/03/11</td>
+																	<td>$850,000</td>
+																</tr>
+																<tr>
+																	<td>Shou Itou</td>
+																	<td>Regional Marketing</td>
+																	<td>Tokyo</td>
+																	<td>20</td>
+																	<td>2011/08/14</td>
+																	<td>$163,000</td>
+																</tr>
+																<tr>
+																	<td>Michelle House</td>
+																	<td>Integration Specialist</td>
+																	<td>Sidney</td>
+																	<td>37</td>
+																	<td>2011/06/02</td>
+																	<td>$95,400</td>
+																</tr>
+																<tr>
+																	<td>Suki Burks</td>
+																	<td>Developer</td>
+																	<td>London</td>
+																	<td>53</td>
+																	<td>2009/10/22</td>
+																	<td>$114,500</td>
+																</tr>
+																<tr>
+																	<td>Prescott Bartlett</td>
+																	<td>Technical Author</td>
+																	<td>London</td>
+																	<td>27</td>
+																	<td>2011/05/07</td>
+																	<td>$145,000</td>
+																</tr>
+																<tr>
+																	<td>Gavin Cortez</td>
+																	<td>Team Leader</td>
+																	<td>San Francisco</td>
+																	<td>22</td>
+																	<td>2008/10/26</td>
+																	<td>$235,500</td>
+																</tr>
+																<tr>
+																	<td>Martena Mccray</td>
+																	<td>Post-Sales support</td>
+																	<td>Edinburgh</td>
+																	<td>46</td>
+																	<td>2011/03/09</td>
+																	<td>$324,050</td>
+																</tr>
+																<tr>
+																	<td>Unity Butler</td>
+																	<td>Marketing Designer</td>
+																	<td>San Francisco</td>
+																	<td>47</td>
+																	<td>2009/12/09</td>
+																	<td>$85,675</td>
+																</tr>
+																<tr>
+																	<td>Howard Hatfield</td>
+																	<td>Office Manager</td>
+																	<td>San Francisco</td>
+																	<td>51</td>
+																	<td>2008/12/16</td>
+																	<td>$164,500</td>
+																</tr>
+																<tr>
+																	<td>Hope Fuentes</td>
+																	<td>Secretary</td>
+																	<td>San Francisco</td>
+																	<td>41</td>
+																	<td>2010/02/12</td>
+																	<td>$109,850</td>
+																</tr>
+																<tr>
+																	<td>Vivian Harrell</td>
+																	<td>Financial Controller</td>
+																	<td>San Francisco</td>
+																	<td>62</td>
+																	<td>2009/02/14</td>
+																	<td>$452,500</td>
+																</tr>
+																<tr>
+																	<td>Timothy Mooney</td>
+																	<td>Office Manager</td>
+																	<td>London</td>
+																	<td>37</td>
+																	<td>2008/12/11</td>
+																	<td>$136,200</td>
+																</tr>
+																<tr>
+																	<td>Jackson Bradshaw</td>
+																	<td>Director</td>
+																	<td>New York</td>
+																	<td>65</td>
+																	<td>2008/09/26</td>
+																	<td>$645,750</td>
+																</tr>
+																<tr>
+																	<td>Olivia Liang</td>
+																	<td>Support Engineer</td>
+																	<td>Singapore</td>
+																	<td>64</td>
+																	<td>2011/02/03</td>
+																	<td>$234,500</td>
+																</tr>
+																<tr>
+																	<td>Bruno Nash</td>
+																	<td>Software Engineer</td>
+																	<td>London</td>
+																	<td>38</td>
+																	<td>2011/05/03</td>
+																	<td>$163,500</td>
+																</tr>
+																<tr>
+																	<td>Sakura Yamamoto</td>
+																	<td>Support Engineer</td>
+																	<td>Tokyo</td>
+																	<td>37</td>
+																	<td>2009/08/19</td>
+																	<td>$139,575</td>
+																</tr>
+																<tr>
+																	<td>Thor Walton</td>
+																	<td>Developer</td>
+																	<td>New York</td>
+																	<td>61</td>
+																	<td>2013/08/11</td>
+																	<td>$98,540</td>
+																</tr>
+																<tr>
+																	<td>Finn Camacho</td>
+																	<td>Support Engineer</td>
+																	<td>San Francisco</td>
+																	<td>47</td>
+																	<td>2009/07/07</td>
+																	<td>$87,500</td>
+																</tr>
+																<tr>
+																	<td>Serge Baldwin</td>
+																	<td>Data Coordinator</td>
+																	<td>Singapore</td>
+																	<td>64</td>
+																	<td>2012/04/09</td>
+																	<td>$138,575</td>
+																</tr>
+																<tr>
+																	<td>Zenaida Frank</td>
+																	<td>Software Engineer</td>
+																	<td>New York</td>
+																	<td>63</td>
+																	<td>2010/01/04</td>
+																	<td>$125,250</td>
+																</tr>
+																<tr>
+																	<td>Zorita Serrano</td>
+																	<td>Software Engineer</td>
+																	<td>San Francisco</td>
+																	<td>56</td>
+																	<td>2012/06/01</td>
+																	<td>$115,000</td>
+																</tr>
+																<tr>
+																	<td>Jennifer Acosta</td>
+																	<td>Junior Javascript Developer</td>
+																	<td>Edinburgh</td>
+																	<td>43</td>
+																	<td>2013/02/01</td>
+																	<td>$75,650</td>
+																</tr>
+																<tr>
+																	<td>Cara Stevens</td>
+																	<td>Sales Assistant</td>
+																	<td>New York</td>
+																	<td>46</td>
+																	<td>2011/12/06</td>
+																	<td>$145,600</td>
+																</tr>
+																<tr>
+																	<td>Hermione Butler</td>
+																	<td>Regional Director</td>
+																	<td>London</td>
+																	<td>47</td>
+																	<td>2011/03/21</td>
+																	<td>$356,250</td>
+																</tr>
+																<tr>
+																	<td>Lael Greer</td>
+																	<td>Systems Administrator</td>
+																	<td>London</td>
+																	<td>21</td>
+																	<td>2009/02/27</td>
+																	<td>$103,500</td>
+																</tr>
+																<tr>
+																	<td>Jonas Alexander</td>
+																	<td>Developer</td>
+																	<td>San Francisco</td>
+																	<td>30</td>
+																	<td>2010/07/14</td>
+																	<td>$86,500</td>
+																</tr>
+																<tr>
+																	<td>Shad Decker</td>
+																	<td>Regional Director</td>
+																	<td>Edinburgh</td>
+																	<td>51</td>
+																	<td>2008/11/13</td>
+																	<td>$183,000</td>
+																</tr>
+																<tr>
+																	<td>Michael Bruce</td>
+																	<td>Javascript Developer</td>
+																	<td>Singapore</td>
+																	<td>29</td>
+																	<td>2011/06/27</td>
+																	<td>$183,000</td>
+																</tr>
+																<tr>
+																	<td>Donna Snider</td>
+																	<td>Customer Support</td>
+																	<td>New York</td>
+																	<td>27</td>
+																	<td>2011/01/25</td>
+																	<td>$112,000</td>
+																</tr>
+															</tbody>
+															<tfoot>
+																<tr>
+																	<th>Name</th>
+																	<th>Position</th>
+																	<th>Office</th>
+																	<th>Age</th>
+																	<th>Start date</th>
+																	<th>Salary</th>
+																</tr>
+															</tfoot>
+														</table>
+													</div>
 												</div>
+												<!-- /Default accordion -->
 											</div>
-												<!-- /Default accordion -->	
-											</div>
-											<div class="tab-pane fade " id="html" role="tabpanel" aria-labelledby="home-tab">
+											<div class="tab-pane fade " id="html" role="tabpanel"
+												aria-labelledby="home-tab">
 												<div class="card-body pt-0 p-0 code-area">
-<!-- Default accordion -->
-<pre class="mb-0"><code class="language-html">
+													<!-- Default accordion -->
+													<pre class="mb-0"><code class="language-html">
  &lt;div class="table-responsive"&gt;
 	&lt;table id="example" class="display table" style="min-width: 845px"&gt;
 		&lt;thead&gt;
@@ -1079,524 +1086,532 @@
 	&lt;/table&gt;
 &lt;/div&gt;
 </code></pre>
-</div>
-<!-- /Default accordion -->	
-											</div>	
+												</div>
+												<!-- /Default accordion -->
+											</div>
 										</div>
 										<!--/tab-content-->
 									</div>
 								</div>
 							</div>
-						<!-- Column ends -->
-						<!-- Column starts -->
-						<div class="col-xl-12">
-							<div class="card dz-card" id="accordion-two">
-								<div class="card-header flex-wrap d-flex justify-content-between">
-									<div>
-										<h4 class="card-title">Datatable</h4>
-										<p class="m-0 subtitle">datatables with border. Add class <code>datatables-bordered</code> with the class <code> datatables</code></p>
+							<!-- Column ends -->
+							<!-- Column starts -->
+							<div class="col-xl-12">
+								<div class="card dz-card" id="accordion-two">
+									<div class="card-header flex-wrap d-flex justify-content-between">
+										<div>
+											<h4 class="card-title">Datatable</h4>
+											<p class="m-0 subtitle">datatables with border. Add class
+												<code>datatables-bordered</code> with the class <code> datatables</code>
+											</p>
+										</div>
+										<ul class="nav nav-tabs dzm-tabs" id="myTab-1" role="tablist">
+											<li class="nav-item" role="presentation">
+												<button class="nav-link active " id="home-tab-1" data-bs-toggle="tab"
+													data-bs-target="#bordered" type="button" role="tab"
+													aria-selected="true">Preview</button>
+											</li>
+											<li class="nav-item" role="presentation">
+												<button class="nav-link " id="profile-tab-1" data-bs-toggle="tab"
+													data-bs-target="#bordered-html" type="button" role="tab"
+													aria-selected="false">HTML</button>
+											</li>
+										</ul>
 									</div>
-									<ul class="nav nav-tabs dzm-tabs" id="myTab-1" role="tablist">
-										<li class="nav-item" role="presentation">
-											<button class="nav-link active " id="home-tab-1" data-bs-toggle="tab" data-bs-target="#bordered" type="button" role="tab" aria-selected="true">Preview</button>
-										</li>
-										<li class="nav-item" role="presentation">
-											<button class="nav-link " id="profile-tab-1" data-bs-toggle="tab" data-bs-target="#bordered-html" type="button" role="tab"  aria-selected="false">HTML</button>
-										</li>
-									</ul>
-								</div>
-								
+
 									<!-- tab-content -->
-								<div class="tab-content" id="myTabContent-1">
-									<div class="tab-pane fade show active" id="bordered" role="tabpanel" aria-labelledby="home-tab-1">
-										<div class="card-body">
-                                <div class="table-responsive">
-                                    <table id="example2" class="display" style="width:100%">
-                                        <thead>
-                                            <tr>
-                                                <th>Name</th>
-                                                <th>Position</th>
-                                                <th>Office</th>
-                                                <th>Age</th>
-                                                <th>Start date</th>
-                                                <th>Salary</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Tiger Nixon</td>
-                                                <td>System Architect</td>
-                                                <td>Edinburgh</td>
-                                                <td>61</td>
-                                                <td>2011/04/25</td>
-                                                <td>$320,800</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Garrett Winters</td>
-                                                <td>Accountant</td>
-                                                <td>Tokyo</td>
-                                                <td>63</td>
-                                                <td>2011/07/25</td>
-                                                <td>$170,750</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Ashton Cox</td>
-                                                <td>Junior Technical Author</td>
-                                                <td>San Francisco</td>
-                                                <td>66</td>
-                                                <td>2009/01/12</td>
-                                                <td>$86,000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Cedric Kelly</td>
-                                                <td>Senior Javascript Developer</td>
-                                                <td>Edinburgh</td>
-                                                <td>22</td>
-                                                <td>2012/03/29</td>
-                                                <td>$433,060</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Airi Satou</td>
-                                                <td>Accountant</td>
-                                                <td>Tokyo</td>
-                                                <td>33</td>
-                                                <td>2008/11/28</td>
-                                                <td>$162,700</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Brielle Williamson</td>
-                                                <td>Integration Specialist</td>
-                                                <td>New York</td>
-                                                <td>61</td>
-                                                <td>2012/12/02</td>
-                                                <td>$372,000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Herrod Chandler</td>
-                                                <td>Sales Assistant</td>
-                                                <td>San Francisco</td>
-                                                <td>59</td>
-                                                <td>2012/08/06</td>
-                                                <td>$137,500</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Rhona Davidson</td>
-                                                <td>Integration Specialist</td>
-                                                <td>Tokyo</td>
-                                                <td>55</td>
-                                                <td>2010/10/14</td>
-                                                <td>$327,900</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Colleen Hurst</td>
-                                                <td>Javascript Developer</td>
-                                                <td>San Francisco</td>
-                                                <td>39</td>
-                                                <td>2009/09/15</td>
-                                                <td>$205,500</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Sonya Frost</td>
-                                                <td>Software Engineer</td>
-                                                <td>Edinburgh</td>
-                                                <td>23</td>
-                                                <td>2008/12/13</td>
-                                                <td>$103,600</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Jena Gaines</td>
-                                                <td>Office Manager</td>
-                                                <td>London</td>
-                                                <td>30</td>
-                                                <td>2008/12/19</td>
-                                                <td>$90,560</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Quinn Flynn</td>
-                                                <td>Support Lead</td>
-                                                <td>Edinburgh</td>
-                                                <td>22</td>
-                                                <td>2013/03/03</td>
-                                                <td>$342,000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Charde Marshall</td>
-                                                <td>Regional Director</td>
-                                                <td>San Francisco</td>
-                                                <td>36</td>
-                                                <td>2008/10/16</td>
-                                                <td>$470,600</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Haley Kennedy</td>
-                                                <td>Senior Marketing Designer</td>
-                                                <td>London</td>
-                                                <td>43</td>
-                                                <td>2012/12/18</td>
-                                                <td>$313,500</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tatyana Fitzpatrick</td>
-                                                <td>Regional Director</td>
-                                                <td>London</td>
-                                                <td>19</td>
-                                                <td>2010/03/17</td>
-                                                <td>$385,750</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Michael Silva</td>
-                                                <td>Marketing Designer</td>
-                                                <td>London</td>
-                                                <td>66</td>
-                                                <td>2012/11/27</td>
-                                                <td>$198,500</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Paul Byrd</td>
-                                                <td>Chief Financial Officer (CFO)</td>
-                                                <td>New York</td>
-                                                <td>64</td>
-                                                <td>2010/06/09</td>
-                                                <td>$725,000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Gloria Little</td>
-                                                <td>Systems Administrator</td>
-                                                <td>New York</td>
-                                                <td>59</td>
-                                                <td>2009/04/10</td>
-                                                <td>$237,500</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Bradley Greer</td>
-                                                <td>Software Engineer</td>
-                                                <td>London</td>
-                                                <td>41</td>
-                                                <td>2012/10/13</td>
-                                                <td>$132,000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Dai Rios</td>
-                                                <td>Personnel Lead</td>
-                                                <td>Edinburgh</td>
-                                                <td>35</td>
-                                                <td>2012/09/26</td>
-                                                <td>$217,500</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Jenette Caldwell</td>
-                                                <td>Development Lead</td>
-                                                <td>New York</td>
-                                                <td>30</td>
-                                                <td>2011/09/03</td>
-                                                <td>$345,000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Yuri Berry</td>
-                                                <td>Chief Marketing Officer (CMO)</td>
-                                                <td>New York</td>
-                                                <td>40</td>
-                                                <td>2009/06/25</td>
-                                                <td>$675,000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Caesar Vance</td>
-                                                <td>Pre-Sales Support</td>
-                                                <td>New York</td>
-                                                <td>21</td>
-                                                <td>2011/12/12</td>
-                                                <td>$106,450</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Doris Wilder</td>
-                                                <td>Sales Assistant</td>
-                                                <td>Sidney</td>
-                                                <td>23</td>
-                                                <td>2010/09/20</td>
-                                                <td>$85,600</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Angelica Ramos</td>
-                                                <td>Chief Executive Officer (CEO)</td>
-                                                <td>London</td>
-                                                <td>47</td>
-                                                <td>2009/10/09</td>
-                                                <td>$1,200,000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Gavin Joyce</td>
-                                                <td>Developer</td>
-                                                <td>Edinburgh</td>
-                                                <td>42</td>
-                                                <td>2010/12/22</td>
-                                                <td>$92,575</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Jennifer Chang</td>
-                                                <td>Regional Director</td>
-                                                <td>Singapore</td>
-                                                <td>28</td>
-                                                <td>2010/11/14</td>
-                                                <td>$357,650</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Brenden Wagner</td>
-                                                <td>Software Engineer</td>
-                                                <td>San Francisco</td>
-                                                <td>28</td>
-                                                <td>2011/06/07</td>
-                                                <td>$206,850</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Fiona Green</td>
-                                                <td>Chief Operating Officer (COO)</td>
-                                                <td>San Francisco</td>
-                                                <td>48</td>
-                                                <td>2010/03/11</td>
-                                                <td>$850,000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Shou Itou</td>
-                                                <td>Regional Marketing</td>
-                                                <td>Tokyo</td>
-                                                <td>20</td>
-                                                <td>2011/08/14</td>
-                                                <td>$163,000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Michelle House</td>
-                                                <td>Integration Specialist</td>
-                                                <td>Sidney</td>
-                                                <td>37</td>
-                                                <td>2011/06/02</td>
-                                                <td>$95,400</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Suki Burks</td>
-                                                <td>Developer</td>
-                                                <td>London</td>
-                                                <td>53</td>
-                                                <td>2009/10/22</td>
-                                                <td>$114,500</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Prescott Bartlett</td>
-                                                <td>Technical Author</td>
-                                                <td>London</td>
-                                                <td>27</td>
-                                                <td>2011/05/07</td>
-                                                <td>$145,000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Gavin Cortez</td>
-                                                <td>Team Leader</td>
-                                                <td>San Francisco</td>
-                                                <td>22</td>
-                                                <td>2008/10/26</td>
-                                                <td>$235,500</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Martena Mccray</td>
-                                                <td>Post-Sales support</td>
-                                                <td>Edinburgh</td>
-                                                <td>46</td>
-                                                <td>2011/03/09</td>
-                                                <td>$324,050</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Unity Butler</td>
-                                                <td>Marketing Designer</td>
-                                                <td>San Francisco</td>
-                                                <td>47</td>
-                                                <td>2009/12/09</td>
-                                                <td>$85,675</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Howard Hatfield</td>
-                                                <td>Office Manager</td>
-                                                <td>San Francisco</td>
-                                                <td>51</td>
-                                                <td>2008/12/16</td>
-                                                <td>$164,500</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Hope Fuentes</td>
-                                                <td>Secretary</td>
-                                                <td>San Francisco</td>
-                                                <td>41</td>
-                                                <td>2010/02/12</td>
-                                                <td>$109,850</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Vivian Harrell</td>
-                                                <td>Financial Controller</td>
-                                                <td>San Francisco</td>
-                                                <td>62</td>
-                                                <td>2009/02/14</td>
-                                                <td>$452,500</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Timothy Mooney</td>
-                                                <td>Office Manager</td>
-                                                <td>London</td>
-                                                <td>37</td>
-                                                <td>2008/12/11</td>
-                                                <td>$136,200</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Jackson Bradshaw</td>
-                                                <td>Director</td>
-                                                <td>New York</td>
-                                                <td>65</td>
-                                                <td>2008/09/26</td>
-                                                <td>$645,750</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Olivia Liang</td>
-                                                <td>Support Engineer</td>
-                                                <td>Singapore</td>
-                                                <td>64</td>
-                                                <td>2011/02/03</td>
-                                                <td>$234,500</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Bruno Nash</td>
-                                                <td>Software Engineer</td>
-                                                <td>London</td>
-                                                <td>38</td>
-                                                <td>2011/05/03</td>
-                                                <td>$163,500</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Sakura Yamamoto</td>
-                                                <td>Support Engineer</td>
-                                                <td>Tokyo</td>
-                                                <td>37</td>
-                                                <td>2009/08/19</td>
-                                                <td>$139,575</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Thor Walton</td>
-                                                <td>Developer</td>
-                                                <td>New York</td>
-                                                <td>61</td>
-                                                <td>2013/08/11</td>
-                                                <td>$98,540</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Finn Camacho</td>
-                                                <td>Support Engineer</td>
-                                                <td>San Francisco</td>
-                                                <td>47</td>
-                                                <td>2009/07/07</td>
-                                                <td>$87,500</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Serge Baldwin</td>
-                                                <td>Data Coordinator</td>
-                                                <td>Singapore</td>
-                                                <td>64</td>
-                                                <td>2012/04/09</td>
-                                                <td>$138,575</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Zenaida Frank</td>
-                                                <td>Software Engineer</td>
-                                                <td>New York</td>
-                                                <td>63</td>
-                                                <td>2010/01/04</td>
-                                                <td>$125,250</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Zorita Serrano</td>
-                                                <td>Software Engineer</td>
-                                                <td>San Francisco</td>
-                                                <td>56</td>
-                                                <td>2012/06/01</td>
-                                                <td>$115,000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Jennifer Acosta</td>
-                                                <td>Junior Javascript Developer</td>
-                                                <td>Edinburgh</td>
-                                                <td>43</td>
-                                                <td>2013/02/01</td>
-                                                <td>$75,650</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Cara Stevens</td>
-                                                <td>Sales Assistant</td>
-                                                <td>New York</td>
-                                                <td>46</td>
-                                                <td>2011/12/06</td>
-                                                <td>$145,600</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Hermione Butler</td>
-                                                <td>Regional Director</td>
-                                                <td>London</td>
-                                                <td>47</td>
-                                                <td>2011/03/21</td>
-                                                <td>$356,250</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Lael Greer</td>
-                                                <td>Systems Administrator</td>
-                                                <td>London</td>
-                                                <td>21</td>
-                                                <td>2009/02/27</td>
-                                                <td>$103,500</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Jonas Alexander</td>
-                                                <td>Developer</td>
-                                                <td>San Francisco</td>
-                                                <td>30</td>
-                                                <td>2010/07/14</td>
-                                                <td>$86,500</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Shad Decker</td>
-                                                <td>Regional Director</td>
-                                                <td>Edinburgh</td>
-                                                <td>51</td>
-                                                <td>2008/11/13</td>
-                                                <td>$183,000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Michael Bruce</td>
-                                                <td>Javascript Developer</td>
-                                                <td>Singapore</td>
-                                                <td>29</td>
-                                                <td>2011/06/27</td>
-                                                <td>$183,000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Donna Snider</td>
-                                                <td>Customer Support</td>
-                                                <td>New York</td>
-                                                <td>27</td>
-                                                <td>2011/01/25</td>
-                                                <td>$112,000</td>
-                                            </tr>
-                                        </tbody>
-                                        <tfoot>
-                                            <tr>
-                                                <th>Name</th>
-                                                <th>Position</th>
-                                                <th>Office</th>
-                                                <th>Age</th>
-                                                <th>Start date</th>
-                                                <th>Salary</th>
-                                            </tr>
-                                        </tfoot>
-                                    </table>
-                                </div>
-                            </div>
-									</div>
-									<div class="tab-pane fade " id="bordered-html" role="tabpanel" aria-labelledby="home-tab-1">
-										<div class="card-body pt-0 p-0 code-area">		
-<pre class="mb-0"><code class="language-html">
+									<div class="tab-content" id="myTabContent-1">
+										<div class="tab-pane fade show active" id="bordered" role="tabpanel"
+											aria-labelledby="home-tab-1">
+											<div class="card-body">
+												<div class="table-responsive">
+													<table id="example2" class="display" style="width:100%">
+														<thead>
+															<tr>
+																<th>Name</th>
+																<th>Position</th>
+																<th>Office</th>
+																<th>Age</th>
+																<th>Start date</th>
+																<th>Salary</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>Tiger Nixon</td>
+																<td>System Architect</td>
+																<td>Edinburgh</td>
+																<td>61</td>
+																<td>2011/04/25</td>
+																<td>$320,800</td>
+															</tr>
+															<tr>
+																<td>Garrett Winters</td>
+																<td>Accountant</td>
+																<td>Tokyo</td>
+																<td>63</td>
+																<td>2011/07/25</td>
+																<td>$170,750</td>
+															</tr>
+															<tr>
+																<td>Ashton Cox</td>
+																<td>Junior Technical Author</td>
+																<td>San Francisco</td>
+																<td>66</td>
+																<td>2009/01/12</td>
+																<td>$86,000</td>
+															</tr>
+															<tr>
+																<td>Cedric Kelly</td>
+																<td>Senior Javascript Developer</td>
+																<td>Edinburgh</td>
+																<td>22</td>
+																<td>2012/03/29</td>
+																<td>$433,060</td>
+															</tr>
+															<tr>
+																<td>Airi Satou</td>
+																<td>Accountant</td>
+																<td>Tokyo</td>
+																<td>33</td>
+																<td>2008/11/28</td>
+																<td>$162,700</td>
+															</tr>
+															<tr>
+																<td>Brielle Williamson</td>
+																<td>Integration Specialist</td>
+																<td>New York</td>
+																<td>61</td>
+																<td>2012/12/02</td>
+																<td>$372,000</td>
+															</tr>
+															<tr>
+																<td>Herrod Chandler</td>
+																<td>Sales Assistant</td>
+																<td>San Francisco</td>
+																<td>59</td>
+																<td>2012/08/06</td>
+																<td>$137,500</td>
+															</tr>
+															<tr>
+																<td>Rhona Davidson</td>
+																<td>Integration Specialist</td>
+																<td>Tokyo</td>
+																<td>55</td>
+																<td>2010/10/14</td>
+																<td>$327,900</td>
+															</tr>
+															<tr>
+																<td>Colleen Hurst</td>
+																<td>Javascript Developer</td>
+																<td>San Francisco</td>
+																<td>39</td>
+																<td>2009/09/15</td>
+																<td>$205,500</td>
+															</tr>
+															<tr>
+																<td>Sonya Frost</td>
+																<td>Software Engineer</td>
+																<td>Edinburgh</td>
+																<td>23</td>
+																<td>2008/12/13</td>
+																<td>$103,600</td>
+															</tr>
+															<tr>
+																<td>Jena Gaines</td>
+																<td>Office Manager</td>
+																<td>London</td>
+																<td>30</td>
+																<td>2008/12/19</td>
+																<td>$90,560</td>
+															</tr>
+															<tr>
+																<td>Quinn Flynn</td>
+																<td>Support Lead</td>
+																<td>Edinburgh</td>
+																<td>22</td>
+																<td>2013/03/03</td>
+																<td>$342,000</td>
+															</tr>
+															<tr>
+																<td>Charde Marshall</td>
+																<td>Regional Director</td>
+																<td>San Francisco</td>
+																<td>36</td>
+																<td>2008/10/16</td>
+																<td>$470,600</td>
+															</tr>
+															<tr>
+																<td>Haley Kennedy</td>
+																<td>Senior Marketing Designer</td>
+																<td>London</td>
+																<td>43</td>
+																<td>2012/12/18</td>
+																<td>$313,500</td>
+															</tr>
+															<tr>
+																<td>Tatyana Fitzpatrick</td>
+																<td>Regional Director</td>
+																<td>London</td>
+																<td>19</td>
+																<td>2010/03/17</td>
+																<td>$385,750</td>
+															</tr>
+															<tr>
+																<td>Michael Silva</td>
+																<td>Marketing Designer</td>
+																<td>London</td>
+																<td>66</td>
+																<td>2012/11/27</td>
+																<td>$198,500</td>
+															</tr>
+															<tr>
+																<td>Paul Byrd</td>
+																<td>Chief Financial Officer (CFO)</td>
+																<td>New York</td>
+																<td>64</td>
+																<td>2010/06/09</td>
+																<td>$725,000</td>
+															</tr>
+															<tr>
+																<td>Gloria Little</td>
+																<td>Systems Administrator</td>
+																<td>New York</td>
+																<td>59</td>
+																<td>2009/04/10</td>
+																<td>$237,500</td>
+															</tr>
+															<tr>
+																<td>Bradley Greer</td>
+																<td>Software Engineer</td>
+																<td>London</td>
+																<td>41</td>
+																<td>2012/10/13</td>
+																<td>$132,000</td>
+															</tr>
+															<tr>
+																<td>Dai Rios</td>
+																<td>Personnel Lead</td>
+																<td>Edinburgh</td>
+																<td>35</td>
+																<td>2012/09/26</td>
+																<td>$217,500</td>
+															</tr>
+															<tr>
+																<td>Jenette Caldwell</td>
+																<td>Development Lead</td>
+																<td>New York</td>
+																<td>30</td>
+																<td>2011/09/03</td>
+																<td>$345,000</td>
+															</tr>
+															<tr>
+																<td>Yuri Berry</td>
+																<td>Chief Marketing Officer (CMO)</td>
+																<td>New York</td>
+																<td>40</td>
+																<td>2009/06/25</td>
+																<td>$675,000</td>
+															</tr>
+															<tr>
+																<td>Caesar Vance</td>
+																<td>Pre-Sales Support</td>
+																<td>New York</td>
+																<td>21</td>
+																<td>2011/12/12</td>
+																<td>$106,450</td>
+															</tr>
+															<tr>
+																<td>Doris Wilder</td>
+																<td>Sales Assistant</td>
+																<td>Sidney</td>
+																<td>23</td>
+																<td>2010/09/20</td>
+																<td>$85,600</td>
+															</tr>
+															<tr>
+																<td>Angelica Ramos</td>
+																<td>Chief Executive Officer (CEO)</td>
+																<td>London</td>
+																<td>47</td>
+																<td>2009/10/09</td>
+																<td>$1,200,000</td>
+															</tr>
+															<tr>
+																<td>Gavin Joyce</td>
+																<td>Developer</td>
+																<td>Edinburgh</td>
+																<td>42</td>
+																<td>2010/12/22</td>
+																<td>$92,575</td>
+															</tr>
+															<tr>
+																<td>Jennifer Chang</td>
+																<td>Regional Director</td>
+																<td>Singapore</td>
+																<td>28</td>
+																<td>2010/11/14</td>
+																<td>$357,650</td>
+															</tr>
+															<tr>
+																<td>Brenden Wagner</td>
+																<td>Software Engineer</td>
+																<td>San Francisco</td>
+																<td>28</td>
+																<td>2011/06/07</td>
+																<td>$206,850</td>
+															</tr>
+															<tr>
+																<td>Fiona Green</td>
+																<td>Chief Operating Officer (COO)</td>
+																<td>San Francisco</td>
+																<td>48</td>
+																<td>2010/03/11</td>
+																<td>$850,000</td>
+															</tr>
+															<tr>
+																<td>Shou Itou</td>
+																<td>Regional Marketing</td>
+																<td>Tokyo</td>
+																<td>20</td>
+																<td>2011/08/14</td>
+																<td>$163,000</td>
+															</tr>
+															<tr>
+																<td>Michelle House</td>
+																<td>Integration Specialist</td>
+																<td>Sidney</td>
+																<td>37</td>
+																<td>2011/06/02</td>
+																<td>$95,400</td>
+															</tr>
+															<tr>
+																<td>Suki Burks</td>
+																<td>Developer</td>
+																<td>London</td>
+																<td>53</td>
+																<td>2009/10/22</td>
+																<td>$114,500</td>
+															</tr>
+															<tr>
+																<td>Prescott Bartlett</td>
+																<td>Technical Author</td>
+																<td>London</td>
+																<td>27</td>
+																<td>2011/05/07</td>
+																<td>$145,000</td>
+															</tr>
+															<tr>
+																<td>Gavin Cortez</td>
+																<td>Team Leader</td>
+																<td>San Francisco</td>
+																<td>22</td>
+																<td>2008/10/26</td>
+																<td>$235,500</td>
+															</tr>
+															<tr>
+																<td>Martena Mccray</td>
+																<td>Post-Sales support</td>
+																<td>Edinburgh</td>
+																<td>46</td>
+																<td>2011/03/09</td>
+																<td>$324,050</td>
+															</tr>
+															<tr>
+																<td>Unity Butler</td>
+																<td>Marketing Designer</td>
+																<td>San Francisco</td>
+																<td>47</td>
+																<td>2009/12/09</td>
+																<td>$85,675</td>
+															</tr>
+															<tr>
+																<td>Howard Hatfield</td>
+																<td>Office Manager</td>
+																<td>San Francisco</td>
+																<td>51</td>
+																<td>2008/12/16</td>
+																<td>$164,500</td>
+															</tr>
+															<tr>
+																<td>Hope Fuentes</td>
+																<td>Secretary</td>
+																<td>San Francisco</td>
+																<td>41</td>
+																<td>2010/02/12</td>
+																<td>$109,850</td>
+															</tr>
+															<tr>
+																<td>Vivian Harrell</td>
+																<td>Financial Controller</td>
+																<td>San Francisco</td>
+																<td>62</td>
+																<td>2009/02/14</td>
+																<td>$452,500</td>
+															</tr>
+															<tr>
+																<td>Timothy Mooney</td>
+																<td>Office Manager</td>
+																<td>London</td>
+																<td>37</td>
+																<td>2008/12/11</td>
+																<td>$136,200</td>
+															</tr>
+															<tr>
+																<td>Jackson Bradshaw</td>
+																<td>Director</td>
+																<td>New York</td>
+																<td>65</td>
+																<td>2008/09/26</td>
+																<td>$645,750</td>
+															</tr>
+															<tr>
+																<td>Olivia Liang</td>
+																<td>Support Engineer</td>
+																<td>Singapore</td>
+																<td>64</td>
+																<td>2011/02/03</td>
+																<td>$234,500</td>
+															</tr>
+															<tr>
+																<td>Bruno Nash</td>
+																<td>Software Engineer</td>
+																<td>London</td>
+																<td>38</td>
+																<td>2011/05/03</td>
+																<td>$163,500</td>
+															</tr>
+															<tr>
+																<td>Sakura Yamamoto</td>
+																<td>Support Engineer</td>
+																<td>Tokyo</td>
+																<td>37</td>
+																<td>2009/08/19</td>
+																<td>$139,575</td>
+															</tr>
+															<tr>
+																<td>Thor Walton</td>
+																<td>Developer</td>
+																<td>New York</td>
+																<td>61</td>
+																<td>2013/08/11</td>
+																<td>$98,540</td>
+															</tr>
+															<tr>
+																<td>Finn Camacho</td>
+																<td>Support Engineer</td>
+																<td>San Francisco</td>
+																<td>47</td>
+																<td>2009/07/07</td>
+																<td>$87,500</td>
+															</tr>
+															<tr>
+																<td>Serge Baldwin</td>
+																<td>Data Coordinator</td>
+																<td>Singapore</td>
+																<td>64</td>
+																<td>2012/04/09</td>
+																<td>$138,575</td>
+															</tr>
+															<tr>
+																<td>Zenaida Frank</td>
+																<td>Software Engineer</td>
+																<td>New York</td>
+																<td>63</td>
+																<td>2010/01/04</td>
+																<td>$125,250</td>
+															</tr>
+															<tr>
+																<td>Zorita Serrano</td>
+																<td>Software Engineer</td>
+																<td>San Francisco</td>
+																<td>56</td>
+																<td>2012/06/01</td>
+																<td>$115,000</td>
+															</tr>
+															<tr>
+																<td>Jennifer Acosta</td>
+																<td>Junior Javascript Developer</td>
+																<td>Edinburgh</td>
+																<td>43</td>
+																<td>2013/02/01</td>
+																<td>$75,650</td>
+															</tr>
+															<tr>
+																<td>Cara Stevens</td>
+																<td>Sales Assistant</td>
+																<td>New York</td>
+																<td>46</td>
+																<td>2011/12/06</td>
+																<td>$145,600</td>
+															</tr>
+															<tr>
+																<td>Hermione Butler</td>
+																<td>Regional Director</td>
+																<td>London</td>
+																<td>47</td>
+																<td>2011/03/21</td>
+																<td>$356,250</td>
+															</tr>
+															<tr>
+																<td>Lael Greer</td>
+																<td>Systems Administrator</td>
+																<td>London</td>
+																<td>21</td>
+																<td>2009/02/27</td>
+																<td>$103,500</td>
+															</tr>
+															<tr>
+																<td>Jonas Alexander</td>
+																<td>Developer</td>
+																<td>San Francisco</td>
+																<td>30</td>
+																<td>2010/07/14</td>
+																<td>$86,500</td>
+															</tr>
+															<tr>
+																<td>Shad Decker</td>
+																<td>Regional Director</td>
+																<td>Edinburgh</td>
+																<td>51</td>
+																<td>2008/11/13</td>
+																<td>$183,000</td>
+															</tr>
+															<tr>
+																<td>Michael Bruce</td>
+																<td>Javascript Developer</td>
+																<td>Singapore</td>
+																<td>29</td>
+																<td>2011/06/27</td>
+																<td>$183,000</td>
+															</tr>
+															<tr>
+																<td>Donna Snider</td>
+																<td>Customer Support</td>
+																<td>New York</td>
+																<td>27</td>
+																<td>2011/01/25</td>
+																<td>$112,000</td>
+															</tr>
+														</tbody>
+														<tfoot>
+															<tr>
+																<th>Name</th>
+																<th>Position</th>
+																<th>Office</th>
+																<th>Age</th>
+																<th>Start date</th>
+																<th>Salary</th>
+															</tr>
+														</tfoot>
+													</table>
+												</div>
+											</div>
+										</div>
+										<div class="tab-pane fade " id="bordered-html" role="tabpanel"
+											aria-labelledby="home-tab-1">
+											<div class="card-body pt-0 p-0 code-area">
+												<pre class="mb-0"><code class="language-html">
  &lt;div class="table-responsive"&gt;
 &lt;table id="example2" class="display" style="width:100%"&gt;
 	&lt;thead&gt;
@@ -2080,36 +2095,42 @@
 &lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;</code></pre>
-									</div>		
+											</div>
+										</div>
 									</div>
+									<!-- /tab-content -->
+
 								</div>
-								<!-- /tab-content -->	
-								
 							</div>
-						</div>
-						<!-- Column ends -->
-						<!-- Column starts -->
-						<div class="col-xl-12">
-							<div class="card dz-card" id="accordion-three">
-								<div class="card-header flex-wrap d-flex justify-content-between">
-									<div>
-									<h4 class="card-title">Profile Datatable</h4>
-									<p class="m-0 subtitle">Add <code>profile</code> class with <code>datatables</code></p>
+							<!-- Column ends -->
+							<!-- Column starts -->
+							<div class="col-xl-12">
+								<div class="card dz-card" id="accordion-three">
+									<div class="card-header flex-wrap d-flex justify-content-between">
+										<div>
+											<h4 class="card-title">Profile Datatable</h4>
+											<p class="m-0 subtitle">Add <code>profile</code> class with
+												<code>datatables</code></p>
+										</div>
+										<ul class="nav nav-tabs dzm-tabs" id="myTab-2" role="tablist">
+											<li class="nav-item" role="presentation">
+												<button class="nav-link active " id="home-tab-2" data-bs-toggle="tab"
+													data-bs-target="#withoutSpace" type="button" role="tab"
+													aria-selected="true">Preview</button>
+											</li>
+											<li class="nav-item" role="presentation">
+												<button class="nav-link " id="profile-tab-2" data-bs-toggle="tab"
+													data-bs-target="#withoutSpace-html" type="button" role="tab"
+													aria-selected="false">HTML</button>
+											</li>
+										</ul>
 									</div>
-									<ul class="nav nav-tabs dzm-tabs" id="myTab-2" role="tablist">
-										<li class="nav-item" role="presentation">
-											<button class="nav-link active " id="home-tab-2" data-bs-toggle="tab" data-bs-target="#withoutSpace" type="button" role="tab" aria-selected="true">Preview</button>
-										</li>
-										<li class="nav-item" role="presentation">
-											<button class="nav-link " id="profile-tab-2" data-bs-toggle="tab" data-bs-target="#withoutSpace-html" type="button" role="tab"  aria-selected="false">HTML</button>
-										</li>
-									</ul>
-								</div>
-							   
-									<!-- /tab-content -->	
+
+									<!-- /tab-content -->
 									<div class="tab-content" id="myTabContent-2">
-										<div class="tab-pane fade show active" id="withoutSpace" role="tabpanel" aria-labelledby="home-tab-2">
-											 <div class="card-body pt-0">
+										<div class="tab-pane fade show active" id="withoutSpace" role="tabpanel"
+											aria-labelledby="home-tab-2">
+											<div class="card-body pt-0">
 												<div class="table-responsive">
 													<table id="example3" class="display table" style="min-width: 845px">
 														<thead>
@@ -2127,482 +2148,725 @@
 														</thead>
 														<tbody>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic1.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic1.jpg" alt=""></td>
 																<td>Tiger Nixon</td>
 																<td>Architect</td>
 																<td>Male</td>
 																<td>M.COM., P.H.D.</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2011/04/25</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
-																	</div>												
-																</td>												
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
+																	</div>
+																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic2.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic2.jpg" alt=""></td>
 																<td>Garrett Winters</td>
 																<td>Accountant</td>
 																<td>Female</td>
 																<td>M.COM., P.H.D.</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2011/07/25</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic3.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic3.jpg" alt=""></td>
 																<td>Ashton Cox</td>
 																<td>Junior Technical</td>
 																<td>Male</td>
 																<td>B.COM., M.COM.</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2009/01/12</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic4.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic4.jpg" alt=""></td>
 																<td>Cedric Kelly</td>
 																<td>Developer</td>
 																<td>Male</td>
 																<td>B.COM., M.COM.</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2012/03/29</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic5.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic5.jpg" alt=""></td>
 																<td>Airi Satou</td>
 																<td>Accountant</td>
 																<td>Female</td>
 																<td>B.A, B.C.A</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2008/11/28</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic6.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic6.jpg" alt=""></td>
 																<td>Brielle Williamson</td>
 																<td>Specialist</td>
 																<td>Male</td>
 																<td>B.COM., M.COM.</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2012/12/02</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic7.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic7.jpg" alt=""></td>
 																<td>Herrod Chandler</td>
 																<td>Sales Assistant</td>
 																<td>Female</td>
 																<td>B.A, B.C.A</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2012/08/06</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic8.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic8.jpg" alt=""></td>
 																<td>Rhona Davidson</td>
 																<td>Integration</td>
 																<td>Male</td>
 																<td>B.TACH, M.TACH</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2010/10/14</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic9.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic9.jpg" alt=""></td>
 																<td>Colleen Hurst</td>
 																<td>Javascript Developer</td>
 																<td>Female</td>
 																<td>B.A, B.C.A</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2009/09/15</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic10.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic10.jpg" alt="">
+																</td>
 																<td>Sonya Frost</td>
 																<td>Software Engineer</td>
 																<td>Male</td>
 																<td>B.COM., M.COM.</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2008/12/13</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic1.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic1.jpg" alt=""></td>
 																<td>Jena Gaines</td>
 																<td>Office Manager</td>
 																<td>Female</td>
 																<td>B.TACH, M.TACH</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2008/12/19</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic2.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic2.jpg" alt=""></td>
 																<td>Quinn Flynn</td>
 																<td>Support Lead</td>
 																<td>Male</td>
 																<td>B.TACH, M.TACH</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2013/03/03</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic3.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic3.jpg" alt=""></td>
 																<td>Charde Marshall</td>
 																<td>Regional Director</td>
 																<td>Female</td>
 																<td>B.A, B.C.A</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2008/10/16</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic4.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic4.jpg" alt=""></td>
 																<td>Haley Kennedy</td>
 																<td>Senior Marketing</td>
 																<td>Male</td>
 																<td>B.COM., M.COM.</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2012/12/18</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic5.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic5.jpg" alt=""></td>
 																<td>Tatyana Fitzpatrick</td>
 																<td>Regional Director</td>
 																<td>Male</td>
 																<td>B.TACH, M.TACH</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2010/03/17</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic6.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic6.jpg" alt=""></td>
 																<td>Michael Silva</td>
 																<td>Marketing Designer</td>
 																<td>Female</td>
 																<td>B.A, B.C.A</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2012/11/27</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic7.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic7.jpg" alt=""></td>
 																<td>Paul Byrd</td>
 																<td>Financial Officer</td>
 																<td>Male</td>
 																<td>B.TACH, M.TACH</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2010/06/09</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic8.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic8.jpg" alt=""></td>
 																<td>Gloria Little</td>
 																<td>Systems Administrator</td>
 																<td>Female</td>
 																<td>B.A, B.C.A</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2009/04/10</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic9.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic9.jpg" alt=""></td>
 																<td>Bradley Greer</td>
 																<td>Software Engineer</td>
 																<td>Male</td>
 																<td>B.COM., M.COM.</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2012/10/13</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic10.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic10.jpg" alt="">
+																</td>
 																<td>Dai Rios</td>
 																<td>Personnel Lead</td>
 																<td>Male</td>
 																<td>B.TACH, M.TACH</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2012/09/26</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic1.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic1.jpg" alt=""></td>
 																<td>Jenette Caldwell</td>
 																<td>Development Lead</td>
 																<td>Female</td>
 																<td>B.A, B.C.A</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2011/09/03</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic2.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic2.jpg" alt=""></td>
 																<td>Yuri Berry</td>
 																<td>Marketing Officer</td>
 																<td>Male</td>
 																<td>B.TACH, M.TACH</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2009/06/25</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic3.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic3.jpg" alt=""></td>
 																<td>Caesar Vance</td>
 																<td>Pre-Sales Support</td>
 																<td>Male</td>
 																<td>B.TACH, M.TACH</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2011/12/12</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic4.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic4.jpg" alt=""></td>
 																<td>Doris Wilder</td>
 																<td>Sales Assistant</td>
 																<td>Female</td>
 																<td>B.A, B.C.A</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2010/09/20</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic5.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic5.jpg" alt=""></td>
 																<td>Angelica Ramos</td>
 																<td>Executive Officer</td>
 																<td>Male</td>
 																<td>B.COM., M.COM.</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2009/10/09</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic6.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic6.jpg" alt=""></td>
 																<td>Gavin Joyce</td>
 																<td>Developer</td>
 																<td>Female</td>
 																<td>B.TACH, M.TACH</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2010/12/22</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic7.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic7.jpg" alt=""></td>
 																<td>Jennifer Chang</td>
 																<td>Regional Director</td>
 																<td>Male</td>
 																<td>B.A, B.C.A</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2010/11/14</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic8.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic8.jpg" alt=""></td>
 																<td>Brenden Wagner</td>
 																<td>Software Engineer</td>
 																<td>Female</td>
 																<td>B.TACH, M.TACH</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2011/06/07</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic9.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic9.jpg" alt=""></td>
 																<td>Fiona Green</td>
 																<td>Operating Officer</td>
 																<td>Male</td>
 																<td>B.A, B.C.A</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2010/03/11</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
 															<tr>
-																<td><img class="rounded-circle" width="35" src="images/profile/small/pic10.jpg" alt=""></td>
+																<td><img class="rounded-circle" width="35"
+																		src="images/profile/small/pic10.jpg" alt="">
+																</td>
 																<td>Shou Itou</td>
 																<td>Regional Marketing</td>
 																<td>Female</td>
 																<td>B.COM., M.COM.</td>
-																<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-																<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
+																<td><a href="javascript:void(0);"><strong>123 456
+																			7890</strong></a></td>
+																<td><a
+																		href="javascript:void(0);"><strong>info@example.com</strong></a>
+																</td>
 																<td>2011/08/14</td>
 																<td>
 																	<div class="d-flex">
-																		<a href="#" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-																		<a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+																		<a href="#"
+																			class="btn btn-primary shadow btn-xs sharp me-1"><i
+																				class="fas fa-pencil-alt"></i></a>
+																		<a href="#"
+																			class="btn btn-danger shadow btn-xs sharp"><i
+																				class="fa fa-trash"></i></a>
 																	</div>
 																</td>
 															</tr>
@@ -2611,9 +2875,10 @@
 												</div>
 											</div>
 										</div>
-										<div class="tab-pane fade " id="withoutSpace-html" role="tabpanel" aria-labelledby="home-tab-2">
-											<div class="card-body pt-0 p-0 code-area">	
-	<pre class="mb-0"><code class="language-html">&lt;div class="table-responsive"&gt;
+										<div class="tab-pane fade " id="withoutSpace-html" role="tabpanel"
+											aria-labelledby="home-tab-2">
+											<div class="card-body pt-0 p-0 code-area">
+												<pre class="mb-0"><code class="language-html">&lt;div class="table-responsive"&gt;
 &lt;table id="example3" class="display table" style="min-width: 845px"&gt;
 &lt;thead&gt;
 	&lt;tr&gt;
@@ -3111,359 +3376,406 @@
 	&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;/div&gt;</code></pre></div>
-										</div>
-									</div>
-									<!-- /tab-content -->		
-							   
-							</div>
-						</div>
-                    <!-- Column ends -->
-					<!-- Column starts -->
-                    <div class="col-xl-12">
-                        <div class="card dz-card" id="accordion-four">
-                            <div class="card-header flex-wrap d-flex justify-content-between">
-								<div>
-									<h4 class="card-title">Fees Collection</h4>
-									<p class="m-0 subtitle">Add <code>fees</code> class with <code>datatables</code></p>
-								</div>
-								<ul class="nav nav-tabs dzm-tabs" id="myTab-3" role="tablist">
-									<li class="nav-item" role="presentation">
-										<button class="nav-link active " id="home-tab-3" data-bs-toggle="tab" data-bs-target="#withoutBorder" type="button" role="tab"  aria-selected="true">Preview</button>
-									</li>
-									<li class="nav-item" role="presentation">
-										<button class="nav-link " id="profile-tab-3" data-bs-toggle="tab" data-bs-target="#withoutBorder-html" type="button" role="tab"  aria-selected="false">HTML</button>
-									</li>
-								</ul>	
-							</div>
-                           
-                               	<!-- /tab-content -->	
-								<div class="tab-content" id="myTabContent-3">
-									<div class="tab-pane fade show active" id="withoutBorder" role="tabpanel" aria-labelledby="home-tab-3">
-										<div class="card-body pt-0">
-											<div class="table-responsive">
-												<table id="example4" class="display table" style="min-width: 845px">
-													<thead>
-														<tr>
-															<th>Roll No</th>
-															<th>Student Name</th>
-															<th>Invoice number</th>
-															<th>Fees Type </th>
-															<th>Payment Type </th>
-															<th>Status </th>
-															<th>Date</th>
-															<th>Amount</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>
-															<td>01</td>
-															<td>Tiger Nixon</td>
-															<td>#54605</td>
-															<td>Library</td>
-															<td>Cash</td>
-															<td><span class="badge light badge-success">Paid</span></td>
-															<td>2011/04/25</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>02</td>
-															<td>Garrett Winters</td>
-															<td>#54687</td>
-															<td>Library</td>
-															<td>Credit Card</td>
-															<td><span class="badge light badge-warning">Panding</span></td>
-															<td>2011/07/25</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>03</td>
-															<td>Ashton Cox</td>
-															<td>#35672</td>
-															<td>Tuition</td>
-															<td>Cash</td>
-															<td><span class="badge light badge-success">Paid</span></td>
-															<td>2009/01/12</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>04</td>
-															<td>Cedric Kelly</td>
-															<td>#57984</td>
-															<td>Annual</td>
-															<td>Credit Card</td>
-															<td><span class="badge light badge-warning">Panding</span></td>
-															<td>2012/03/29</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>05</td>
-															<td>Airi Satou</td>
-															<td>#12453</td>
-															<td>Library</td>
-															<td>Cheque</td>
-															<td><span class="badge light badge-warning">Panding</span></td>
-															<td>2008/11/28</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>06</td>
-															<td>Brielle Williamson</td>
-															<td>#59723</td>
-															<td>Tuition</td>
-															<td>Cash</td>
-															<td><span class="badge light badge-success">Paid</span></td>
-															<td>2012/12/02</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>07</td>
-															<td>Herrod Chandler</td>
-															<td>#98726</td>
-															<td>Tuition</td>
-															<td>Credit Card</td>
-															<td><span class="badge light badge-danger">Udpaid</span></td>
-															<td>2012/08/06</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>08</td>
-															<td>Rhona Davidson</td>
-															<td>#98721</td>
-															<td>Library</td>
-															<td>Cheque</td>
-															<td><span class="badge light badge-danger">Udpaid</span></td>
-															<td>2010/10/14</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>09</td>
-															<td>Colleen Hurst</td>
-															<td>#54605</td>
-															<td>Annual</td>
-															<td>Cheque</td>
-															<td><span class="badge light badge-success">Paid</span></td>
-															<td>2009/09/15</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>10</td>
-															<td>Sonya Frost</td>
-															<td>#98734</td>
-															<td>Tuition</td>
-															<td>Credit Card</td>
-															<td><span class="badge light badge-danger">Udpaid</span></td>
-															<td>2008/12/13</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>11</td>
-															<td>Jena Gaines</td>
-															<td>#12457</td>
-															<td>Tuition</td>
-															<td>Cash</td>
-															<td><span class="badge light badge-danger">Udpaid</span></td>
-															<td>2008/12/19</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>12</td>
-															<td>Quinn Flynn</td>
-															<td>#36987</td>
-															<td>Library</td>
-															<td>Cheque</td>
-															<td><span class="badge light badge-warning">Panding</span></td>
-															<td>2013/03/03</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>13</td>
-															<td>Charde Marshall</td>
-															<td>#98756</td>
-															<td>Tuition</td>
-															<td>Cheque</td>
-															<td><span class="badge light badge-success">Paid</span></td>
-															<td>2008/10/16</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>14</td>
-															<td>Haley Kennedy</td>
-															<td>#98754</td>
-															<td>Library</td>
-															<td>Cash</td>
-															<td><span class="badge light badge-danger">Udpaid</span></td>
-															<td>2012/12/18</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>15</td>
-															<td>Tatyana Fitzpatrick</td>
-															<td>#65248</td>
-															<td>Annual</td>
-															<td>Cheque</td>
-															<td><span class="badge light badge-danger">Udpaid</span></td>
-															<td>2010/03/17</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>16</td>
-															<td>Michael Silva</td>
-															<td>#75943</td>
-															<td>Tuition</td>
-															<td>Credit Card</td>
-															<td><span class="badge light badge-success">Paid</span></td>
-															<td>2012/11/27</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>17</td>
-															<td>Paul Byrd</td>
-															<td>#87954</td>
-															<td>Library</td>
-															<td>Cheque</td>
-															<td><span class="badge light badge-warning">Panding</span></td>
-															<td>2010/06/09</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>18</td>
-															<td>Gloria Little</td>
-															<td>#98746</td>
-															<td>Tuition</td>
-															<td>Cheque</td>
-															<td><span class="badge light badge-success">Paid</span></td>
-															<td>2009/04/10</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>19</td>
-															<td>Bradley Greer</td>
-															<td>#98674</td>
-															<td>Annual</td>
-															<td>Cash</td>
-															<td><span class="badge light badge-danger">Udpaid</span></td>
-															<td>2012/10/13</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>20</td>
-															<td>Dai Rios</td>
-															<td>#69875</td>
-															<td>Tuition</td>
-															<td>Cheque</td>
-															<td><span class="badge light badge-warning">Panding</span></td>
-															<td>2012/09/26</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>21</td>
-															<td>Jenette Caldwell</td>
-															<td>#54678</td>
-															<td>Library</td>
-															<td>Cheque</td>
-															<td><span class="badge light badge-success">Paid</span></td>
-															<td>2011/09/03</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>22</td>
-															<td>Yuri Berry</td>
-															<td>#98756</td>
-															<td>Tuition</td>
-															<td>Credit Card</td>
-															<td><span class="badge light badge-danger">Udpaid</span></td>
-															<td>2009/06/25</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>23</td>
-															<td>Caesar Vance</td>
-															<td>#86754</td>
-															<td>Tuition</td>
-															<td>Cheque</td>
-															<td><span class="badge light badge-success">Paid</span></td>
-															<td>2011/12/12</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>24</td>
-															<td>Doris Wilder</td>
-															<td>#34251</td>
-															<td>Annual</td>
-															<td>Cash</td>
-															<td><span class="badge light badge-warning">Panding</span></td>
-															<td>2010/09/20</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>25</td>
-															<td>Angelica Ramos</td>
-															<td>#65874</td>
-															<td>Tuition</td>
-															<td>Cheque</td>
-															<td><span class="badge light badge-danger">Udpaid</span></td>
-															<td>2009/10/09</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>26</td>
-															<td>Gavin Joyce</td>
-															<td>#54605</td>
-															<td>Female</td>
-															<td>Credit Card</td>
-															<td><span class="badge light badge-success">Paid</span></td>
-															<td>2010/12/22</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>27</td>
-															<td>Jennifer Chang</td>
-															<td>#54605</td>
-															<td>Tuition</td>
-															<td>Cheque</td>
-															<td><span class="badge light badge-warning">Panding</span></td>
-															<td>2010/11/14</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>28</td>
-															<td>Brenden Wagner</td>
-															<td>#45687</td>
-															<td>Library</td>
-															<td>Cheque</td>
-															<td><span class="badge light badge-danger">Udpaid</span></td>
-															<td>2011/06/07</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>29</td>
-															<td>Fiona Green</td>
-															<td>#23456</td>
-															<td>Tuition</td>
-															<td>Cash</td>
-															<td><span class="badge light badge-success">Paid</span></td>
-															<td>2010/03/11</td>
-															<td><strong>120$</strong></td>
-														</tr>
-														<tr>
-															<td>30</td>
-															<td>Shou Itou</td>
-															<td>#54605</td>
-															<td>Annual</td>
-															<td>Credit Card</td>
-															<td><span class="badge light badge-warning">Panding</span></td>
-															<td>2011/08/14</td>
-															<td><strong>120$</strong></td>
-														</tr>
-													</tbody>
-												</table>
+&lt;/div&gt;</code></pre>
 											</div>
 										</div>
 									</div>
-									<div class="tab-pane fade " id="withoutBorder-html" role="tabpanel" aria-labelledby="home-tab-3">
-										<div class="card-body pt-0 p-0 code-area">
-<pre class="mb-0"><code class="language-html">&lt;div class="table-responsive"&gt;
+									<!-- /tab-content -->
+
+								</div>
+							</div>
+							<!-- Column ends -->
+							<!-- Column starts -->
+							<div class="col-xl-12">
+								<div class="card dz-card" id="accordion-four">
+									<div class="card-header flex-wrap d-flex justify-content-between">
+										<div>
+											<h4 class="card-title">Fees Collection</h4>
+											<p class="m-0 subtitle">Add <code>fees</code> class with
+												<code>datatables</code></p>
+										</div>
+										<ul class="nav nav-tabs dzm-tabs" id="myTab-3" role="tablist">
+											<li class="nav-item" role="presentation">
+												<button class="nav-link active " id="home-tab-3" data-bs-toggle="tab"
+													data-bs-target="#withoutBorder" type="button" role="tab"
+													aria-selected="true">Preview</button>
+											</li>
+											<li class="nav-item" role="presentation">
+												<button class="nav-link " id="profile-tab-3" data-bs-toggle="tab"
+													data-bs-target="#withoutBorder-html" type="button" role="tab"
+													aria-selected="false">HTML</button>
+											</li>
+										</ul>
+									</div>
+
+									<!-- /tab-content -->
+									<div class="tab-content" id="myTabContent-3">
+										<div class="tab-pane fade show active" id="withoutBorder" role="tabpanel"
+											aria-labelledby="home-tab-3">
+											<div class="card-body pt-0">
+												<div class="table-responsive">
+													<table id="example4" class="display table" style="min-width: 845px">
+														<thead>
+															<tr>
+																<th>Roll No</th>
+																<th>Student Name</th>
+																<th>Invoice number</th>
+																<th>Fees Type </th>
+																<th>Payment Type </th>
+																<th>Status </th>
+																<th>Date</th>
+																<th>Amount</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>01</td>
+																<td>Tiger Nixon</td>
+																<td>#54605</td>
+																<td>Library</td>
+																<td>Cash</td>
+																<td><span class="badge light badge-success">Paid</span>
+																</td>
+																<td>2011/04/25</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>02</td>
+																<td>Garrett Winters</td>
+																<td>#54687</td>
+																<td>Library</td>
+																<td>Credit Card</td>
+																<td><span
+																		class="badge light badge-warning">Panding</span>
+																</td>
+																<td>2011/07/25</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>03</td>
+																<td>Ashton Cox</td>
+																<td>#35672</td>
+																<td>Tuition</td>
+																<td>Cash</td>
+																<td><span class="badge light badge-success">Paid</span>
+																</td>
+																<td>2009/01/12</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>04</td>
+																<td>Cedric Kelly</td>
+																<td>#57984</td>
+																<td>Annual</td>
+																<td>Credit Card</td>
+																<td><span
+																		class="badge light badge-warning">Panding</span>
+																</td>
+																<td>2012/03/29</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>05</td>
+																<td>Airi Satou</td>
+																<td>#12453</td>
+																<td>Library</td>
+																<td>Cheque</td>
+																<td><span
+																		class="badge light badge-warning">Panding</span>
+																</td>
+																<td>2008/11/28</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>06</td>
+																<td>Brielle Williamson</td>
+																<td>#59723</td>
+																<td>Tuition</td>
+																<td>Cash</td>
+																<td><span class="badge light badge-success">Paid</span>
+																</td>
+																<td>2012/12/02</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>07</td>
+																<td>Herrod Chandler</td>
+																<td>#98726</td>
+																<td>Tuition</td>
+																<td>Credit Card</td>
+																<td><span class="badge light badge-danger">Udpaid</span>
+																</td>
+																<td>2012/08/06</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>08</td>
+																<td>Rhona Davidson</td>
+																<td>#98721</td>
+																<td>Library</td>
+																<td>Cheque</td>
+																<td><span class="badge light badge-danger">Udpaid</span>
+																</td>
+																<td>2010/10/14</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>09</td>
+																<td>Colleen Hurst</td>
+																<td>#54605</td>
+																<td>Annual</td>
+																<td>Cheque</td>
+																<td><span class="badge light badge-success">Paid</span>
+																</td>
+																<td>2009/09/15</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>10</td>
+																<td>Sonya Frost</td>
+																<td>#98734</td>
+																<td>Tuition</td>
+																<td>Credit Card</td>
+																<td><span class="badge light badge-danger">Udpaid</span>
+																</td>
+																<td>2008/12/13</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>11</td>
+																<td>Jena Gaines</td>
+																<td>#12457</td>
+																<td>Tuition</td>
+																<td>Cash</td>
+																<td><span class="badge light badge-danger">Udpaid</span>
+																</td>
+																<td>2008/12/19</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>12</td>
+																<td>Quinn Flynn</td>
+																<td>#36987</td>
+																<td>Library</td>
+																<td>Cheque</td>
+																<td><span
+																		class="badge light badge-warning">Panding</span>
+																</td>
+																<td>2013/03/03</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>13</td>
+																<td>Charde Marshall</td>
+																<td>#98756</td>
+																<td>Tuition</td>
+																<td>Cheque</td>
+																<td><span class="badge light badge-success">Paid</span>
+																</td>
+																<td>2008/10/16</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>14</td>
+																<td>Haley Kennedy</td>
+																<td>#98754</td>
+																<td>Library</td>
+																<td>Cash</td>
+																<td><span class="badge light badge-danger">Udpaid</span>
+																</td>
+																<td>2012/12/18</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>15</td>
+																<td>Tatyana Fitzpatrick</td>
+																<td>#65248</td>
+																<td>Annual</td>
+																<td>Cheque</td>
+																<td><span class="badge light badge-danger">Udpaid</span>
+																</td>
+																<td>2010/03/17</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>16</td>
+																<td>Michael Silva</td>
+																<td>#75943</td>
+																<td>Tuition</td>
+																<td>Credit Card</td>
+																<td><span class="badge light badge-success">Paid</span>
+																</td>
+																<td>2012/11/27</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>17</td>
+																<td>Paul Byrd</td>
+																<td>#87954</td>
+																<td>Library</td>
+																<td>Cheque</td>
+																<td><span
+																		class="badge light badge-warning">Panding</span>
+																</td>
+																<td>2010/06/09</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>18</td>
+																<td>Gloria Little</td>
+																<td>#98746</td>
+																<td>Tuition</td>
+																<td>Cheque</td>
+																<td><span class="badge light badge-success">Paid</span>
+																</td>
+																<td>2009/04/10</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>19</td>
+																<td>Bradley Greer</td>
+																<td>#98674</td>
+																<td>Annual</td>
+																<td>Cash</td>
+																<td><span class="badge light badge-danger">Udpaid</span>
+																</td>
+																<td>2012/10/13</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>20</td>
+																<td>Dai Rios</td>
+																<td>#69875</td>
+																<td>Tuition</td>
+																<td>Cheque</td>
+																<td><span
+																		class="badge light badge-warning">Panding</span>
+																</td>
+																<td>2012/09/26</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>21</td>
+																<td>Jenette Caldwell</td>
+																<td>#54678</td>
+																<td>Library</td>
+																<td>Cheque</td>
+																<td><span class="badge light badge-success">Paid</span>
+																</td>
+																<td>2011/09/03</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>22</td>
+																<td>Yuri Berry</td>
+																<td>#98756</td>
+																<td>Tuition</td>
+																<td>Credit Card</td>
+																<td><span class="badge light badge-danger">Udpaid</span>
+																</td>
+																<td>2009/06/25</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>23</td>
+																<td>Caesar Vance</td>
+																<td>#86754</td>
+																<td>Tuition</td>
+																<td>Cheque</td>
+																<td><span class="badge light badge-success">Paid</span>
+																</td>
+																<td>2011/12/12</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>24</td>
+																<td>Doris Wilder</td>
+																<td>#34251</td>
+																<td>Annual</td>
+																<td>Cash</td>
+																<td><span
+																		class="badge light badge-warning">Panding</span>
+																</td>
+																<td>2010/09/20</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>25</td>
+																<td>Angelica Ramos</td>
+																<td>#65874</td>
+																<td>Tuition</td>
+																<td>Cheque</td>
+																<td><span class="badge light badge-danger">Udpaid</span>
+																</td>
+																<td>2009/10/09</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>26</td>
+																<td>Gavin Joyce</td>
+																<td>#54605</td>
+																<td>Female</td>
+																<td>Credit Card</td>
+																<td><span class="badge light badge-success">Paid</span>
+																</td>
+																<td>2010/12/22</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>27</td>
+																<td>Jennifer Chang</td>
+																<td>#54605</td>
+																<td>Tuition</td>
+																<td>Cheque</td>
+																<td><span
+																		class="badge light badge-warning">Panding</span>
+																</td>
+																<td>2010/11/14</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>28</td>
+																<td>Brenden Wagner</td>
+																<td>#45687</td>
+																<td>Library</td>
+																<td>Cheque</td>
+																<td><span class="badge light badge-danger">Udpaid</span>
+																</td>
+																<td>2011/06/07</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>29</td>
+																<td>Fiona Green</td>
+																<td>#23456</td>
+																<td>Tuition</td>
+																<td>Cash</td>
+																<td><span class="badge light badge-success">Paid</span>
+																</td>
+																<td>2010/03/11</td>
+																<td><strong>120$</strong></td>
+															</tr>
+															<tr>
+																<td>30</td>
+																<td>Shou Itou</td>
+																<td>#54605</td>
+																<td>Annual</td>
+																<td>Credit Card</td>
+																<td><span
+																		class="badge light badge-warning">Panding</span>
+																</td>
+																<td>2011/08/14</td>
+																<td><strong>120$</strong></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+										<div class="tab-pane fade " id="withoutBorder-html" role="tabpanel"
+											aria-labelledby="home-tab-3">
+											<div class="card-body pt-0 p-0 code-area">
+												<pre class="mb-0"><code class="language-html">&lt;div class="table-responsive"&gt;
 	&lt;table id="example4" class="display table" style="min-width: 845px"&gt;
 		&lt;thead&gt;
 			&lt;tr&gt;
@@ -3781,705 +4093,1075 @@
 		&lt;/tbody&gt;
 	&lt;/table&gt;
 &lt;/div&gt;</code></pre>
-								</div>
+											</div>
+										</div>
 									</div>
+									<!-- /tab-content -->
+
 								</div>
-							<!-- /tab-content -->	
-                            
-                        </div>
-                    </div>
-                    <!-- Column ends -->
-					<!-- Column starts -->
-                    <div class="col-xl-12">
-                        <div class="card dz-card" id="accordion-five">
-                            <div class="card-header flex-wrap d-flex justify-content-between">
-								<div>
-                                	<h4 class="card-title">Patient</h4>
-                                	<p class="m-0 subtitle">Add <code>Patient</code> class with <code>datatables</code></p>
-								</div>
-								<ul class="nav nav-tabs dzm-tabs" id="myTab-4" role="tablist">
-									<li class="nav-item" role="presentation">
-										<button class="nav-link active " id="home-tab-4" data-bs-toggle="tab" data-bs-target="#leftPosition" type="button" role="tab" aria-selected="true">Preview</button>
-									</li>
-									<li class="nav-item" role="presentation">
-										<button class="nav-link " id="profile-tab-4" data-bs-toggle="tab" data-bs-target="#leftPosition-html" type="button" role="tab"  aria-selected="false">HTML</button>
-									</li>
-								</ul>	
 							</div>
-                           	<!-- tab-content -->	
-							<div class="tab-content" id="myTabContent-4">
-								<div class="tab-pane fade show active" id="leftPosition" role="tabpanel" aria-labelledby="home-tab-4">
-									<div class="card-body">
-									<div class="table-responsive">
-										<table id="example5" class="display table" style="min-width: 845px">
-											<thead>
-												<tr>
-													<th>
-														<div class="custom-control d-inline custom-checkbox">
-															<input type="checkbox" class="form-check-input" id="checkAll" required="">
-															<label class="form-check-label" for="checkAll"></label>
-														</div>
-													</th>
-													<th>Patient ID</th>
-													<th>Date Check in</th>
-													<th>Patient Name</th>
-													<th>Doctor Assgined</th>
-													<th>Disease</th>
-													<th>Status</th>
-													<th>Room no</th>
-													<th>Action</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox2" required="">
-															<label class="form-check-label" for="customCheckBox2"></label>
-														</div>
-													</td>
-													<td>#P-00001</td>
-													<td>26/02/2020, 12:42 AM</td>
-													<td>Tiger Nixon</td>
-													<td>Dr. Cedric</td>
-													<td>Cold & Flu</td>
-													<td>
-														<span class="badge light badge-danger">
-															<i class="fa fa-circle text-danger me-1"></i>
-															New Patient
-														</span>
-													</td>
-													<td>AB-001</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>												
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox3" required="">
-															<label class="form-check-label" for="customCheckBox3"></label>
-														</div>
-													</td>
-													<td>#P-00002</td>
-													<td>28/02/2020, 12:42 AM</td>
-													<td>Garrett Winters</td>
-													<td>Dr. Cedric</td>
-													<td>Sleep Problem</td>
-													<td>
-														<span class="badge light badge-warning">
-															<i class="fa fa-circle text-warning me-1"></i>
-															In Treatment
-														</span>
-													</td>
-													<td>AB-002</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox4" required="">
-															<label class="form-check-label" for="customCheckBox4"></label>
-														</div>
-													</td>
-													<td>#P-00003</td>
-													<td>26/02/2020, 12:42 AM</td>
-													<td>Ashton Cox</td>
-													<td>Dr. Rhona</td>
-													<td>Cold & Flu</td>
-													<td>
-														<span class="badge light badge-success">
-															<i class="fa fa-circle text-success me-1"></i>
-															Recovered
-														</span>
-													</td>
-													<td>AB-003</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox5" required="">
-															<label class="form-check-label" for="customCheckBox5"></label>
-														</div>
-													</td>
-													<td>#P-00004</td>
-													<td>29/02/2020, 12:42 AM</td>
-													<td>Ashton Cox</td>
-													<td>Dr. Cedric</td>
-													<td>Cold & Flu</td>
-													<td>
-														<span class="badge light badge-warning">
-															<i class="fa fa-circle text-warning me-1"></i>
-															In Treatment
-														</span>
-													</td>
-													<td>AB-004</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox6" required="">
-															<label class="form-check-label" for="customCheckBox6"></label>
-														</div>
-													</td>
-													<td>#P-00005</td>
-													<td>28/02/2020, 12:42 AM</td>
-													<td>Ashton Cox</td>
-													<td>Dr. Cedric</td>
-													<td>Cold & Flu</td>
-													<td>
-														<span class="badge light badge-warning">
-															<i class="fa fa-circle text-warning me-1"></i>
-															In Treatment
-														</span>
-													</td>
-													<td>AB-005</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox7" required="">
-															<label class="form-check-label" for="customCheckBox7"></label>
-														</div>
-													</td>
-													<td>#P-00006</td>
-													<td>28/02/2020, 12:42 AM</td>
-													<td>Ashton Cox</td>
-													<td>Dr. Rhona</td>
-													<td>Sleep Problem</td>
-													<td>
-														<span class="badge light badge-warning">
-															<i class="fa fa-circle text-warning me-1"></i>
-															In Treatment
-														</span>
-													</td>
-													<td>AB-006</td>
-													<td>
-														<div class="dropdown ms-auto text-end">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox8" required="">
-															<label class="form-check-label" for="customCheckBox8"></label>
-														</div>
-													</td>
-													<td>#P-00007</td>
-													<td>26/02/2020, 12:42 AM</td>
-													<td>Airi Satou</td>
-													<td>Dr. Rhona</td>
-													<td>Cold & Flu</td>
-													<td>
-														<span class="badge light badge-danger">
-															<i class="fa fa-circle text-danger me-1"></i>
-															New Patient
-														</span>
-													</td>
-													<td>AB-007</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox9" required="">
-															<label class="form-check-label" for="customCheckBox9"></label>
-														</div>
-													</td>
-													<td>#P-00008</td>
-													<td>29/02/2020, 12:42 AM</td>
-													<td>Airi Satou</td>
-													<td>Dr. Garrett </td>
-													<td>Sleep Problem</td>
-													<td>
-														<span class="badge light badge-warning">
-															<i class="fa fa-circle text-warning me-1"></i>
-															In Treatment
-														</span>
-													</td>
-													<td>AB-008</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox10" required="">
-															<label class="form-check-label" for="customCheckBox10"></label>
-														</div>
-													</td>
-													<td>#P-00009</td>
-													<td>25/02/2020, 12:42 AM</td>
-													<td>Airi Satou</td>
-													<td>Dr. Rhona</td>
-													<td>Cold & Flu</td>
-													<td>
-														<span class="badge light badge-danger">
-															<i class="fa fa-circle text-danger me-1"></i>
-															New Patient
-														</span>
-													</td>
-													<td>AB-009</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox11" required="">
-															<label class="form-check-label" for="customCheckBox11"></label>
-														</div>
-													</td>
-													<td>#P-00010</td>
-													<td>26/02/2020, 12:42 AM</td>
-													<td>Airi Satou</td>
-													<td>Dr. Rhona</td>
-													<td>Sleep Problem</td>
-													<td>
-														<span class="badge light badge-danger">
-															<i class="fa fa-circle text-danger me-1"></i>
-															New Patient
-														</span>
-													</td>
-													<td>AB-010</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox12" required="">
-															<label class="form-check-label" for="customCheckBox12"></label>
-														</div>
-													</td>
-													<td>#P-00011</td>
-													<td>28/02/2020, 12:42 AM</td>
-													<td>Airi Satou</td>
-													<td>Dr. Rhona</td>
-													<td>Cold & Flu</td>
-													<td>
-														<span class="badge light badge-warning">
-															<i class="fa fa-circle text-warning me-1"></i>
-															In Treatment
-														</span>
-													</td>
-													<td>AB-011</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox13" required="">
-															<label class="form-check-label" for="customCheckBox13"></label>
-														</div>
-													</td>
-													<td>#P-00012</td>
-													<td>29/02/2020, 12:42 AM</td>
-													<td>Sonya Frost</td>
-													<td>Dr. Garrett</td>
-													<td>Sleep Problem</td>
-													<td>
-														<span class="badge light badge-danger">
-															<i class="fa fa-circle text-danger me-1"></i>
-															New Patient
-														</span>
-													</td>
-													<td>AB-012</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox14" required="">
-															<label class="form-check-label" for="customCheckBox14"></label>
-														</div>
-													</td>
-													<td>#P-00013</td>
-													<td>25/02/2020, 12:42 AM</td>
-													<td>Sonya Frost</td>
-													<td>Dr. Rhona</td>
-													<td>Cold & Flu</td>
-													<td>
-														<span class="badge light badge-danger">
-															<i class="fa fa-circle text-danger me-1"></i>
-															New Patient
-														</span>
-													</td>
-													<td>AB-013</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox15" required="">
-															<label class="form-check-label" for="customCheckBox15"></label>
-														</div>
-													</td>
-													<td>#P-00014</td>
-													<td>26/02/2020, 12:42 AM</td>
-													<td>Sonya Frost</td>
-													<td>Dr. Garrett</td>
-													<td>Sleep Problem</td>
-													<td>
-														<span class="badge light badge-warning">
-															<i class="fa fa-circle text-warning me-1"></i>
-															In Treatment
-														</span>
-													</td>
-													<td>AB-014</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox16" required="">
-															<label class="form-check-label" for="customCheckBox16"></label>
-														</div>
-													</td>
-													<td>#P-00015</td>
-													<td>28/02/2020, 12:42 AM</td>
-													<td>Sonya Frost</td>
-													<td>Dr. Rhona</td>
-													<td>Cold & Flu</td>
-													<td>
-														<span class="badge light badge-danger">
-															<i class="fa fa-circle text-danger me-1"></i>
-															New Patient
-														</span>
-													</td>
-													<td>AB-015</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox17" required="">
-															<label class="form-check-label" for="customCheckBox17"></label>
-														</div>
-													</td>
-													<td>#P-00016</td>
-													<td>29/02/2020, 12:42 AM</td>
-													<td>Sonya Frost</td>
-													<td>Dr. Garrett</td>
-													<td>Sleep Problem</td>
-													<td>
-														<span class="badge light badge-danger">
-															<i class="fa fa-circle text-danger me-1"></i>
-															New Patient
-														</span>
-													</td>
-													<td>AB-016</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox18" required="">
-															<label class="form-check-label" for="customCheckBox18"></label>
-														</div>
-													</td>
-													<td>#P-00017</td>
-													<td>25/02/2020, 12:42 AM</td>
-													<td>Sonya Frost</td>
-													<td>Dr. Rhona</td>
-													<td>Cold & Flu</td>
-													<td>
-														<span class="badge light badge-warning">
-															<i class="fa fa-circle text-warning me-1"></i>
-															In Treatment
-														</span>
-													</td>
-													<td>AB-017</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox19" required="">
-															<label class="form-check-label" for="customCheckBox19"></label>
-														</div>
-													</td>
-													<td>#P-00018</td>
-													<td>26/02/2020, 12:42 AM</td>
-													<td>Sonya Frost</td>
-													<td>Dr. Rhona</td>
-													<td>Sleep Problem</td>
-													<td>
-														<span class="badge light badge-danger">
-															<i class="fa fa-circle text-danger me-1"></i>
-															New Patient
-														</span>
-													</td>
-													<td>AB-018</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox20" required="">
-															<label class="form-check-label" for="customCheckBox20"></label>
-														</div>
-													</td>
-													<td>#P-00019</td>
-													<td>28/02/2020, 12:42 AM</td>
-													<td>Sonya Frost</td>
-													<td>Dr. Rhona</td>
-													<td>Cold & Flu</td>
-													<td>
-														<span class="badge light badge-danger">
-															<i class="fa fa-circle text-danger me-1"></i>
-															New Patient
-														</span>
-													</td>
-													<td>AB-019</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="form-check custom-checkbox ms-2">
-															<input type="checkbox" class="form-check-input" id="customCheckBox21" required="">
-															<label class="form-check-label" for="customCheckBox21"></label>
-														</div>
-													</td>
-													<td>#P-00020</td>
-													<td>25/02/2020, 12:42 AM</td>
-													<td>Sonya Frost</td>
-													<td>Dr. Garrett</td>
-													<td>Sleep Problem</td>
-													<td>
-														<span class="badge light badge-warning">
-															<i class="fa fa-circle text-warning me-1"></i>
-															In Treatment
-														</span>
-													</td>
-													<td>AB-020</td>
-													<td>
-														<div class="dropdown ms-auto text-end c-pointer">
-															<div class="btn-link" data-bs-toggle="dropdown">
-																<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
-															</div>
-															<div class="dropdown-menu dropdown-menu-end">
-																<a class="dropdown-item" href="#">Accept Patient</a>
-																<a class="dropdown-item" href="#">Reject Order</a>
-																<a class="dropdown-item" href="#">View Details</a>
-															</div>
-														</div>
-													</td>
-												</tr>
-											</tbody>
-										</table>
+							<!-- Column ends -->
+							<!-- Column starts -->
+							<div class="col-xl-12">
+								<div class="card dz-card" id="accordion-five">
+									<div class="card-header flex-wrap d-flex justify-content-between">
+										<div>
+											<h4 class="card-title">Patient</h4>
+											<p class="m-0 subtitle">Add <code>Patient</code> class with
+												<code>datatables</code></p>
+										</div>
+										<ul class="nav nav-tabs dzm-tabs" id="myTab-4" role="tablist">
+											<li class="nav-item" role="presentation">
+												<button class="nav-link active " id="home-tab-4" data-bs-toggle="tab"
+													data-bs-target="#leftPosition" type="button" role="tab"
+													aria-selected="true">Preview</button>
+											</li>
+											<li class="nav-item" role="presentation">
+												<button class="nav-link " id="profile-tab-4" data-bs-toggle="tab"
+													data-bs-target="#leftPosition-html" type="button" role="tab"
+													aria-selected="false">HTML</button>
+											</li>
+										</ul>
 									</div>
-									</div>
-								</div>
-							
-								<div class="tab-pane fade " id="leftPosition-html" role="tabpanel" aria-labelledby="home-tab-4">
-									<div class="card-body pt-0 p-0 code-area">
-<pre class="mb-0"><code class="language-html">&lt;div class="table-responsive"&gt;
+									<!-- tab-content -->
+									<div class="tab-content" id="myTabContent-4">
+										<div class="tab-pane fade show active" id="leftPosition" role="tabpanel"
+											aria-labelledby="home-tab-4">
+											<div class="card-body">
+												<div class="table-responsive">
+													<table id="example5" class="display table" style="min-width: 845px">
+														<thead>
+															<tr>
+																<th>
+																	<div
+																		class="custom-control d-inline custom-checkbox">
+																		<input type="checkbox" class="form-check-input"
+																			id="checkAll" required="">
+																		<label class="form-check-label"
+																			for="checkAll"></label>
+																	</div>
+																</th>
+																<th>Patient ID</th>
+																<th>Date Check in</th>
+																<th>Patient Name</th>
+																<th>Doctor Assgined</th>
+																<th>Disease</th>
+																<th>Status</th>
+																<th>Room no</th>
+																<th>Action</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox2" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox2"></label>
+																	</div>
+																</td>
+																<td>#P-00001</td>
+																<td>26/02/2020, 12:42 AM</td>
+																<td>Tiger Nixon</td>
+																<td>Dr. Cedric</td>
+																<td>Cold & Flu</td>
+																<td>
+																	<span class="badge light badge-danger">
+																		<i class="fa fa-circle text-danger me-1"></i>
+																		New Patient
+																	</span>
+																</td>
+																<td>AB-001</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox3" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox3"></label>
+																	</div>
+																</td>
+																<td>#P-00002</td>
+																<td>28/02/2020, 12:42 AM</td>
+																<td>Garrett Winters</td>
+																<td>Dr. Cedric</td>
+																<td>Sleep Problem</td>
+																<td>
+																	<span class="badge light badge-warning">
+																		<i class="fa fa-circle text-warning me-1"></i>
+																		In Treatment
+																	</span>
+																</td>
+																<td>AB-002</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox4" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox4"></label>
+																	</div>
+																</td>
+																<td>#P-00003</td>
+																<td>26/02/2020, 12:42 AM</td>
+																<td>Ashton Cox</td>
+																<td>Dr. Rhona</td>
+																<td>Cold & Flu</td>
+																<td>
+																	<span class="badge light badge-success">
+																		<i class="fa fa-circle text-success me-1"></i>
+																		Recovered
+																	</span>
+																</td>
+																<td>AB-003</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox5" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox5"></label>
+																	</div>
+																</td>
+																<td>#P-00004</td>
+																<td>29/02/2020, 12:42 AM</td>
+																<td>Ashton Cox</td>
+																<td>Dr. Cedric</td>
+																<td>Cold & Flu</td>
+																<td>
+																	<span class="badge light badge-warning">
+																		<i class="fa fa-circle text-warning me-1"></i>
+																		In Treatment
+																	</span>
+																</td>
+																<td>AB-004</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox6" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox6"></label>
+																	</div>
+																</td>
+																<td>#P-00005</td>
+																<td>28/02/2020, 12:42 AM</td>
+																<td>Ashton Cox</td>
+																<td>Dr. Cedric</td>
+																<td>Cold & Flu</td>
+																<td>
+																	<span class="badge light badge-warning">
+																		<i class="fa fa-circle text-warning me-1"></i>
+																		In Treatment
+																	</span>
+																</td>
+																<td>AB-005</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox7" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox7"></label>
+																	</div>
+																</td>
+																<td>#P-00006</td>
+																<td>28/02/2020, 12:42 AM</td>
+																<td>Ashton Cox</td>
+																<td>Dr. Rhona</td>
+																<td>Sleep Problem</td>
+																<td>
+																	<span class="badge light badge-warning">
+																		<i class="fa fa-circle text-warning me-1"></i>
+																		In Treatment
+																	</span>
+																</td>
+																<td>AB-006</td>
+																<td>
+																	<div class="dropdown ms-auto text-end">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox8" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox8"></label>
+																	</div>
+																</td>
+																<td>#P-00007</td>
+																<td>26/02/2020, 12:42 AM</td>
+																<td>Airi Satou</td>
+																<td>Dr. Rhona</td>
+																<td>Cold & Flu</td>
+																<td>
+																	<span class="badge light badge-danger">
+																		<i class="fa fa-circle text-danger me-1"></i>
+																		New Patient
+																	</span>
+																</td>
+																<td>AB-007</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox9" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox9"></label>
+																	</div>
+																</td>
+																<td>#P-00008</td>
+																<td>29/02/2020, 12:42 AM</td>
+																<td>Airi Satou</td>
+																<td>Dr. Garrett </td>
+																<td>Sleep Problem</td>
+																<td>
+																	<span class="badge light badge-warning">
+																		<i class="fa fa-circle text-warning me-1"></i>
+																		In Treatment
+																	</span>
+																</td>
+																<td>AB-008</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox10" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox10"></label>
+																	</div>
+																</td>
+																<td>#P-00009</td>
+																<td>25/02/2020, 12:42 AM</td>
+																<td>Airi Satou</td>
+																<td>Dr. Rhona</td>
+																<td>Cold & Flu</td>
+																<td>
+																	<span class="badge light badge-danger">
+																		<i class="fa fa-circle text-danger me-1"></i>
+																		New Patient
+																	</span>
+																</td>
+																<td>AB-009</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox11" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox11"></label>
+																	</div>
+																</td>
+																<td>#P-00010</td>
+																<td>26/02/2020, 12:42 AM</td>
+																<td>Airi Satou</td>
+																<td>Dr. Rhona</td>
+																<td>Sleep Problem</td>
+																<td>
+																	<span class="badge light badge-danger">
+																		<i class="fa fa-circle text-danger me-1"></i>
+																		New Patient
+																	</span>
+																</td>
+																<td>AB-010</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox12" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox12"></label>
+																	</div>
+																</td>
+																<td>#P-00011</td>
+																<td>28/02/2020, 12:42 AM</td>
+																<td>Airi Satou</td>
+																<td>Dr. Rhona</td>
+																<td>Cold & Flu</td>
+																<td>
+																	<span class="badge light badge-warning">
+																		<i class="fa fa-circle text-warning me-1"></i>
+																		In Treatment
+																	</span>
+																</td>
+																<td>AB-011</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox13" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox13"></label>
+																	</div>
+																</td>
+																<td>#P-00012</td>
+																<td>29/02/2020, 12:42 AM</td>
+																<td>Sonya Frost</td>
+																<td>Dr. Garrett</td>
+																<td>Sleep Problem</td>
+																<td>
+																	<span class="badge light badge-danger">
+																		<i class="fa fa-circle text-danger me-1"></i>
+																		New Patient
+																	</span>
+																</td>
+																<td>AB-012</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox14" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox14"></label>
+																	</div>
+																</td>
+																<td>#P-00013</td>
+																<td>25/02/2020, 12:42 AM</td>
+																<td>Sonya Frost</td>
+																<td>Dr. Rhona</td>
+																<td>Cold & Flu</td>
+																<td>
+																	<span class="badge light badge-danger">
+																		<i class="fa fa-circle text-danger me-1"></i>
+																		New Patient
+																	</span>
+																</td>
+																<td>AB-013</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox15" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox15"></label>
+																	</div>
+																</td>
+																<td>#P-00014</td>
+																<td>26/02/2020, 12:42 AM</td>
+																<td>Sonya Frost</td>
+																<td>Dr. Garrett</td>
+																<td>Sleep Problem</td>
+																<td>
+																	<span class="badge light badge-warning">
+																		<i class="fa fa-circle text-warning me-1"></i>
+																		In Treatment
+																	</span>
+																</td>
+																<td>AB-014</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox16" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox16"></label>
+																	</div>
+																</td>
+																<td>#P-00015</td>
+																<td>28/02/2020, 12:42 AM</td>
+																<td>Sonya Frost</td>
+																<td>Dr. Rhona</td>
+																<td>Cold & Flu</td>
+																<td>
+																	<span class="badge light badge-danger">
+																		<i class="fa fa-circle text-danger me-1"></i>
+																		New Patient
+																	</span>
+																</td>
+																<td>AB-015</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox17" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox17"></label>
+																	</div>
+																</td>
+																<td>#P-00016</td>
+																<td>29/02/2020, 12:42 AM</td>
+																<td>Sonya Frost</td>
+																<td>Dr. Garrett</td>
+																<td>Sleep Problem</td>
+																<td>
+																	<span class="badge light badge-danger">
+																		<i class="fa fa-circle text-danger me-1"></i>
+																		New Patient
+																	</span>
+																</td>
+																<td>AB-016</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox18" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox18"></label>
+																	</div>
+																</td>
+																<td>#P-00017</td>
+																<td>25/02/2020, 12:42 AM</td>
+																<td>Sonya Frost</td>
+																<td>Dr. Rhona</td>
+																<td>Cold & Flu</td>
+																<td>
+																	<span class="badge light badge-warning">
+																		<i class="fa fa-circle text-warning me-1"></i>
+																		In Treatment
+																	</span>
+																</td>
+																<td>AB-017</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox19" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox19"></label>
+																	</div>
+																</td>
+																<td>#P-00018</td>
+																<td>26/02/2020, 12:42 AM</td>
+																<td>Sonya Frost</td>
+																<td>Dr. Rhona</td>
+																<td>Sleep Problem</td>
+																<td>
+																	<span class="badge light badge-danger">
+																		<i class="fa fa-circle text-danger me-1"></i>
+																		New Patient
+																	</span>
+																</td>
+																<td>AB-018</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox20" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox20"></label>
+																	</div>
+																</td>
+																<td>#P-00019</td>
+																<td>28/02/2020, 12:42 AM</td>
+																<td>Sonya Frost</td>
+																<td>Dr. Rhona</td>
+																<td>Cold & Flu</td>
+																<td>
+																	<span class="badge light badge-danger">
+																		<i class="fa fa-circle text-danger me-1"></i>
+																		New Patient
+																	</span>
+																</td>
+																<td>AB-019</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<div class="form-check custom-checkbox ms-2">
+																		<input type="checkbox" class="form-check-input"
+																			id="customCheckBox21" required="">
+																		<label class="form-check-label"
+																			for="customCheckBox21"></label>
+																	</div>
+																</td>
+																<td>#P-00020</td>
+																<td>25/02/2020, 12:42 AM</td>
+																<td>Sonya Frost</td>
+																<td>Dr. Garrett</td>
+																<td>Sleep Problem</td>
+																<td>
+																	<span class="badge light badge-warning">
+																		<i class="fa fa-circle text-warning me-1"></i>
+																		In Treatment
+																	</span>
+																</td>
+																<td>AB-020</td>
+																<td>
+																	<div class="dropdown ms-auto text-end c-pointer">
+																		<div class="btn-link" data-bs-toggle="dropdown">
+																			<svg width="24px" height="24px"
+																				viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1"
+																					fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24"
+																						height="24"></rect>
+																					<circle fill="#000000" cx="5"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="12"
+																						cy="12" r="2"></circle>
+																					<circle fill="#000000" cx="19"
+																						cy="12" r="2"></circle>
+																				</g>
+																			</svg>
+																		</div>
+																		<div class="dropdown-menu dropdown-menu-end">
+																			<a class="dropdown-item" href="#">Accept
+																				Patient</a>
+																			<a class="dropdown-item" href="#">Reject
+																				Order</a>
+																			<a class="dropdown-item" href="#">View
+																				Details</a>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+
+										<div class="tab-pane fade " id="leftPosition-html" role="tabpanel"
+											aria-labelledby="home-tab-4">
+											<div class="card-body pt-0 p-0 code-area">
+												<pre class="mb-0"><code class="language-html">&lt;div class="table-responsive"&gt;
 &lt;table id="example5" class="display table" style="min-width: 845px"&gt;
 	&lt;thead&gt;
 		&lt;tr&gt;
@@ -5144,90 +5826,77 @@
 &lt;/table&gt;
 &lt;/div&gt;
 </code></pre>
-								</div>
+											</div>
+										</div>
+									</div>
+									<!-- /tab-content -->
+
 								</div>
 							</div>
-							<!-- /tab-content -->		
-                           
-                        </div>
-                    </div>
-                    <!-- Column ends -->
-				</div>
-				</div>
+							<!-- Column ends -->
+						</div>
+					</div>
 					<div class="demo-right ">
 						<div class="demo-right-inner" id="right-sidebar">
 							<h4 class="title">Datatabls</h4>
 							<div class="dz-scroll demo-right-tabs" id="rightSidebarScroll">
 								<ul class="navbar-nav nav" id="menu-bar">
-									<li><a href="#accordion-one" 	class="scroll ">Basic Datatable</a></li>
-									<li><a href="#accordion-two"	class="scroll ">Datatable</a></li>
-									<li><a href="#accordion-three"	class="scroll ">Profile Datatable</a></li>
-									<li><a href="#accordion-four" 	class="scroll ">Fees Collection</a></li>
-									<li><a href="#accordion-five" 	class="scroll ">Patient</a></li>
-									
-								</ul>	
+									<li><a href="#accordion-one" class="scroll ">Basic Datatable</a></li>
+									<li><a href="#accordion-two" class="scroll ">Datatable</a></li>
+									<li><a href="#accordion-three" class="scroll ">Profile Datatable</a></li>
+									<li><a href="#accordion-four" class="scroll ">Fees Collection</a></li>
+									<li><a href="#accordion-five" class="scroll ">Patient</a></li>
+
+								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>			
-        </div>
-        <!--**********************************
-                Content body end
-            ***********************************-->
+			</div>
+		</div>
+		<!--**********************************
+				Content body end
+			***********************************-->
+
+		<!--**********************************
+		   Support ticket button start
+		***********************************-->
+
+		<!--**********************************
+		   Support ticket button end
+		***********************************-->
 
 
-        <!--**********************************
-            Footer start
-        ***********************************-->
-         <div class="footer out-footer">
-            <div class="copyright">
-               <p>Copyright © Developed by <a href="https://dexignzone.com/" target="_blank">DexignZone</a> 2023</p>
-            </div>
-        </div>
-        <!--**********************************
-            Footer end
-        ***********************************-->
+	</div>
+	<!--**********************************
+		Main wrapper end
+	***********************************-->
 
-        <!--**********************************
-           Support ticket button start
-        ***********************************-->
-
-        <!--**********************************
-           Support ticket button end
-        ***********************************-->
-
-        
-    </div>
-    <!--**********************************
-        Main wrapper end
-    ***********************************-->
-
-    <!--**********************************
-        Scripts
-    ***********************************-->
-    <!-- Required vendors -->
-   <script src="vendor/global/global.min.js"></script>
-    <script src="vendor/chart.js/Chart.bundle.min.js"></script>
+	<!--**********************************
+		Scripts
+	***********************************-->
+	<!-- Required vendors -->
+	<script src="vendor/global/global.min.js"></script>
+	<script src="vendor/chart.js/Chart.bundle.min.js"></script>
 	<!-- Apex Chart -->
 	<script src="vendor/apexchart/apexchart.js"></script>
-	
-    <!-- Datatable -->
-    <script src="vendor/datatables/js/jquery.dataTables.min.js"></script>
-    <script src="js/plugins-init/datatables.init.js"></script>
+
+	<!-- Datatable -->
+	<script src="vendor/datatables/js/jquery.dataTables.min.js"></script>
+	<script src="js/plugins-init/datatables.init.js"></script>
 
 	<script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
 
-    <script src="js/custom.js"></script>
+	<script src="js/custom.js"></script>
 	<script src="js/deznav-init.js"></script>
 	<script src="js/demo.js"></script>
-    <script src="js/styleSwitcher.js"></script>
-	
+	<script src="js/styleSwitcher.js"></script>
+
 	<!-- code-highlight -->
 	<script src="js/highlight.min.js"></script>
 	<script>hljs.highlightAll();
 		hljs.configure({ ignoreUnescapedHTML: true })
-		
+
 	</script>
 
 	<script>
@@ -5235,9 +5904,8 @@
 			document.querySelectorAll('pre code').forEach((el) => {
 				hljs.highlightElement(el);
 			});
-			});
+		});
 	</script>
 </body>
 
-<!-- Mirrored from salero.dexignzone.com/xhtml/table-datatable-basic.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Mar 2024 05:38:51 GMT -->
 </html>

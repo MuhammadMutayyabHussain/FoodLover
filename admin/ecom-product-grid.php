@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from salero.dexignzone.com/xhtml/ecom-product-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Mar 2024 05:37:52 GMT -->
 <head>
     <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="keywords" content="">
-	<meta name="author" content="">
-	<meta name="robots" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Salero:Restaurant Admin Bootstrap 5 Template">
-	<meta property="og:title" content="Salero:Restaurant Admin Bootstrap 5 Template">
-	<meta property="og:description" content="Salero:Restaurant Admin Bootstrap 5 Template">
-	<meta property="og:image" content="page-error-404.html">
-	<meta name="format-detection" content="telephone=no">
-	
-	<!-- PAGE TITLE HERE -->
-	<title>Salero Restaurant Admin Bootstrap 5 Template</title>
-	
-	<!-- FAVICONS ICON -->
-	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
-	<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
-	<link href="vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="robots" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Salero:Restaurant Admin Bootstrap 5 Template">
+    <meta property="og:title" content="Salero:Restaurant Admin Bootstrap 5 Template">
+    <meta property="og:description" content="Salero:Restaurant Admin Bootstrap 5 Template">
+    <meta property="og:image" content="page-error-404.html">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- PAGE TITLE HERE -->
+    <title>Salero Restaurant Admin Bootstrap 5 Template</title>
+
+    <!-- FAVICONS ICON -->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link href="vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
 </head>
@@ -32,15 +30,15 @@
     <!--*******************
         Preloader start
     ********************-->
-	<div id="preloader">
-		<div class="loader-wrapper">
-			<div class="loader-box">
-				<div class="icon">
-				  <i class="fas fa-utensils"></i>
-				</div>
-			</div>
-		</div>
-	</div>	
+    <div id="preloader">
+        <div class="loader-wrapper">
+            <div class="loader-box">
+                <div class="icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--*******************
         Preloader end
     ********************-->
@@ -51,12 +49,12 @@
     ***********************************-->
     <div id="main-wrapper">
 
-		<!--**********************************
+        <!--**********************************
             Header start
         ***********************************-->
-		<?php
-		include("components/header.php");
-		?>
+        <?php
+        include ("components/header.php");
+        ?>
         <!--**********************************
             Header end ti-comment-alt
         ***********************************-->
@@ -64,9 +62,9 @@
         <!--**********************************
             Sidebar start
         ***********************************-->
-		<?php
-		include("components/sidebar.php");
-		?>
+        <?php
+        include ("components/sidebar.php");
+        ?>
         <!--**********************************
             Sidebar end
         ***********************************-->
@@ -75,7 +73,7 @@
         ***********************************-->
         <div class="content-body">
             <div class="container mh-auto">
-				
+
                 <div class="row">
                     <div class="col-xl-3 col-md-4 col-sm-6">
                         <div class="card">
@@ -253,7 +251,7 @@
                             </div>
                         </div>
                     </div>
-					 <div class="col-xl-3 col-md-4 col-sm-6">
+                    <div class="col-xl-3 col-md-4 col-sm-6">
                         <div class="card">
                             <div class="card-body">
                                 <div class="new-arrival-product">
@@ -275,7 +273,7 @@
                             </div>
                         </div>
                     </div>
-					<div class="col-xl-3 col-md-4 col-sm-6">
+                    <div class="col-xl-3 col-md-4 col-sm-6">
                         <div class="card">
                             <div class="card-body">
                                 <div class="new-arrival-product">
@@ -297,7 +295,7 @@
                             </div>
                         </div>
                     </div>
-					<div class="col-xl-3 col-md-4 col-sm-6">
+                    <div class="col-xl-3 col-md-4 col-sm-6">
                         <div class="card">
                             <div class="card-body">
                                 <div class="new-arrival-product">
@@ -319,7 +317,7 @@
                             </div>
                         </div>
                     </div>
-					<div class="col-xl-3 col-md-4 col-sm-6">
+                    <div class="col-xl-3 col-md-4 col-sm-6">
                         <div class="card">
                             <div class="card-body">
                                 <div class="new-arrival-product">
@@ -348,28 +346,6 @@
             Content body end
         ***********************************-->
 
-
-        <!--**********************************
-            Footer start
-        ***********************************-->
-        <div class="footer out-footer">
-            <div class="copyright">
-               <p>Copyright © Developed by <a href="https://dexignzone.com/" target="_blank">DexignZone</a> 2023</p>
-            </div>
-        </div>
-        <!--**********************************
-            Footer end
-        ***********************************-->
-
-        <!--**********************************
-           Support ticket button start
-        ***********************************-->
-
-        <!--**********************************
-           Support ticket button end
-        ***********************************-->
-
-
     </div>
     <!--**********************************
         Main wrapper end
@@ -380,12 +356,11 @@
     ***********************************-->
     <!-- Required vendors -->
     <script src="vendor/global/global.min.js"></script>
-	<script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
-	<script src="js/custom.js"></script>
-	<script src="js/deznav-init.js"></script>
-	<script src="js/demo.js"></script>
-    <script src="js/styleSwitcher.js"></script>	
+    <script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/deznav-init.js"></script>
+    <script src="js/demo.js"></script>
+    <script src="js/styleSwitcher.js"></script>
 </body>
 
-<!-- Mirrored from salero.dexignzone.com/xhtml/ecom-product-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Mar 2024 05:37:54 GMT -->
 </html>

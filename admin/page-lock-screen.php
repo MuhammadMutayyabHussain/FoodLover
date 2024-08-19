@@ -2,26 +2,25 @@
 <html lang="en" class="h-100">
 
 
-<!-- Mirrored from salero.dexignzone.com/xhtml/page-lock-screen.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Mar 2024 05:38:52 GMT -->
 <head>
     <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="keywords" content="">
-	<meta name="author" content="">
-	<meta name="robots" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Salero:Restaurant Admin Bootstrap 5 Template">
-	<meta property="og:title" content="Salero:Restaurant Admin Bootstrap 5 Template">
-	<meta property="og:description" content="Salero:Restaurant Admin Bootstrap 5 Template">
-	<meta property="og:image" content="page-error-404.html">
-	<meta name="format-detection" content="telephone=no">
-	
-	<!-- PAGE TITLE HERE -->
-	<title>Salero Restaurant Admin Bootstrap 5 Template</title>
-	
-	<!-- FAVICONS ICON -->
-	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
-	<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="robots" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Salero:Restaurant Admin Bootstrap 5 Template">
+    <meta property="og:title" content="Salero:Restaurant Admin Bootstrap 5 Template">
+    <meta property="og:description" content="Salero:Restaurant Admin Bootstrap 5 Template">
+    <meta property="og:image" content="page-error-404.html">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- PAGE TITLE HERE -->
+    <title>Salero Restaurant Admin Bootstrap 5 Template</title>
+
+    <!-- FAVICONS ICON -->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
 </head>
@@ -35,9 +34,9 @@
                         <div class="row no-gutters">
                             <div class="col-xl-12">
                                 <div class="auth-form">
-									<div class="text-center mb-3">
-										<a href="index.html"><img src="images/logo/logo-full.png" alt=""></a>
-									</div>
+                                    <div class="text-center mb-3">
+                                        <a href="index.html"><img src="images/logo/logo-full.png" alt=""></a>
+                                    </div>
                                     <h4 class="text-center mb-4">Account Locked</h4>
                                     <form action="https://salero.dexignzone.com/xhtml/index.html">
                                         <div class="mb-3">
@@ -65,5 +64,4 @@
     <script src="js/deznav-init.js"></script>
 </body>
 
-<!-- Mirrored from salero.dexignzone.com/xhtml/page-lock-screen.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Mar 2024 05:38:53 GMT -->
 </html>

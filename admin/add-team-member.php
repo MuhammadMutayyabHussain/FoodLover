@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from salero.dexignzone.com/xhtml/customers.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Mar 2024 05:37:22 GMT -->
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,8 +34,8 @@
 <body>
 
 	<!--*******************
-        Preloader start
-    ********************-->
+		Preloader start
+	********************-->
 	<div id="preloader">
 		<div class="loader-wrapper">
 			<div class="loader-box">
@@ -48,14 +46,14 @@
 		</div>
 	</div>
 	<!--*******************
-        Preloader end
-    ********************-->
+		Preloader end
+	********************-->
 
 	<!--**********************************
-        Main wrapper start
-    ***********************************-->
+		Main wrapper start
+	***********************************-->
 	<div id="main-wrapper">
-		
+
 		<!--**********************************
 			Header start
 		***********************************-->
@@ -77,8 +75,8 @@
 		***********************************-->
 
 		<!--**********************************
-            Content body start
-        ***********************************-->
+			Content body start
+		***********************************-->
 		<div class="content-body">
 			<div class="container">
 				<form method="post" action="scripts/add-member.php" enctype="multipart/form-data">
@@ -96,25 +94,31 @@
 								<div class="card-body">
 									<div class="mb-4">
 										<label for="member_name" class="form-label">Name</label>
-										<input type="text" placeholder="Type here" required class="form-control" id="member_name" name="member_name">
+										<input type="text" placeholder="Type here" required class="form-control"
+											id="member_name" name="member_name">
 									</div>
 									<div class="mb-4">
 										<label for="designation" class="form-label">Designation</label>
-										<input type="text" placeholder="Type here" required class="form-control" id="designation" name="designation">
+										<input type="text" placeholder="Type here" required class="form-control"
+											id="designation" name="designation">
 									</div>
 									<div class="mb-4">
 										<label for="facebook" class="form-label">Facebook Bio</label>
-										<input type="text" placeholder="Facebook bio link" class="form-control" id="facebook" name="facebook">
+										<input type="text" placeholder="Facebook bio link" class="form-control"
+											id="facebook" name="facebook">
 									</div>
 									<div class="mb-4">
 										<label for="instagram" class="form-label">Instagram Bio</label>
-										<input type="text" placeholder="Instagram bio link" class="form-control" id="instagram" name="instagram">
+										<input type="text" placeholder="Instagram bio link" class="form-control"
+											id="instagram" name="instagram">
 									</div>
 									<div class="mb-4">
 										<label for="twitter" class="form-label">X Bio</label>
-										<input type="text" placeholder="X bio link" class="form-control" id="twitter" name="twitter">
+										<input type="text" placeholder="X bio link" class="form-control" id="twitter"
+											name="twitter">
 									</div>
-									<input class="btn btn-primary rounded font-sm hover-up" type="submit" value="Add Member">
+									<input class="btn btn-primary rounded font-sm hover-up" type="submit"
+										value="Add Member">
 								</div>
 							</div> <!-- card end// -->
 						</div>
@@ -136,38 +140,17 @@
 			</div>
 
 			<!--**********************************
-            Content body end
-        ***********************************-->
-
-			<!--**********************************
-            Footer start
-        ***********************************-->
-			<div class="footer">
-				<div class="copyright">
-					<p>Copyright © Developed by <a href="https://dexignzone.com/" target="_blank">DexignZone</a> 2023</p>
-				</div>
-			</div>
-			<!--**********************************
-            Footer end
-        ***********************************-->
-
-			<!--**********************************
-           Support ticket button start
-        ***********************************-->
-
-			<!--**********************************
-           Support ticket button end
-        ***********************************-->
-
+			Content body end
+		***********************************-->
 
 		</div>
 		<!--**********************************
-        Main wrapper end
-    ***********************************-->
+		Main wrapper end
+	***********************************-->
 
 		<!--**********************************
-        Scripts
-    ***********************************-->
+		Scripts
+	***********************************-->
 		<!-- Required vendors -->
 		<script src="vendor/global/global.min.js"></script>
 		<script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
@@ -176,15 +159,9 @@
 		<script src="vendor/datatables/js/jquery.dataTables.min.js"></script>
 		<script src="js/plugins-init/datatables.init.js"></script>
 
-
 		<!-- JS for dotted map -->
 
-
-
-
 		<!-- Apex Chart -->
-
-
 
 		<!-- Vectormap -->
 
@@ -194,7 +171,5 @@
 		<script src="js/styleSwitcher.js"></script>
 
 </body>
-
-<!-- Mirrored from salero.dexignzone.com/xhtml/customers.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Mar 2024 05:37:23 GMT -->
 
 </html>

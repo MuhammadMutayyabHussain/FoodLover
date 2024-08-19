@@ -1,18 +1,37 @@
+<?php
+include ("helper/connection.php");
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+	$name = $_POST['name'];
+	$email = $_POST['email'];
+	$subject = $_POST['sujet'];
+	$phone = $_POST['phone'];
+
+	$sql = "INSERT INTO tablereservation (id,name,email,subject,phone) VALUES ('','$name','$email','$subject','$phone')";
+	echo $sql;
+	die;
+	if ($conn->query($sql) === TRUE) {
+		header("Location: index.php");
+	} else {
+		echo "Error: " . $sql . "<br>" . $conn->error;
+	}
+
+	$conn->close();
+}
+?>
+
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<html class="no-js">
 
 <head>
 	<meta charset="utf-8" />
-	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<meta name="author" content="Egprojets">
 	<meta name="description" content="" />
 	<title>Food Lover HTML</title>
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
 	<!-- Google Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400,700,300" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter" />
@@ -30,16 +49,10 @@
 	<link rel="stylesheet" href="assets/css/responsive.css" />
 	<!-- Custom CSS Files -->
 
-	<!--[if lt IE 9]>
-		<script src="assets/js/html5shiv.js"></script>
-		<script src="assets/js/respond.min.js"></script>
-		<div class="bg-danger">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
-	<![endif]-->
-
 </head>
 
 <body>
-	
+
 	<!-- Loader Bloc -->
 	<div class="site-loader">
 		<div class="loading"></div>
@@ -50,10 +63,10 @@
 	<div id="site-wrapper">
 		<!-- Header -->
 		<?php
-		include("components/header.php");
+		include ("components/header.php");
 		?>
 		<!-- End Header -->
-		
+
 		<!-- Section Main -->
 		<section id="breadcrumb" data-background="assets/img/demo/slides/02.jpg" class="parallax-window">
 			<div>
@@ -113,7 +126,6 @@
 			<span class="section-suptitle text-center">Fill Enquiry</span>
 			<h2 class="section-title sep-type-2 text-center">any questions?</h2>
 			<p class="section-resume">
-				This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
 			</p>
 			<div class="container">
 				<div class="row">
@@ -125,7 +137,8 @@
 										<input type="text" name="name" placeholder="Name" class="required-field">
 									</span>
 									<span>
-										<input type="text" name="email" placeholder="Email Adress" class="required-field">
+										<input type="text" name="email" placeholder="Email Adress"
+											class="required-field">
 									</span>
 								</div>
 								<div class="column">
@@ -141,7 +154,7 @@
 								</div>
 								<p class="text-center padd-top-30">
 									<button type="submit" class="btn-food">Send</button>
-								</p>								
+								</p>
 							</form>
 						</div>
 					</div>
@@ -149,30 +162,10 @@
 			</div>
 		</section>
 		<!-- End Section Contact -->
-		
-		<!-- Section Newsletter -->
-		<section id="newsletter" class="padd-100">
-			<form action="#" method="post">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-4">
-							<h3>Subscribe Newsletter</h3>
-						</div>
-						<div class="col-sm-6">
-							<input type="text" placeholder="Email Address">
-						</div>
-						<div class="col-sm-2">
-							<button type="submit">submit</button>
-						</div>
-					</div>
-				</div>
-			</form>
-		</section>
-		<!-- End Section Newsletter -->
 
 		<!-- Footer -->
 		<?php
-		include("components/footer.php");
+		include ("components/footer.php");
 		?>
 		<!-- End Footer -->
 
@@ -186,7 +179,7 @@
 
 	<!-- Custom JS Files -->
 	<script type="text/javascript" src="assets/js/egprojets.custom.js"></script>
-    <!-- Custom JS Files -->
+	<!-- Custom JS Files -->
 </body>
 
 </html>
